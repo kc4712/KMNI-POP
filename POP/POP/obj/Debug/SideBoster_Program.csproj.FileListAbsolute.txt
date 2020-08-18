@@ -1,0 +1,121 @@
+D:\2.Source\1. ANGTEC\17. KM&I\02. Source\05. pop_Terminal_Program\SideBoster_Program\SideBoster_Program\bin\Debug\SideBoster_Program.exe.config
+D:\2.Source\1. ANGTEC\17. KM&I\02. Source\05. pop_Terminal_Program\SideBoster_Program\SideBoster_Program\bin\Debug\SideBoster_Program.exe
+D:\2.Source\1. ANGTEC\17. KM&I\02. Source\05. pop_Terminal_Program\SideBoster_Program\SideBoster_Program\bin\Debug\SideBoster_Program.pdb
+D:\2.Source\1. ANGTEC\17. KM&I\02. Source\05. pop_Terminal_Program\SideBoster_Program\SideBoster_Program\bin\Debug\ADAM_TCP.exe
+D:\2.Source\1. ANGTEC\17. KM&I\02. Source\05. pop_Terminal_Program\SideBoster_Program\SideBoster_Program\bin\Debug\Advantech.Adam.DLL
+D:\2.Source\1. ANGTEC\17. KM&I\02. Source\05. pop_Terminal_Program\SideBoster_Program\SideBoster_Program\bin\Debug\Advantech.Common.dll
+D:\2.Source\1. ANGTEC\17. KM&I\02. Source\05. pop_Terminal_Program\SideBoster_Program\SideBoster_Program\bin\Debug\Advantech.Graph.dll
+D:\2.Source\1. ANGTEC\17. KM&I\02. Source\05. pop_Terminal_Program\SideBoster_Program\SideBoster_Program\bin\Debug\Advantech.Protocol.dll
+D:\2.Source\1. ANGTEC\17. KM&I\02. Source\05. pop_Terminal_Program\SideBoster_Program\SideBoster_Program\bin\Debug\LogMsg.dll
+D:\2.Source\1. ANGTEC\17. KM&I\02. Source\05. pop_Terminal_Program\SideBoster_Program\SideBoster_Program\bin\Debug\PowerTool.dll
+D:\2.Source\1. ANGTEC\17. KM&I\02. Source\05. pop_Terminal_Program\SideBoster_Program\SideBoster_Program\bin\Debug\SerialComm.exe
+D:\2.Source\1. ANGTEC\17. KM&I\02. Source\05. pop_Terminal_Program\SideBoster_Program\SideBoster_Program\bin\Debug\PowerTool.pdb
+D:\2.Source\1. ANGTEC\17. KM&I\02. Source\05. pop_Terminal_Program\SideBoster_Program\SideBoster_Program\obj\Debug\SideBoster_Program.Frm_Main.resources
+D:\2.Source\1. ANGTEC\17. KM&I\02. Source\05. pop_Terminal_Program\SideBoster_Program\SideBoster_Program\obj\Debug\SideBoster_Program.Properties.Resources.resources
+D:\2.Source\1. ANGTEC\17. KM&I\02. Source\05. pop_Terminal_Program\SideBoster_Program\SideBoster_Program\obj\Debug\SideBoster_Program.csproj.GenerateResource.Cache
+D:\2.Source\1. ANGTEC\17. KM&I\02. Source\05. pop_Terminal_Program\SideBoster_Program\SideBoster_Program\obj\Debug\SideBoster_Program.exe
+D:\2.Source\1. ANGTEC\17. KM&I\02. Source\05. pop_Terminal_Program\SideBoster_Program\SideBoster_Program\obj\Debug\SideBoster_Program.pdb
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program\SideBoster_Program\bin\Debug\SideBoster_Program.exe.config
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program\SideBoster_Program\obj\Debug\SideBoster_Program.exe
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program\SideBoster_Program\obj\Debug\SideBoster_Program.pdb
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program\SideBoster_Program\bin\Debug\SideBoster_Program.exe
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program\SideBoster_Program\bin\Debug\SideBoster_Program.pdb
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program\SideBoster_Program\bin\Debug\PowerTool.pdb
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program\SideBoster_Program\obj\Debug\SideBoster_Program.csprojResolveAssemblyReference.cache
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program\SideBoster_Program\obj\Debug\SideBoster_Program.Frm_Main.resources
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program\SideBoster_Program\obj\Debug\SideBoster_Program.Properties.Resources.resources
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program\SideBoster_Program\obj\Debug\SideBoster_Program.csproj.GenerateResource.Cache
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program - 복사본\SideBoster_Program\bin\Debug\SideBoster_Program.exe.config
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program - 복사본\SideBoster_Program\obj\Debug\SideBoster_Program.exe
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program - 복사본\SideBoster_Program\obj\Debug\SideBoster_Program.pdb
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program - 복사본\SideBoster_Program\bin\Debug\SideBoster_Program.exe
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program - 복사본\SideBoster_Program\bin\Debug\SideBoster_Program.pdb
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program - 복사본\SideBoster_Program\bin\Debug\PowerTool.pdb
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program - 복사본\SideBoster_Program\obj\Debug\SideBoster_Program.csprojResolveAssemblyReference.cache
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program - 복사본\SideBoster_Program\obj\Debug\SideBoster_Program.Frm_Main.resources
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program - 복사본\SideBoster_Program\obj\Debug\SideBoster_Program.Properties.Resources.resources
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program - 복사본\SideBoster_Program\obj\Debug\SideBoster_Program.csproj.GenerateResource.Cache
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program_2\SideBoster_Program\bin\Debug\SideBoster_Program.exe.config
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program_2\SideBoster_Program\obj\Debug\SideBoster_Program.exe
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program_2\SideBoster_Program\obj\Debug\SideBoster_Program.pdb
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program_2\SideBoster_Program\bin\Debug\SideBoster_Program.exe
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program_2\SideBoster_Program\bin\Debug\PowerTool.pdb
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program_2\SideBoster_Program\obj\Debug\SideBoster_Program.csprojResolveAssemblyReference.cache
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program_2\SideBoster_Program\obj\Debug\SideBoster_Program.Frm_Main.resources
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program_2\SideBoster_Program\obj\Debug\SideBoster_Program.Properties.Resources.resources
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program_2\SideBoster_Program\obj\Debug\SideBoster_Program.csproj.GenerateResource.Cache
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program_2\SideBoster_Program\bin\Debug\SideBoster_Program.pdb
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program\SideBoster_Program\bin\Debug\ZebraPrint_TCP.exe
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program\SideBoster_Program\obj\Debug\SideBoster_Program.frmJobComplete.resources
+C:\Users\ANG_wmkim\Desktop\backup\Ethernet\SideBoster_Program_GSUV\SideBoster_Program\bin\Debug\SideBoster_Program.exe.config
+C:\Users\ANG_wmkim\Desktop\backup\Ethernet\SideBoster_Program_GSUV\SideBoster_Program\obj\Debug\SideBoster_Program.exe
+C:\Users\ANG_wmkim\Desktop\backup\Ethernet\SideBoster_Program_GSUV\SideBoster_Program\obj\Debug\SideBoster_Program.pdb
+C:\Users\ANG_wmkim\Desktop\backup\Ethernet\SideBoster_Program_9BUX\SideBoster_Program\bin\Debug\SideBoster_Program.exe.config
+C:\Users\ANG_wmkim\Desktop\backup\Ethernet\SideBoster_Program_9BUX\SideBoster_Program\obj\Debug\SideBoster_Program.exe
+C:\Users\ANG_wmkim\Desktop\backup\Ethernet\SideBoster_Program_9BUX\SideBoster_Program\obj\Debug\SideBoster_Program.pdb
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program_9BUX\SideBoster_Program\bin\Debug\SideBoster_Program.exe.config
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program_9BUX\SideBoster_Program\obj\Debug\SideBoster_Program.exe
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program_9BUX\SideBoster_Program\obj\Debug\SideBoster_Program.pdb
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program_9BUX\SideBoster_Program\bin\Debug\SideBoster_Program.exe
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program_9BUX\SideBoster_Program\bin\Debug\SideBoster_Program.pdb
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program_9BUX\SideBoster_Program\bin\Debug\ZebraPrint_TCP.exe
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program_9BUX\SideBoster_Program\bin\Debug\PowerTool.pdb
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program_9BUX\SideBoster_Program\obj\Debug\SideBoster_Program.csprojResolveAssemblyReference.cache
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program_9BUX\SideBoster_Program\obj\Debug\SideBoster_Program.frmJobComplete.resources
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program_9BUX\SideBoster_Program\obj\Debug\SideBoster_Program.Frm_Main.resources
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program_9BUX\SideBoster_Program\obj\Debug\SideBoster_Program.Properties.Resources.resources
+C:\Users\ANG_wmkim\Desktop\SideBoster_Program_9BUX\SideBoster_Program\obj\Debug\SideBoster_Program.csproj.GenerateResource.Cache
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX\SideBoster_Program\bin\Debug\SideBoster_Program.exe.config
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX\SideBoster_Program\obj\Debug\SideBoster_Program.exe
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX\SideBoster_Program\obj\Debug\SideBoster_Program.pdb
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX\SideBoster_Program\bin\Debug\SideBoster_Program.exe
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX\SideBoster_Program\bin\Debug\SideBoster_Program.pdb
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX\SideBoster_Program\obj\Debug\SideBoster_Program.frmJobComplete.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX\SideBoster_Program\obj\Debug\SideBoster_Program.Frm_Main.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX\SideBoster_Program\obj\Debug\SideBoster_Program.Properties.Resources.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX\SideBoster_Program\obj\Debug\SideBoster_Program.csproj.GenerateResource.Cache
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX\SideBoster_Program\obj\Debug\SideBoster_Program.csprojResolveAssemblyReference.cache
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN\SideBoster_Program\bin\Debug\SideBoster_Program.exe.config
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN\SideBoster_Program\obj\Debug\SideBoster_Program.exe
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN\SideBoster_Program\obj\Debug\SideBoster_Program.pdb
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN\SideBoster_Program\bin\Debug\SideBoster_Program.exe
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN\SideBoster_Program\bin\Debug\SideBoster_Program.pdb
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN\SideBoster_Program\obj\Debug\SideBoster_Program.frmJobComplete.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN\SideBoster_Program\obj\Debug\SideBoster_Program.Frm_Main.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN\SideBoster_Program\obj\Debug\SideBoster_Program.Properties.Resources.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN\SideBoster_Program\obj\Debug\SideBoster_Program.csproj.GenerateResource.Cache
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\bin\Debug\SideBoster_Program.exe.config
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\obj\Debug\SideBoster_Program.exe
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\obj\Debug\SideBoster_Program.pdb
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\bin\Debug\SideBoster_Program.exe
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\bin\Debug\SideBoster_Program.pdb
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\obj\Debug\SideBoster_Program.frmJobComplete.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\obj\Debug\SideBoster_Program.Frm_Main.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\obj\Debug\SideBoster_Program.Properties.Resources.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\obj\Debug\SideBoster_Program.csproj.GenerateResource.Cache
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\obj\Debug\SideBoster_Program.Frm_Popup.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R - 복사본\SideBoster_Program\bin\Debug\SideBoster_Program.exe.config
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R - 복사본\SideBoster_Program\obj\Debug\SideBoster_Program.exe
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R - 복사본\SideBoster_Program\obj\Debug\SideBoster_Program.pdb
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R - 복사본\SideBoster_Program\bin\Debug\SideBoster_Program.exe
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R - 복사본\SideBoster_Program\bin\Debug\SideBoster_Program.pdb
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R - 복사본\SideBoster_Program\obj\Debug\SideBoster_Program.frmJobComplete.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R - 복사본\SideBoster_Program\obj\Debug\SideBoster_Program.Frm_JIN.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R - 복사본\SideBoster_Program\obj\Debug\SideBoster_Program.Properties.Resources.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R - 복사본\SideBoster_Program\obj\Debug\SideBoster_Program.csproj.GenerateResource.Cache
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R - 복사본\SideBoster_Program\obj\Debug\SideBoster_Program.Frm_GA.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R - 복사본\SideBoster_Program\obj\Debug\SideBoster_Program.Frm_WorkStandard.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_New\SideBoster_Program\bin\Debug\SideBoster_Program.exe.config
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_New\SideBoster_Program\obj\Debug\SideBoster_Program.exe
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_New\SideBoster_Program\obj\Debug\SideBoster_Program.pdb
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_New\SideBoster_Program\obj\Debug\SideBoster_Program.frmJobComplete.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_New\SideBoster_Program\obj\Debug\SideBoster_Program.Frm_WorkStandard.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_New\SideBoster_Program\obj\Debug\SideBoster_Program.Properties.Resources.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_New\SideBoster_Program\obj\Debug\SideBoster_Program.Side_GA.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_New\SideBoster_Program\obj\Debug\SideBoster_Program.csproj.GenerateResource.Cache
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_New\SideBoster_Program\bin\Debug\SideBoster_Program.exe
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_New\SideBoster_Program\bin\Debug\SideBoster_Program.pdb
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_New\SideBoster_Program\obj\Debug\SideBoster_Program.Side_JIN.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_New - 복사본\SideBoster_Program\bin\Debug\SideBoster_Program.exe.config
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_New - 복사본\SideBoster_Program\obj\Debug\SideBoster_Program.exe
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_New - 복사본\SideBoster_Program\obj\Debug\SideBoster_Program.pdb

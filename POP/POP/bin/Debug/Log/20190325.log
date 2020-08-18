@@ -1,0 +1,196 @@
+[16:47:44] SERCOM	start read data	
+[16:47:44] SendDB	sp_Option	sp_SUB_GET_OPTION,GSUV,L,20190325
+[16:47:45] SendDB	sp_Amount	sp_SUB_GET_AMOUNT2,GSUV,L,BKC,20190325, 5
+[16:47:45] SendDB	sp_GET_RESULT	sp_SUB_GET_RESULT,GSUV,L,20190325
+[16:47:45] ADAM_6050 - 	initialize	
+[16:47:45] ADAM_6050	ini opened	
+[16:47:45] ADAM_6050 - 	start	
+[16:47:45] ADAM_6050 - 	init socket	
+[16:47:45] ADAM_6050 - 	start thread	
+[16:47:45] clamp - 	release clamp	-WRITE 1
+[16:48:47] Send DB	Receive Data-	A_sp_SUB_GET_OPTION_9BUX,BKB,JET BLACK,4,JV,HERA,Shadow Gray,3020,L,20190325,7,9BUX,42692911
+[16:48:47] SendDB	sp_Amount	sp_SUB_GET_AMOUNT3,9BUX,L,BKB,20190325,7
+[16:48:47] SendDB	sp_GET_RESULT2	sp_SUB_GET_RESULT2,9BUX,L,20190325
+[16:48:47] ADAM_6050 - 	initialize	
+[16:48:47] ADAM_6050	ini opened	
+[16:48:47] ADAM_6050 - 	start	
+[16:48:47] ADAM_6050 - 	init socket	
+[16:48:47] ADAM_6050 - 	start thread	
+[16:48:47] SERCOM	start read data	
+[16:48:47] Tool State : 0002 -	192.168.50.182	Communication Start
+[16:48:47]  State : 0060 -	Send Torque-	
+[16:48:48] Tool State : 0002 -	192.168.50.181	Communication Start
+[16:48:48]  State : 0060 -	Send Torque-	
+[16:48:50] Tool State : 9999 -	Aliv-	Send
+[16:48:50] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:48:53] Tool State : 9999 -	Aliv-	Send
+[16:48:53] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:48:56] Tool State : 9999 -	Aliv-	Send
+[16:48:56] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:48:59] Tool State : 9999 -	Aliv-	Send
+[16:48:59] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:49:02] Tool State : 9999 -	Aliv-	Send
+[16:49:02] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:49:05] Tool State : 9999 -	Aliv-	Send
+[16:49:05] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:49:08] Tool State : 9999 -	Aliv-	Send
+[16:49:08] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[16:49:11] Tool State : 9999 -	Aliv-	Send
+[16:49:11] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:49:14] Tool State : 9999 -	Aliv-	Send
+[16:49:14] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[16:49:17] Tool State : 9999 -	Aliv-	Send
+[16:49:17] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:49:20] Tool State : 9999 -	Aliv-	Send
+[16:49:20] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[16:49:23] Tool State : 9999 -	Aliv-	Send
+[16:49:23] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:49:26] Tool State : 9999 -	Aliv-	Send
+[16:49:26] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[16:49:29] Tool State : 9999 -	Aliv-	Send
+[16:49:29] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:49:29] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[16:49:32] Tool State : 9999 -	Aliv-	Send
+[16:49:32] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[16:49:35] Tool State : 9999 -	Aliv-	Send
+[16:49:35] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:49:38] Tool State : 9999 -	Aliv-	Send
+[16:49:38] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[16:49:41] Tool State : 9999 -	Aliv-	Send
+[16:49:41] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:49:44] Tool State : 9999 -	Aliv-	Send
+[16:49:44] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:49:47] Tool State : 9999 -	Aliv-	Send
+[16:49:47] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[16:49:50] Tool State : 9999 -	Aliv-	Send
+[16:49:50] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[16:49:53] Tool State : 9999 -	Aliv-	Send
+[16:49:53] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[16:49:56] Tool State : 9999 -	Aliv-	Send
+[16:49:56] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:49:59] Tool State : 9999 -	Aliv-	Send
+[16:49:59] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[16:50:02] Tool State : 9999 -	Aliv-	Send
+[16:50:02] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:50:05] Tool State : 9999 -	Aliv-	Send
+[16:50:05] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:50:08] Tool State : 9999 -	Aliv-	Send
+[16:50:08] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:50:11] Tool State : 9999 -	Aliv-	Send
+[16:50:11] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:50:14] Tool State : 9999 -	Aliv-	Send
+[16:50:14] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[16:50:17] Tool State : 9999 -	Aliv-	Send
+[16:50:17] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:50:20] Tool State : 9999 -	Aliv-	Send
+[16:50:20] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:50:23] Tool State : 9999 -	Aliv-	Send
+[16:50:26] REPEAT	2	
+[16:50:26] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[16:50:29] Tool State : 9999 -	Aliv-	Send
+[16:50:29] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[16:50:32] Tool State : 9999 -	Aliv-	Send
+[16:50:32] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[16:50:35] Tool State : 9999 -	Aliv-	Send
+[16:50:35] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:50:38] Tool State : 9999 -	Aliv-	Send
+[16:50:38] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[16:50:41] Tool State : 9999 -	Aliv-	Send
+[16:50:41] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:50:44] Tool State : 9999 -	Aliv-	Send
+[16:50:44] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[16:50:44] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:50:47] Tool State : 9999 -	Aliv-	Send
+[16:50:47] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:50:50] Tool State : 9999 -	Aliv-	Send
+[16:50:50] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:50:53] Tool State : 9999 -	Aliv-	Send
+[16:50:53] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[16:50:56] Tool State : 9999 -	Aliv-	Send
+[16:50:59] REPEAT	2	
+[16:50:59] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[16:51:02] Tool State : 9999 -	Aliv-	Send
+[16:51:05] REPEAT	2	
+[16:51:05] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[16:51:08] Tool State : 9999 -	Aliv-	Send
+[16:51:08] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[16:51:11] Tool State : 9999 -	Aliv-	Send
+[16:51:11] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[17:09:28] Send DB	Receive Data-	A_sp_SUB_GET_OPTION_9BUX,BKB,JET BLACK,4,JV,HERA,Shadow Gray,3020,L,20190325,7,9BUX,42692911
+[17:09:28] SendDB	sp_Amount	sp_SUB_GET_AMOUNT3,9BUX,L,BKB,20190325,7
+[17:09:28] SendDB	sp_GET_RESULT2	sp_SUB_GET_RESULT2,9BUX,L,20190325
+[17:11:21] Send DB	Receive Data-	A_sp_SUB_GET_OPTION_9BUX,BKB,JET BLACK,4,JV,HERA,Shadow Gray,3020,L,20190325,7,9BUX,42692911
+[17:11:21] SendDB	sp_Amount	sp_SUB_GET_AMOUNT3,9BUX,L,BKB,20190325,7
+[17:11:21] SendDB	sp_GET_RESULT2	sp_SUB_GET_RESULT2,9BUX,L,20190325
+[17:11:21] ADAM_6050 - 	initialize	
+[17:11:21] ADAM_6050	ini opened	
+[17:11:21] ADAM_6050 - 	start	
+[17:11:21] ADAM_6050 - 	init socket	
+[17:11:21] ADAM_6050 - 	start thread	
+[17:11:22] SERCOM	start read data	
+[17:11:22] Tool State : 0002 -	192.168.50.182	Communication Start
+[17:11:22]  State : 0060 -	Send Torque-	
+[17:11:22] Tool State : 0002 -	192.168.50.181	Communication Start
+[17:11:22]  State : 0060 -	Send Torque-	
+[17:11:25] Tool State : 9999 -	Aliv-	Send
+[17:11:25] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[17:11:28] Tool State : 9999 -	Aliv-	Send
+[17:11:28] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[17:11:31] Tool State : 9999 -	Aliv-	Send
+[17:11:31] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[17:12:17] Send DB	Receive Data-	A_sp_SUB_GET_OPTION_9BUX,BKB,JET BLACK,4,JV,HERA,Shadow Gray,3020,L,20190325,7,9BUX,42692911
+[17:12:17] SendDB	sp_Amount	sp_SUB_GET_AMOUNT3,9BUX,L,BKB,20190325,7
+[17:12:17] SendDB	sp_GET_RESULT2	sp_SUB_GET_RESULT2,9BUX,L,20190325
+[17:12:18] ADAM_6050 - 	initialize	
+[17:12:18] ADAM_6050	ini opened	
+[17:12:18] ADAM_6050 - 	start	
+[17:12:18] ADAM_6050 - 	init socket	
+[17:12:18] ADAM_6050 - 	start thread	
+[17:12:18] ADAM6	start thread	
+[17:12:18] SERCOM	start read data	
+[17:12:18] Tool State : 0002 -	192.168.50.182	Communication Start
+[17:12:18]  State : 0060 -	Send Torque-	
+[17:12:18] Tool State : 0002 -	192.168.50.181	Communication Start
+[17:12:18]  State : 0060 -	Send Torque-	
+[17:12:21] Tool State : 9999 -	Aliv-	Send
+[17:12:21] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[17:12:24] REPEAT	2	
+[17:12:24] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[17:12:27] Tool State : 9999 -	Aliv-	Send
+[17:12:27] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[17:13:26] Send DB	Receive Data-	A_sp_SUB_GET_OPTION_9BUX,BKB,JET BLACK,4,JV,HERA,Shadow Gray,3020,L,20190325,7,9BUX,42692911
+[17:13:26] SendDB	sp_Amount	sp_SUB_GET_AMOUNT3,9BUX,L,BKB,20190325,7
+[17:13:26] SendDB	sp_GET_RESULT2	sp_SUB_GET_RESULT2,9BUX,L,20190325
+[17:13:26] ADAM_6050 - 	initialize	
+[17:13:26] ADAM_6050	ini opened	
+[17:13:26] ADAM_6050 - 	start	
+[17:13:26] ADAM_6050 - 	init socket	
+[17:13:26] ADAM_6050 - 	start thread	
+[17:13:26] SERCOM	start read data	
+[17:13:27] Tool State : 0002 -	192.168.50.182	Communication Start
+[17:13:27]  State : 0060 -	Send Torque-	
+[17:13:27] Tool State : 0002 -	192.168.50.181	Communication Start
+[17:13:27]  State : 0060 -	Send Torque-	
+[17:13:29] Tool State : 9999 -	Aliv-	Send
+[17:13:29] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[17:13:32] Tool State : 9999 -	Aliv-	Send
+[17:13:32] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[17:13:35] Tool State : 9999 -	Aliv-	Send
+[17:13:35] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[17:13:38] Tool State : 9999 -	Aliv-	Send
+[17:13:39] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[17:13:41] Tool State : 9999 -	Aliv-	Send
+[17:13:41] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[17:13:44] Tool State : 9999 -	Aliv-	Send
+[17:13:45] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[17:13:47] Tool State : 9999 -	Aliv-	Send
+[17:13:48] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[17:13:49] Exception	System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: System.Net.UnsafeNclNativeMethods.OSSOCK.recv(IntPtr socketHandle, Byte* pinnedBuffer, Int32 len, SocketFlags socketFlags)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R - 복사본\SideBoster_Program\NutRunner_TCP.cs:줄 172	
+[17:13:49] Exception		System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R - 복사본\SideBoster_Program\NutRunner_TCP.cs:줄 214
+   위치: SideBoster_Program.NutRunner_TCP.connect() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R - 복사본\SideBoster_Program\NutRunner_TCP.cs:줄 132

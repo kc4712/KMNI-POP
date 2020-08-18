@@ -1,0 +1,22 @@
+1. 전처리기 지시자
+  ADAM : SIDE BOSTER 가조립 ADAM 활성/비활성
+
+2. SW 흐름
+  1) Setting.ini 에서 공정, 조립라인, 디바이스 타입 기재
+  2) INI.CS에서 해당 파일 읽음
+  3) Program.cs에서 공정과 조립라인에 해당하는 base ui 결정
+  4) 해당 공정, 조립라인에 필요한 form이 로드되면서 PeripheralControlCenter.cs 호출
+  5) PeripheralControlCenter.cs에서 셋팅 파일 내용에 따라 외부 장비 클래스 호출 
+  6) 외부 장비 이벤트에 따라 UI 구동
+  7) form의 역할 -> 툴 몇회, DB호출
+
+3. 각 클래스, 메소드 세부 설명은 각 가조립 cs파일내에 요약기능으로 기록
+   진조립에만 존재하는 메소드의 경우 별도 요약기능 추가
+
+4. 주의사항 
+  1) \Debug와 동일한 루트에 작업표준서와 이미지 필요
+  2) \Debug 내의 *.dll *.ini *.exe, 기타 디렉토리 및 파일은 사용되는 것만 포함
+  3) \ADAM_TCP.exe + DeviceConfig.ini(ip, port, 모듈갯수 기입, 작성: 장원석 소장)
+  4) \ZebraPrint_TCP.exe + ZebraPrint_TCP.ini (작성: 고아라 대리)
+  5) \SerialComm.exe (작성: 장원석 소장)
+  

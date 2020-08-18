@@ -1,0 +1,685 @@
+[14:43:10] CheckDBConnection	CheckDBConnection error	System.Data.SqlClient.SqlException (0x80131904): SQL Server에 연결을 설정하는 중에 네트워크 관련 또는 인스턴스 관련 오류가 발생했습니다. 서버를 찾을 수 없거나 액세스할 수 없습니다. 인스턴스 이름이 올바르고 SQL Server가 원격 연결을 허용하도록 구성되어 있는지 확인하십시오. (provider: Named Pipes Provider, error: 40 - SQL Server에 대한 연결을 열 수 없습니다.) ---> System.ComponentModel.Win32Exception (0x80004005): 네트워크 경로를 찾지 못했습니다
+   위치: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   위치: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   위치: System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   위치: System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   위치: System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   위치: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   위치: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   위치: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   위치: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   위치: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   위치: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   위치: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   위치: System.Data.SqlClient.SqlConnection.Open()
+   위치: SideBoster_Program.DBcontrol.CheckDBConnection() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\DBcontrol.cs:줄 140
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+[14:43:10] Send DB	Receive Data-	
+[14:44:16] CheckDBConnection	CheckDBConnection error	System.Data.SqlClient.SqlException (0x80131904): SQL Server에 연결을 설정하는 중에 네트워크 관련 또는 인스턴스 관련 오류가 발생했습니다. 서버를 찾을 수 없거나 액세스할 수 없습니다. 인스턴스 이름이 올바르고 SQL Server가 원격 연결을 허용하도록 구성되어 있는지 확인하십시오. (provider: Named Pipes Provider, error: 40 - SQL Server에 대한 연결을 열 수 없습니다.) ---> System.ComponentModel.Win32Exception (0x80004005): 네트워크 경로를 찾지 못했습니다
+   위치: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   위치: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   위치: System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   위치: System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   위치: System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   위치: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   위치: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   위치: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   위치: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   위치: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   위치: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   위치: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   위치: System.Data.SqlClient.SqlConnection.Open()
+   위치: SideBoster_Program.DBcontrol.CheckDBConnection() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\DBcontrol.cs:줄 140
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+[14:44:16] Send DB	Receive Data-	
+[14:46:38] Send DB	Receive Data-	A_sp_SUB_GET_OPTION_9BUX,BBK,JET BLACK,4,JV,HERA,Shadow Gary,3020,L,20190322,9,9BUX,42692913
+[14:46:38] SendDB	sp_Amount	sp_SUB_GET_AMOUNT3,9BUX,L,BBK,20190322,9
+[14:46:38] SendDB	sp_GET_RESULT	sp_SUB_GET_RESULT,9BUX,L,20190322
+[14:46:38] ADAM_6050 - 	initialize	
+[14:46:38] ADAM_6050	ini opened	
+[14:46:38] ADAM_6050 - 	start	
+[14:46:38] ADAM_6050 - 	init socket	
+[14:46:38] ADAM_6050 - 	start thread	
+[14:46:38] SERCOM	start read data	
+[14:46:38] Tool State : 0002 -	192.168.50.182	Communication Start
+[14:46:38]  State : 0060 -	Send Torque-	
+[14:46:39] Tool State : 0002 -	192.168.50.181	Communication Start
+[14:46:39]  State : 0060 -	Send Torque-	
+[14:46:41] Tool State : 9999 -	Aliv-	Send
+[14:46:41] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:46:44] Exception	System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: System.Net.UnsafeNclNativeMethods.OSSOCK.recv(IntPtr socketHandle, Byte* pinnedBuffer, Int32 len, SocketFlags socketFlags)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 172	
+[14:46:44] Exception		System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 214
+   위치: SideBoster_Program.NutRunner_TCP.connect() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 132
+[14:47:52] Send DB	Receive Data-	A_sp_SUB_GET_OPTION_9BUX,BBK,JET BLACK,4,JV,HERA,Shadow Gary,3020,L,20190322,9,9BUX,42692913
+[14:47:52] SendDB	sp_Amount	sp_SUB_GET_AMOUNT3,9BUX,L,BBK,20190322,9
+[14:47:52] SendDB	sp_GET_RESULT	sp_SUB_GET_RESULT,9BUX,L,20190322
+[14:47:52] ADAM_6050 - 	initialize	
+[14:47:52] ADAM_6050	ini opened	
+[14:47:52] ADAM_6050 - 	start	
+[14:47:52] ADAM_6050 - 	init socket	
+[14:47:53] ADAM_6050 - 	start thread	
+[14:47:53] ADAM6	start thread	
+[14:47:53] SERCOM	start read data	
+[14:47:53] Tool State : 0002 -	192.168.50.182	Communication Start
+[14:47:53]  State : 0060 -	Send Torque-	
+[14:47:53] Tool State : 0002 -	192.168.50.181	Communication Start
+[14:47:53]  State : 0060 -	Send Torque-	
+[14:47:56] Tool State : 9999 -	Aliv-	Send
+[14:47:59] REPEAT	2	
+[14:47:59] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:48:02] Tool State : 9999 -	Aliv-	Send
+[14:48:05] Tool State : 9999 -	Aliv-	Send
+[14:48:05] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:48:08] Tool State : 9999 -	Aliv-	Send
+[14:48:08] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:48:10] Exception	System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: System.Net.UnsafeNclNativeMethods.OSSOCK.recv(IntPtr socketHandle, Byte* pinnedBuffer, Int32 len, SocketFlags socketFlags)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 172	
+[14:48:10] Exception		System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 214
+   위치: SideBoster_Program.NutRunner_TCP.connect() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 132
+[14:48:24] Send DB	Receive Data-	A_sp_SUB_GET_OPTION_9BUX,BBK,JET BLACK,4,JV,HERA,Shadow Gary,3020,L,20190322,9,9BUX,42692913
+[14:48:24] SendDB	sp_Amount	sp_SUB_GET_AMOUNT3,9BUX,L,BBK,20190322,9
+[14:48:24] SendDB	sp_GET_RESULT	sp_SUB_GET_RESULT,9BUX,L,20190322
+[14:48:24] ADAM_6050 - 	initialize	
+[14:48:24] ADAM_6050	ini opened	
+[14:48:25] ADAM_6050 - 	start	
+[14:48:25] ADAM_6050 - 	init socket	
+[14:48:25] ADAM_6050 - 	start thread	
+[14:48:25] ADAM6	start thread	
+[14:48:25] SERCOM	start read data	
+[14:48:25] Tool State : 0002 -	192.168.50.182	Communication Start
+[14:48:25]  State : 0060 -	Send Torque-	
+[14:48:25] Tool State : 0002 -	192.168.50.181	Communication Start
+[14:48:25]  State : 0060 -	Send Torque-	
+[14:48:28] Tool State : 9999 -	Aliv-	Send
+[14:48:28] Tool State : 9999 -	Aliv-	Send
+[14:48:31] Tool State : 9999 -	Aliv-	Send
+[14:48:31] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:48:34] Tool State : 9999 -	Aliv-	Send
+[14:48:37] REPEAT	2	
+[14:48:37] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:48:40] Tool State : 9999 -	Aliv-	Send
+[14:48:43] REPEAT	2	
+[14:48:43] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:48:46] Tool State : 9999 -	Aliv-	Send
+[14:48:46] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:48:49] Tool State : 9999 -	Aliv-	Send
+[14:48:52] REPEAT	2	
+[14:48:52] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:48:55] Tool State : 9999 -	Aliv-	Send
+[14:48:55] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:48:58] Tool State : 9999 -	Aliv-	Send
+[14:49:01] Tool State : 9999 -	Aliv-	Send
+[14:49:01] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:49:04] Tool State : 9999 -	Aliv-	Send
+[14:49:04] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:49:07] Tool State : 9999 -	Aliv-	Send
+[14:49:07] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:49:10] Tool State : 9999 -	Aliv-	Send
+[14:49:10] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:49:13] Tool State : 9999 -	Aliv-	Send
+[14:49:13] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:49:16] Tool State : 9999 -	Aliv-	Send
+[14:49:16] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:49:19] Tool State : 9999 -	Aliv-	Send
+[14:49:19] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:49:22] Tool State : 9999 -	Aliv-	Send
+[14:49:22] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:49:25] Tool State : 9999 -	Aliv-	Send
+[14:49:25] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:49:28] Tool State : 9999 -	Aliv-	Send
+[14:49:31] REPEAT	2	
+[14:49:31] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:49:34] Tool State : 9999 -	Aliv-	Send
+[14:49:34] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:49:37] Tool State : 9999 -	Aliv-	Send
+[14:49:37] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:49:40] Tool State : 9999 -	Aliv-	Send
+[14:49:40] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:49:43] Tool State : 9999 -	Aliv-	Send
+[14:49:43] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:49:46] Tool State : 9999 -	Aliv-	Send
+[14:49:46] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:49:49] Tool State : 9999 -	Aliv-	Send
+[14:49:49] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:49:52] Tool State : 9999 -	Aliv-	Send
+[14:49:55] REPEAT	2	
+[14:49:55] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:49:58] Tool State : 9999 -	Aliv-	Send
+[14:49:58] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:50:01] Tool State : 9999 -	Aliv-	Send
+[14:50:04] REPEAT	2	
+[14:50:04] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:50:07] Tool State : 9999 -	Aliv-	Send
+[14:50:07] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:50:10] Tool State : 9999 -	Aliv-	Send
+[14:50:10] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:50:13] Tool State : 9999 -	Aliv-	Send
+[14:50:13] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:50:16] Tool State : 9999 -	Aliv-	Send
+[14:50:16] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:50:19] Tool State : 9999 -	Aliv-	Send
+[14:50:19] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:50:22] Tool State : 9999 -	Aliv-	Send
+[14:50:22] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:50:25] Tool State : 9999 -	Aliv-	Send
+[14:50:25] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:50:28] Tool State : 9999 -	Aliv-	Send
+[14:50:28] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:50:31] Tool State : 9999 -	Aliv-	Send
+[14:50:31] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:50:34] Tool State : 9999 -	Aliv-	Send
+[14:50:37] REPEAT	2	
+[14:50:37] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:50:40] Tool State : 9999 -	Aliv-	Send
+[14:50:40] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:50:43] Tool State : 9999 -	Aliv-	Send
+[14:50:43] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:50:46] Tool State : 9999 -	Aliv-	Send
+[14:50:49] REPEAT	2	
+[14:50:49] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:50:52] Tool State : 9999 -	Aliv-	Send
+[14:50:52] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:50:55] Tool State : 9999 -	Aliv-	Send
+[14:50:55] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:50:58] Tool State : 9999 -	Aliv-	Send
+[14:50:58] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:51:01] Tool State : 9999 -	Aliv-	Send
+[14:51:01] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:51:04] Tool State : 9999 -	Aliv-	Send
+[14:51:07] REPEAT	2	
+[14:51:07] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:51:10] Tool State : 9999 -	Aliv-	Send
+[14:51:10] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:51:13] Tool State : 9999 -	Aliv-	Send
+[14:51:13] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:51:35] Send DB	Receive Data-	A_sp_SUB_GET_OPTION_9BUX,BBK,JET BLACK,4,JV,HERA,Shadow Gary,3020,L,20190322,9,9BUX,42692913
+[14:51:35] SendDB	sp_Amount	sp_SUB_GET_AMOUNT3,9BUX,L,BBK,20190322,9
+[14:51:35] SendDB	sp_GET_RESULT	sp_SUB_GET_RESULT,9BUX,L,20190322
+[14:51:35] ADAM_6050 - 	initialize	
+[14:51:35] ADAM_6050	ini opened	
+[14:51:35] ADAM_6050 - 	start	
+[14:51:35] ADAM_6050 - 	init socket	
+[14:51:35] ADAM_6050 - 	start thread	
+[14:51:35] SERCOM	start read data	
+[14:51:36] Tool State : 0002 -	192.168.50.182	Communication Start
+[14:51:36]  State : 0060 -	Send Torque-	
+[14:51:36] Tool State : 0002 -	192.168.50.181	Communication Start
+[14:51:36]  State : 0060 -	Send Torque-	
+[14:51:38] Tool State : 9999 -	Aliv-	Send
+[14:51:38] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:51:38] REPEAT	1	
+[14:51:38] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:51:41] Tool State : 9999 -	Aliv-	Send
+[14:51:41] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:51:41] REPEAT	1	
+[14:51:41] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:51:44] Tool State : 9999 -	Aliv-	Send
+[14:51:44] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:51:44] Tool State : 9999 -	Aliv-	Send
+[14:51:47] Tool State : 9999 -	Aliv-	Send
+[14:51:47] REPEAT	1	
+[14:51:47] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:51:50] Tool State : 9999 -	Aliv-	Send
+[14:51:50] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:51:50] Tool State : 9999 -	Aliv-	Send
+[14:51:50] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:51:53] Tool State : 9999 -	Aliv-	Send
+[14:51:53] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:51:53] Tool State : 9999 -	Aliv-	Send
+[14:51:53] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:51:56] Tool State : 9999 -	Aliv-	Send
+[14:51:56] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:51:56] Tool State : 9999 -	Aliv-	Send
+[14:51:59] REPEAT	1	
+[14:51:59] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:51:59] Tool State : 9999 -	Aliv-	Send
+[14:51:59] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:52:02] Tool State : 9999 -	Aliv-	Send
+[14:52:02] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:52:02] Tool State : 9999 -	Aliv-	Send
+[14:52:02] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:52:05] Tool State : 9999 -	Aliv-	Send
+[14:52:05] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:52:05] Tool State : 9999 -	Aliv-	Send
+[14:52:08] REPEAT	1	
+[14:52:08] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:52:08] Tool State : 9999 -	Aliv-	Send
+[14:52:08] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:52:11] Tool State : 9999 -	Aliv-	Send
+[14:52:11] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:52:11] Tool State : 9999 -	Aliv-	Send
+[14:52:11] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:52:14] Tool State : 9999 -	Aliv-	Send
+[14:52:14] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:52:14] Tool State : 9999 -	Aliv-	Send
+[14:52:14] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:52:17] Tool State : 9999 -	Aliv-	Send
+[14:52:17] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:52:17] Tool State : 9999 -	Aliv-	Send
+[14:52:17] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:52:20] Tool State : 9999 -	Aliv-	Send
+[14:52:20] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:52:20] Tool State : 9999 -	Aliv-	Send
+[14:52:21] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:52:23] Tool State : 9999 -	Aliv-	Send
+[14:52:23] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:52:23] Tool State : 9999 -	Aliv-	Send
+[14:52:24] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:52:26] Tool State : 9999 -	Aliv-	Send
+[14:52:26] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:52:26] Tool State : 9999 -	Aliv-	Send
+[14:52:27] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:52:29] Tool State : 9999 -	Aliv-	Send
+[14:52:30] REPEAT	1	
+[14:52:30] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:52:32] Tool State : 9999 -	Aliv-	Send
+[14:52:32] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:52:33] Tool State : 9999 -	Aliv-	Send
+[14:52:33] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:52:35] Tool State : 9999 -	Aliv-	Send
+[14:52:35] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:52:36] Tool State : 9999 -	Aliv-	Send
+[14:52:36] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:52:38] Tool State : 9999 -	Aliv-	Send
+[14:52:38] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:52:39] Tool State : 9999 -	Aliv-	Send
+[14:52:39] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:52:41] Tool State : 9999 -	Aliv-	Send
+[14:52:41] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:52:42] Tool State : 9999 -	Aliv-	Send
+[14:52:42] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:52:44] Tool State : 9999 -	Aliv-	Send
+[14:52:44] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:52:45] Tool State : 9999 -	Aliv-	Send
+[14:52:45] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:52:47] Tool State : 9999 -	Aliv-	Send
+[14:52:48] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:52:48] Tool State : 9999 -	Aliv-	Send
+[14:52:48] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:52:50] Tool State : 9999 -	Aliv-	Send
+[14:52:50] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:52:51] Tool State : 9999 -	Aliv-	Send
+[14:52:51] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:52:53] Tool State : 9999 -	Aliv-	Send
+[14:52:53] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:52:54] Tool State : 9999 -	Aliv-	Send
+[14:52:54] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:52:56] Tool State : 9999 -	Aliv-	Send
+[14:52:57] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:52:57] Tool State : 9999 -	Aliv-	Send
+[14:52:57] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:53:00] Tool State : 9999 -	Aliv-	Send
+[14:53:00] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:53:00] Tool State : 9999 -	Aliv-	Send
+[14:53:00] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:53:03] Tool State : 9999 -	Aliv-	Send
+[14:53:03] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:53:03] Tool State : 9999 -	Aliv-	Send
+[14:53:03] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:53:06] Tool State : 9999 -	Aliv-	Send
+[14:53:06] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:53:06] Tool State : 9999 -	Aliv-	Send
+[14:53:06] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:53:09] Tool State : 9999 -	Aliv-	Send
+[14:53:09] REPEAT	1	
+[14:53:09] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:55:11] Send DB	Receive Data-	A_sp_SUB_GET_OPTION_9BUX,BBK,JET BLACK,4,JV,HERA,Shadow Gary,3020,L,20190322,9,9BUX,42692913
+[14:55:11] SendDB	sp_Amount	sp_SUB_GET_AMOUNT3,9BUX,L,BBK,20190322,9
+[14:55:12] SendDB	sp_GET_RESULT	sp_SUB_GET_RESULT,9BUX,L,20190322
+[14:55:12] ADAM_6050 - 	initialize	
+[14:55:12] ADAM_6050	ini opened	
+[14:55:12] ADAM_6050 - 	start	
+[14:55:12] ADAM_6050 - 	init socket	
+[14:55:12] ADAM_6050 - 	start thread	
+[14:55:12] SERCOM	start read data	
+[14:55:12] Tool State : 0002 -	192.168.50.182	Communication Start
+[14:55:12]  State : 0060 -	Send Torque-	
+[14:55:12] Tool State : 0002 -	192.168.50.181	Communication Start
+[14:55:12]  State : 0060 -	Send Torque-	
+[14:55:15] Tool State : 9999 -	Aliv-	Send
+[14:55:15] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:55:18] Tool State : 9999 -	Aliv-	Send
+[14:55:18] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:55:21] Tool State : 9999 -	Aliv-	Send
+[14:55:24] REPEAT	2	
+[14:55:24] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:55:27] Tool State : 9999 -	Aliv-	Send
+[14:55:27] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:55:30] Tool State : 9999 -	Aliv-	Send
+[14:55:30] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:55:33] Tool State : 9999 -	Aliv-	Send
+[14:55:33] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:55:36] Tool State : 9999 -	Aliv-	Send
+[14:55:36] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:55:39] Tool State : 9999 -	Aliv-	Send
+[14:55:39] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:55:42] Tool State : 9999 -	Aliv-	Send
+[14:55:42] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:55:45] Tool State : 9999 -	Aliv-	Send
+[14:55:45] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:55:48] Tool State : 9999 -	Aliv-	Send
+[14:55:48] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:55:51] Tool State : 9999 -	Aliv-	Send
+[14:55:51] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:55:54] Tool State : 9999 -	Aliv-	Send
+[14:55:54] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:55:57] Tool State : 9999 -	Aliv-	Send
+[14:55:57] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:56:00] Tool State : 9999 -	Aliv-	Send
+[14:56:00] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:56:03] Tool State : 9999 -	Aliv-	Send
+[14:56:03] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:56:06] Tool State : 9999 -	Aliv-	Send
+[14:56:09] REPEAT	2	
+[14:56:09] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:56:12] Tool State : 9999 -	Aliv-	Send
+[14:56:12] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[14:56:15] Tool State : 9999 -	Aliv-	Send
+[14:56:15] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:56:18] Tool State : 9999 -	Aliv-	Send
+[14:56:18] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[14:59:55] Send DB	Receive Data-	A_sp_SUB_GET_OPTION_9BUX,BBK,JET BLACK,4,JV,HERA,Shadow Gary,3020,L,20190322,9,9BUX,42692913
+[14:59:55] SendDB	sp_Amount	sp_SUB_GET_AMOUNT3,9BUX,L,BBK,20190322,9
+[14:59:55] SendDB	sp_GET_RESULT	sp_SUB_GET_RESULT,9BUX,L,20190322
+[14:59:55] ADAM_6050 - 	initialize	
+[14:59:55] ADAM_6050	ini opened	
+[14:59:55] ADAM_6050 - 	start	
+[14:59:55] ADAM_6050 - 	init socket	
+[14:59:56] ADAM_6050 - 	start thread	
+[14:59:56] SERCOM	start read data	
+[14:59:56] Tool State : 0002 -	192.168.50.182	Communication Start
+[14:59:56]  State : 0060 -	Send Torque-	
+[14:59:56] Tool State : 0002 -	192.168.50.181	Communication Start
+[14:59:56]  State : 0060 -	Send Torque-	
+[14:59:59] Tool State : 9999 -	Aliv-	Send
+[15:00:00] Exception	System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: System.Net.UnsafeNclNativeMethods.OSSOCK.recv(IntPtr socketHandle, Byte* pinnedBuffer, Int32 len, SocketFlags socketFlags)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 172	
+[15:00:00] Exception		System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 214
+   위치: SideBoster_Program.NutRunner_TCP.connect() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 132
+[15:00:27] Send DB	Receive Data-	A_sp_SUB_GET_OPTION_9BUX,BBK,JET BLACK,4,JV,HERA,Shadow Gary,3020,L,20190322,9,9BUX,42692913
+[15:00:27] SendDB	sp_Amount	sp_SUB_GET_AMOUNT3,9BUX,L,BBK,20190322,9
+[15:00:27] SendDB	sp_GET_RESULT	sp_SUB_GET_RESULT,9BUX,L,20190322
+[15:00:27] ADAM_6050 - 	initialize	
+[15:00:27] ADAM_6050	ini opened	
+[15:00:27] ADAM_6050 - 	start	
+[15:00:27] ADAM_6050 - 	init socket	
+[15:00:27] ADAM_6050 - 	start thread	
+[15:00:27] ADAM6	start thread	
+[15:00:27] SERCOM	start read data	
+[15:00:27] Tool State : 0002 -	192.168.50.182	Communication Start
+[15:00:27]  State : 0060 -	Send Torque-	
+[15:00:28] Tool State : 0002 -	192.168.50.181	Communication Start
+[15:00:28]  State : 0060 -	Send Torque-	
+[15:00:30] Tool State : 9999 -	Aliv-	Send
+[15:00:30] REPEAT	1	
+[15:00:30] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[15:00:33] Tool State : 9999 -	Aliv-	Send
+[15:00:33] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[15:00:36] Exception	System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: System.Net.UnsafeNclNativeMethods.OSSOCK.recv(IntPtr socketHandle, Byte* pinnedBuffer, Int32 len, SocketFlags socketFlags)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 172	
+[15:00:36] Exception		System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 214
+   위치: SideBoster_Program.NutRunner_TCP.connect() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 132
+[15:16:07] Send DB	Receive Data-	A_sp_SUB_GET_OPTION_9BUX,BBK,JET BLACK,4,JV,HERA,Shadow Gary,3020,L,20190322,9,9BUX,42692913
+[15:16:07] SendDB	sp_Amount	sp_SUB_GET_AMOUNT3,9BUX,L,BBK,20190322,9
+[15:16:07] SendDB	sp_GET_RESULT	sp_SUB_GET_RESULT,9BUX,L,20190322
+[15:16:07] ADAM_6050 - 	initialize	
+[15:16:07] ADAM_6050	ini opened	
+[15:16:07] ADAM_6050 - 	start	
+[15:16:07] ADAM_6050 - 	init socket	
+[15:16:07] ADAM_6050 - 	start thread	
+[15:16:07] ADAM6	start thread	
+[15:16:08] SERCOM	start read data	
+[15:16:08] Tool State : 0002 -	192.168.50.182	Communication Start
+[15:16:08]  State : 0060 -	Send Torque-	
+[15:20:10] Send DB	Receive Data-	A_sp_SUB_GET_OPTION_9BUX,BBK,JET BLACK,4,JV,HERA,Shadow Gary,3020,L,20190322,9,9BUX,42692913
+[15:20:10] SendDB	sp_Amount	sp_SUB_GET_AMOUNT3,9BUX,L,BBK,20190322,9
+[15:20:10] SendDB	sp_GET_RESULT	sp_SUB_GET_RESULT,9BUX,L,20190322
+[15:20:10] ADAM_6050 - 	initialize	
+[15:20:10] ADAM_6050	ini opened	
+[15:20:10] ADAM_6050 - 	start	
+[15:20:10] ADAM_6050 - 	init socket	
+[15:20:11] ADAM_6050 - 	start thread	
+[15:20:11] SERCOM	start read data	
+[15:20:11] Tool State : 0002 -	192.168.50.182	Communication Start
+[15:20:11]  State : 0060 -	Send Torque-	
+[15:20:11] Tool State : 0002 -	192.168.50.181	Communication Start
+[15:20:11]  State : 0060 -	Send Torque-	
+[15:20:14] Tool State : 9999 -	Aliv-	Send
+[15:20:14] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[15:20:17] Tool State : 9999 -	Aliv-	Send
+[15:20:17] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[15:20:20] Tool State : 9999 -	Aliv-	Send
+[15:20:20] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[15:20:23] Tool State : 9999 -	Aliv-	Send
+[15:20:23] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[15:20:26] Tool State : 9999 -	Aliv-	Send
+[15:20:26] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[15:20:29] Tool State : 9999 -	Aliv-	Send
+[15:20:29] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[15:20:32] Tool State : 9999 -	Aliv-	Send
+[15:20:35] REPEAT	2	
+[15:20:35] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[15:20:36] Exception	System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: System.Net.UnsafeNclNativeMethods.OSSOCK.recv(IntPtr socketHandle, Byte* pinnedBuffer, Int32 len, SocketFlags socketFlags)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 172	
+[15:20:36] Exception		System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 214
+   위치: SideBoster_Program.NutRunner_TCP.connect() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 132
+[15:26:02] Send DB	Receive Data-	A_sp_SUB_GET_OPTION_9BUX,BBK,JET BLACK,4,JV,HERA,Shadow Gary,3020,L,20190322,9,9BUX,42692913
+[15:26:02] SendDB	sp_Amount	sp_SUB_GET_AMOUNT3,9BUX,L,BBK,20190322,9
+[15:26:02] SendDB	sp_GET_RESULT	sp_SUB_GET_RESULT,9BUX,L,20190322
+[15:26:02] ADAM_6050 - 	initialize	
+[15:26:03] ADAM_6050	ini opened	
+[15:26:03] ADAM_6050 - 	start	
+[15:26:03] ADAM_6050 - 	init socket	
+[15:26:03] ADAM6	start thread	
+[15:26:03] SERCOM	start read data	
+[15:26:03] Tool State : 0002 -	192.168.50.182	Communication Start
+[15:26:03]  State : 0060 -	Send Torque-	
+[15:26:03] Tool State : 0002 -	192.168.50.181	Communication Start
+[15:26:03]  State : 0060 -	Send Torque-	
+[15:26:06] Tool State : 9999 -	Aliv-	Send
+[15:26:06] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[15:26:09] Tool State : 9999 -	Aliv-	Send
+[15:26:09] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[15:26:11] Exception	System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: System.Net.UnsafeNclNativeMethods.OSSOCK.recv(IntPtr socketHandle, Byte* pinnedBuffer, Int32 len, SocketFlags socketFlags)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 172	
+[15:26:11] Exception		System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 214
+   위치: SideBoster_Program.NutRunner_TCP.connect() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 132
+[15:26:48] Send DB	Receive Data-	A_sp_SUB_GET_OPTION_9BUX,BBK,JET BLACK,4,JV,HERA,Shadow Gary,3020,L,20190322,9,9BUX,42692913
+[15:26:48] SendDB	sp_Amount	sp_SUB_GET_AMOUNT3,9BUX,L,BBK,20190322,9
+[15:26:48] SendDB	sp_GET_RESULT	sp_SUB_GET_RESULT,9BUX,L,20190322
+[15:26:48] ADAM_6050 - 	initialize	
+[15:26:48] ADAM_6050	ini opened	
+[15:26:48] ADAM_6050 - 	start	
+[15:26:48] ADAM_6050 - 	init socket	
+[15:26:48] ADAM_6050 - 	start thread	
+[15:26:48] SERCOM	start read data	
+[15:26:48] Tool State : 0002 -	192.168.50.182	Communication Start
+[15:26:48]  State : 0060 -	Send Torque-	
+[15:26:49] Tool State : 0002 -	192.168.50.181	Communication Start
+[15:26:49]  State : 0060 -	Send Torque-	
+[15:26:51] Tool State : 9999 -	Aliv-	Send
+[15:26:51] REPEAT	1	
+[15:26:51] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[15:26:54] Tool State : 9999 -	Aliv-	Send
+[15:26:57] REPEAT	2	
+[15:26:57] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[15:26:58] Exception	System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: System.Net.UnsafeNclNativeMethods.OSSOCK.recv(IntPtr socketHandle, Byte* pinnedBuffer, Int32 len, SocketFlags socketFlags)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 172	
+[15:26:58] Exception		System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 214
+   위치: SideBoster_Program.NutRunner_TCP.connect() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 132
+[15:27:34] Send DB	Receive Data-	A_sp_SUB_GET_OPTION_9BUX,BBK,JET BLACK,4,JV,HERA,Shadow Gary,3020,L,20190322,9,9BUX,42692913
+[15:27:34] SendDB	sp_Amount	sp_SUB_GET_AMOUNT3,9BUX,L,BBK,20190322,9
+[15:27:34] SendDB	sp_GET_RESULT	sp_SUB_GET_RESULT,9BUX,L,20190322
+[15:27:34] ADAM_6050 - 	initialize	
+[15:27:34] ADAM_6050	ini opened	
+[15:27:34] ADAM_6050 - 	start	
+[15:27:34] ADAM_6050 - 	init socket	
+[15:27:34] ADAM_6050 - 	start thread	
+[15:27:34] SERCOM	start read data	
+[15:27:34] Tool State : 0002 -	192.168.50.182	Communication Start
+[15:27:34]  State : 0060 -	Send Torque-	
+[15:27:34] Tool State : 0002 -	192.168.50.181	Communication Start
+[15:27:34]  State : 0060 -	Send Torque-	
+[15:27:37] Tool State : 9999 -	Aliv-	Send
+[15:27:37] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[15:27:40] Tool State : 9999 -	Aliv-	Send
+[15:27:40] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[15:27:43] Tool State : 9999 -	Aliv-	Send
+[15:27:43] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[15:27:44] Exception	System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: System.Net.UnsafeNclNativeMethods.OSSOCK.recv(IntPtr socketHandle, Byte* pinnedBuffer, Int32 len, SocketFlags socketFlags)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 172	
+[15:27:44] Exception		System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 214
+   위치: SideBoster_Program.NutRunner_TCP.connect() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 132
+[15:31:42] Send DB	Receive Data-	A_sp_SUB_GET_OPTION_9BUX,BBK,JET BLACK,4,JV,HERA,Shadow Gary,3020,L,20190322,9,9BUX,42692913
+[15:31:42] SendDB	sp_Amount	sp_SUB_GET_AMOUNT3,9BUX,L,BBK,20190322,9
+[15:31:42] SendDB	sp_GET_RESULT	sp_SUB_GET_RESULT,9BUX,L,20190322
+[15:31:42] ADAM_6050 - 	initialize	
+[15:31:42] ADAM_6050	ini opened	
+[15:31:42] ADAM_6050 - 	start	
+[15:31:42] ADAM_6050 - 	init socket	
+[15:31:42] ADAM_6050 - 	start thread	
+[15:31:42] SERCOM	start read data	
+[15:31:42] Tool State : 0002 -	192.168.50.182	Communication Start
+[15:31:43]  State : 0060 -	Send Torque-	
+[15:31:43] Tool State : 0002 -	192.168.50.181	Communication Start
+[15:31:43]  State : 0060 -	Send Torque-	
+[15:31:45] Tool State : 9999 -	Aliv-	Send
+[15:31:45] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[15:33:46] Send DB	Receive Data-	A_sp_SUB_GET_OPTION_9BUX,BBK,JET BLACK,4,JV,HERA,Shadow Gary,3020,L,20190322,9,9BUX,42692913
+[15:33:46] SendDB	sp_Amount	sp_SUB_GET_AMOUNT3,9BUX,L,BBK,20190322,9
+[15:33:46] SendDB	sp_GET_RESULT	sp_SUB_GET_RESULT,9BUX,L,20190322
+[15:33:46] ADAM_6050 - 	initialize	
+[15:33:46] ADAM_6050	ini opened	
+[15:33:46] ADAM_6050 - 	start	
+[15:33:46] ADAM_6050 - 	init socket	
+[15:33:46] ADAM_6050 - 	start thread	
+[15:33:46] SERCOM	start read data	
+[15:33:47] Tool State : 0002 -	192.168.50.182	Communication Start
+[15:33:47]  State : 0060 -	Send Torque-	
+[15:33:47] Tool State : 0002 -	192.168.50.181	Communication Start
+[15:33:47]  State : 0060 -	Send Torque-	
+[15:33:49] Tool State : 9999 -	Aliv-	Send
+[15:33:49] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[15:33:52] Tool State : 9999 -	Aliv-	Send
+[15:33:52] Tool State : 9999 -	Receive keep Alive-	192.168.50.182
+[15:33:53] Exception	System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: System.Net.UnsafeNclNativeMethods.OSSOCK.recv(IntPtr socketHandle, Byte* pinnedBuffer, Int32 len, SocketFlags socketFlags)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 172	
+[15:33:53] Exception		System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 214
+   위치: SideBoster_Program.NutRunner_TCP.connect() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 132
+[15:44:02] Send DB	Receive Data-	A_sp_SUB_GET_OPTION_9BUX,BBK,JET BLACK,4,JV,HERA,Shadow Gary,3020,L,20190322,9,9BUX,42692913
+[15:44:02] SendDB	sp_Amount	sp_SUB_GET_AMOUNT3,9BUX,L,BBK,20190322,9
+[15:44:02] SendDB	sp_GET_RESULT	sp_SUB_GET_RESULT,9BUX,L,20190322
+[15:44:02] ADAM_6050 - 	initialize	
+[15:44:02] ADAM_6050	ini opened	
+[15:44:02] ADAM_6050 - 	start	
+[15:44:02] ADAM_6050 - 	init socket	
+[15:44:02] ADAM_6050 - 	start thread	
+[15:44:02] SERCOM	start read data	
+[15:47:24] Send DB	Receive Data-	A_sp_SUB_GET_OPTION_9BUX,BBK,JET BLACK,4,JV,HERA,Shadow Gary,3020,L,20190322,9,9BUX,42692913
+[15:47:24] SendDB	sp_Amount	sp_SUB_GET_AMOUNT3,9BUX,L,BBK,20190322,9
+[15:47:25] SendDB	sp_GET_RESULT	sp_SUB_GET_RESULT,9BUX,L,20190322
+[15:47:25] ADAM_6050 - 	initialize	
+[15:47:25] ADAM_6050	ini opened	
+[15:47:25] ADAM_6050 - 	start	
+[15:47:25] ADAM_6050 - 	init socket	
+[15:47:25] ADAM_6050 - 	start thread	
+[15:47:25] ADAM6	start thread	
+[15:47:25] SERCOM	start read data	
+[15:48:51] Send DB	Receive Data-	A_sp_SUB_GET_OPTION_9BUX,BBK,JET BLACK,4,JV,HERA,Shadow Gary,3020,L,20190322,9,9BUX,42692913
+[15:48:51] SendDB	sp_Amount	sp_SUB_GET_AMOUNT3,9BUX,L,BBK,20190322,9
+[15:48:51] SendDB	sp_GET_RESULT	sp_SUB_GET_RESULT,9BUX,L,20190322
+[15:48:51] ADAM_6050 - 	initialize	
+[15:48:51] ADAM_6050	ini opened	
+[15:48:51] ADAM_6050 - 	start	
+[15:48:51] ADAM_6050 - 	init socket	
+[15:48:51] ADAM_6050 - 	start thread	
+[15:48:51] SERCOM	start read data	
+[15:48:51] Tool State : 0002 -	192.168.50.182	Communication Start
+[15:48:51]  State : 0060 -	Send Torque-	
+[15:48:51] Tool State : 0002 -	192.168.50.181	Communication Start
+[15:48:51]  State : 0060 -	Send Torque-	
+[15:48:54] Tool State : 9999 -	Aliv-	Send
+[15:48:57] REPEAT	2	
+[15:48:57] Tool State : 9999 -	Receive keep Alive-	192.168.50.181
+[15:49:00] Exception	System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: System.Net.UnsafeNclNativeMethods.OSSOCK.recv(IntPtr socketHandle, Byte* pinnedBuffer, Int32 len, SocketFlags socketFlags)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 172	
+[15:49:00] Exception		System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 214
+   위치: SideBoster_Program.NutRunner_TCP.connect() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 132
+[15:52:59] Send DB	Receive Data-	A_sp_SUB_GET_OPTION_9BUX,BBK,JET BLACK,4,JV,HERA,Shadow Gary,3020,L,20190322,9,9BUX,42692913
+[15:52:59] SendDB	sp_Amount	sp_SUB_GET_AMOUNT3,9BUX,L,BBK,20190322,9
+[15:52:59] SendDB	sp_GET_RESULT	sp_SUB_GET_RESULT,9BUX,L,20190322
+[15:52:59] ADAM_6050 - 	initialize	
+[15:52:59] ADAM_6050	ini opened	
+[15:52:59] ADAM_6050 - 	start	
+[15:52:59] ADAM_6050 - 	init socket	
+[15:53:00] ADAM_6050 - 	start thread	
+[15:53:00] SERCOM	start read data	
+[15:53:00] Tool State : 0002 -	192.168.50.182	Communication Start
+[15:53:00]  State : 0060 -	Send Torque-	
+[15:53:00] Tool State : 0002 -	192.168.50.181	Communication Start
+[15:53:00]  State : 0060 -	Send Torque-	
+[15:53:02] Exception	System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: System.Net.UnsafeNclNativeMethods.OSSOCK.recv(IntPtr socketHandle, Byte* pinnedBuffer, Int32 len, SocketFlags socketFlags)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, SocketError& errorCode)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   위치: System.Net.Sockets.Socket.Receive(Byte[] buffer)
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 172	
+[15:53:03] Exception		System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 214
+   위치: SideBoster_Program.NutRunner_TCP.connect() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 132
+[15:53:03] Exception		System.Threading.ThreadAbortException: 스레드가 중단되었습니다.
+   위치: SideBoster_Program.NutRunner_TCP.receiveTorque() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 214
+   위치: SideBoster_Program.NutRunner_TCP.connect() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R\SideBoster_Program\NutRunner_TCP.cs:줄 132

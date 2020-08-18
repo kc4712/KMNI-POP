@@ -1,0 +1,3337 @@
+[10:04:08] CheckDBConnection	CheckDBConnection error	System.Data.SqlClient.SqlException (0x80131904): SQL Server에 연결을 설정하는 중에 네트워크 관련 또는 인스턴스 관련 오류가 발생했습니다. 서버를 찾을 수 없거나 액세스할 수 없습니다. 인스턴스 이름이 올바르고 SQL Server가 원격 연결을 허용하도록 구성되어 있는지 확인하십시오. (provider: Named Pipes Provider, error: 40 - SQL Server에 대한 연결을 열 수 없습니다.) ---> System.ComponentModel.Win32Exception (0x80004005): 네트워크 경로를 찾지 못했습니다
+   위치: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   위치: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   위치: System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   위치: System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   위치: System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   위치: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   위치: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   위치: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   위치: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   위치: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   위치: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   위치: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   위치: System.Data.SqlClient.SqlConnection.Open()
+   위치: SideBoster_Program.DBcontrol.CheckDBConnection() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R - 복사본\SideBoster_Program\DBcontrol.cs:줄 140
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+[10:04:08] Send DB	Receive Data-	
+[10:06:48] CheckDBConnection	CheckDBConnection error	System.Data.SqlClient.SqlException (0x80131904): SQL Server에 연결을 설정하는 중에 네트워크 관련 또는 인스턴스 관련 오류가 발생했습니다. 서버를 찾을 수 없거나 액세스할 수 없습니다. 인스턴스 이름이 올바르고 SQL Server가 원격 연결을 허용하도록 구성되어 있는지 확인하십시오. (provider: Named Pipes Provider, error: 40 - SQL Server에 대한 연결을 열 수 없습니다.) ---> System.ComponentModel.Win32Exception (0x80004005): 네트워크 경로를 찾지 못했습니다
+   위치: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   위치: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   위치: System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   위치: System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   위치: System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   위치: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   위치: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   위치: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   위치: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   위치: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   위치: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   위치: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   위치: System.Data.SqlClient.SqlConnection.Open()
+   위치: SideBoster_Program.DBcontrol.CheckDBConnection() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R - 복사본\SideBoster_Program\DBcontrol.cs:줄 140
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+[10:06:48] Send DB	Receive Data-	A_ERROR,
+[10:06:48] ADAM_6050 - 	initialize	
+[10:06:48] ADAM_6050	ini opened	
+[10:06:48] ADAM_6050 - 	start	
+[10:06:48] ADAM_6050 - 	init socket	
+[10:06:50] ADAM_6050 - 	start thread	
+[10:06:50] REPEAT	81848	
+[10:06:50] ADAM6	communication error count 	
+[10:06:50] REPEAT	4281672	
+[10:06:50] REPEAT	1	
+[10:06:50] ADAM6	communication error count 	
+[10:06:51] REPEAT	44589358	
+[10:06:51] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:06:51] REPEAT	189375	
+[10:06:51] ADAM6	communication error count 	
+[10:06:52] REPEAT	51369412	
+[10:06:52] REPEAT	1	
+[10:06:52] ADAM6	communication error count 	
+[10:06:54] REPEAT	51307144	
+[10:06:54] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:06:54] REPEAT	251479	
+[10:06:54] ADAM6	communication error count 	
+[10:06:55] REPEAT	50737312	
+[10:06:55] REPEAT	2	
+[10:06:55] ADAM6	communication error count 	
+[10:06:57] REPEAT	49567372	
+[10:06:57] REPEAT	1	
+[10:06:57] ADAM6	communication error count 	
+[10:06:58] REPEAT	50208756	
+[10:06:58] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:06:58] REPEAT	152587	
+[10:06:58] ADAM6	communication error count 	
+[10:18:19] SERCOM	start read data	
+[10:18:19] SendDB	sp_Option	sp_SUB_GET_OPTION,GSUV,L,20190323
+[10:18:47] CheckDBConnection	CheckDBConnection error	System.Data.SqlClient.SqlException (0x80131904): SQL Server에 연결을 설정하는 중에 네트워크 관련 또는 인스턴스 관련 오류가 발생했습니다. 서버를 찾을 수 없거나 액세스할 수 없습니다. 인스턴스 이름이 올바르고 SQL Server가 원격 연결을 허용하도록 구성되어 있는지 확인하십시오. (provider: Named Pipes Provider, error: 40 - SQL Server에 대한 연결을 열 수 없습니다.) ---> System.ComponentModel.Win32Exception (0x80004005): 네트워크 경로를 찾지 못했습니다
+   위치: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   위치: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   위치: System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   위치: System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   위치: System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   위치: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   위치: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   위치: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   위치: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   위치: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   위치: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   위치: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   위치: System.Data.SqlClient.SqlConnection.Open()
+   위치: SideBoster_Program.DBcontrol.CheckDBConnection() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R - 복사본\SideBoster_Program\DBcontrol.cs:줄 140
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+[10:18:47] ADAM_6050 - 	initialize	
+[10:18:47] ADAM_6050	ini opened	
+[10:18:47] ADAM_6050 - 	start	
+[10:18:48] ADAM_6050 - 	init socket	
+[10:18:49] ADAM_6050 - 	start thread	
+[10:18:49] REPEAT	35026	
+[10:18:49] ADAM6	communication error count 	
+[10:18:49] REPEAT	2923009	
+[10:18:49] REPEAT	1	
+[10:18:49] ADAM6	communication error count 	
+[10:18:49] REPEAT	2817848	
+[10:18:49] clamp - 	release clamp	-WRITE 1
+[10:18:49] REPEAT	199584	
+[10:18:49] ADAM6	communication error count 	
+[10:18:49] REPEAT	1919696	
+[10:18:49] clamp - 	release clamp	-WRITE 1
+[10:18:49] REPEAT	305448	
+[10:18:49] ADAM6	communication error count 	
+[10:18:49] REPEAT	3535967	
+[10:18:49] REPEAT	2	
+[10:18:49] ADAM6	communication error count 	
+[10:18:49] REPEAT	2895175	
+[10:18:49] clamp - 	release clamp	-WRITE 1
+[10:18:49] REPEAT	240461	
+[10:18:49] ADAM6	communication error count 	
+[10:18:49] REPEAT	3674494	
+[10:18:49] clamp - 	release clamp	-WRITE 1
+[10:18:49] REPEAT	250865	
+[10:18:49] ADAM6	communication error count 	
+[10:18:49] REPEAT	2953091	
+[10:18:49] REPEAT	1	
+[10:18:49] ADAM6	communication error count 	
+[10:18:49] REPEAT	4013812	
+[10:18:49] clamp - 	release clamp	-WRITE 1
+[10:18:49] REPEAT	228140	
+[10:18:49] ADAM6	communication error count 	
+[10:18:50] REPEAT	3572577	
+[10:18:50] clamp - 	release clamp	-WRITE 1
+[10:18:50] REPEAT	278146	
+[10:18:50] ADAM6	communication error count 	
+[10:18:50] REPEAT	3521779	
+[10:18:50] REPEAT	1	
+[10:18:50] ADAM6	communication error count 	
+[10:18:50] REPEAT	3608106	
+[10:18:50] clamp - 	release clamp	-WRITE 1
+[10:18:50] REPEAT	221405	
+[10:18:50] ADAM6	communication error count 	
+[10:18:50] REPEAT	4211112	
+[10:18:50] clamp - 	release clamp	-WRITE 1
+[10:18:50] REPEAT	255824	
+[10:18:50] ADAM6	communication error count 	
+[10:18:50] REPEAT	3501879	
+[10:18:50] REPEAT	1	
+[10:18:50] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:18:50] REPEAT	254453	
+[10:18:50] ADAM6	communication error count 	
+[10:18:50] REPEAT	3259668	
+[10:18:50] clamp - 	release clamp	-WRITE 1
+[10:18:50] REPEAT	229280	
+[10:18:50] ADAM6	communication error count 	
+[10:18:50] REPEAT	3392562	
+[10:18:50] clamp - 	release clamp	-WRITE 1
+[10:18:50] REPEAT	230125	
+[10:18:50] ADAM6	communication error count 	
+[10:18:50] REPEAT	3725250	
+[10:18:50] clamp - 	release clamp	-WRITE 1
+[10:18:50] REPEAT	240723	
+[10:18:50] ADAM6	communication error count 	
+[10:18:50] REPEAT	3546012	
+[10:18:50] clamp - 	release clamp	-WRITE 1
+[10:18:50] REPEAT	236015	
+[10:18:50] ADAM6	communication error count 	
+[10:18:51] REPEAT	3916827	
+[10:18:51] clamp - 	release clamp	-WRITE 1
+[10:18:51] REPEAT	222925	
+[10:18:51] ADAM6	communication error count 	
+[10:18:51] REPEAT	3247855	
+[10:18:51] clamp - 	release clamp	-WRITE 1
+[10:18:51] REPEAT	215489	
+[10:18:51] ADAM6	communication error count 	
+[10:18:51] REPEAT	4189717	
+[10:18:51] clamp - 	release clamp	-WRITE 1
+[10:18:51] REPEAT	257370	
+[10:18:51] ADAM6	communication error count 	
+[10:18:51] REPEAT	3445385	
+[10:18:51] REPEAT	1	
+[10:18:51] ADAM6	communication error count 	
+[10:18:51] REPEAT	3940733	
+[10:18:51] clamp - 	release clamp	-WRITE 1
+[10:18:51] REPEAT	190549	
+[10:18:51] ADAM6	communication error count 	
+[10:18:51] REPEAT	3309550	
+[10:18:51] clamp - 	release clamp	-WRITE 1
+[10:18:51] REPEAT	255618	
+[10:18:51] ADAM6	communication error count 	
+[10:18:51] REPEAT	3638624	
+[10:18:51] clamp - 	release clamp	-WRITE 1
+[10:18:51] REPEAT	197983	
+[10:18:51] ADAM6	communication error count 	
+[10:18:51] REPEAT	3964897	
+[10:18:51] clamp - 	release clamp	-WRITE 1
+[10:18:51] REPEAT	277269	
+[10:18:51] ADAM6	communication error count 	
+[10:18:51] REPEAT	4090278	
+[10:18:51] clamp - 	release clamp	-WRITE 1
+[10:18:51] REPEAT	211295	
+[10:18:51] ADAM6	communication error count 	
+[10:18:52] REPEAT	3328215	
+[10:18:52] clamp - 	release clamp	-WRITE 1
+[10:18:52] REPEAT	214639	
+[10:18:52] ADAM6	communication error count 	
+[10:18:52] REPEAT	3679440	
+[10:18:52] clamp - 	release clamp	-WRITE 1
+[10:18:52] REPEAT	168693	
+[10:18:52] ADAM6	communication error count 	
+[10:18:52] REPEAT	3513035	
+[10:18:52] clamp - 	release clamp	-WRITE 1
+[10:18:52] REPEAT	204953	
+[10:18:52] ADAM6	communication error count 	
+[10:18:52] REPEAT	3353012	
+[10:18:52] clamp - 	release clamp	-WRITE 1
+[10:18:52] REPEAT	188668	
+[10:18:52] ADAM6	communication error count 	
+[10:18:52] REPEAT	3512557	
+[10:18:52] clamp - 	release clamp	-WRITE 1
+[10:18:52] REPEAT	218169	
+[10:18:52] ADAM6	communication error count 	
+[10:18:52] REPEAT	3362888	
+[10:18:52] REPEAT	1	
+[10:18:52] ADAM6	communication error count 	
+[10:18:52] REPEAT	3848150	
+[10:18:52] clamp - 	release clamp	-WRITE 1
+[10:18:52] REPEAT	222456	
+[10:18:52] ADAM6	communication error count 	
+[10:18:52] REPEAT	2447526	
+[10:18:52] clamp - 	release clamp	-WRITE 1
+[10:18:52] REPEAT	207193	
+[10:18:52] ADAM6	communication error count 	
+[10:18:52] REPEAT	3435380	
+[10:18:52] clamp - 	release clamp	-WRITE 1
+[10:18:52] REPEAT	207551	
+[10:18:52] ADAM6	communication error count 	
+[10:18:52] REPEAT	2942739	
+[10:18:52] clamp - 	release clamp	-WRITE 1
+[10:18:53] REPEAT	208633	
+[10:18:53] ADAM6	communication error count 	
+[10:18:53] REPEAT	4232897	
+[10:18:53] clamp - 	release clamp	-WRITE 1
+[10:18:53] REPEAT	236489	
+[10:18:53] ADAM6	communication error count 	
+[10:18:53] REPEAT	3768783	
+[10:18:53] clamp - 	release clamp	-WRITE 1
+[10:18:53] REPEAT	201884	
+[10:18:53] ADAM6	communication error count 	
+[10:18:53] REPEAT	3319186	
+[10:18:53] clamp - 	release clamp	-WRITE 1
+[10:18:53] REPEAT	258299	
+[10:18:53] ADAM6	communication error count 	
+[10:18:53] REPEAT	260798	
+[10:18:53] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:18:53] REPEAT	229802	
+[10:18:53] ADAM6	communication error count 	
+[10:18:53] REPEAT	2089278	
+[10:18:53] REPEAT	1	
+[10:18:53] ADAM6	communication error count 	
+[10:18:53] REPEAT	4312637	
+[10:18:53] clamp - 	release clamp	-WRITE 1
+[10:18:53] REPEAT	207023	
+[10:18:53] ADAM6	communication error count 	
+[10:18:53] REPEAT	3425298	
+[10:18:53] clamp - 	release clamp	-WRITE 1
+[10:18:53] REPEAT	227212	
+[10:18:53] ADAM6	communication error count 	
+[10:18:53] REPEAT	3931408	
+[10:18:53] clamp - 	release clamp	-WRITE 1
+[10:18:53] REPEAT	240522	
+[10:18:53] ADAM6	communication error count 	
+[10:18:53] REPEAT	3734844	
+[10:18:53] clamp - 	release clamp	-WRITE 1
+[10:18:53] REPEAT	184815	
+[10:18:53] ADAM6	communication error count 	
+[10:18:53] REPEAT	3521356	
+[10:18:53] REPEAT	1	
+[10:18:53] ADAM6	communication error count 	
+[10:18:54] REPEAT	3974269	
+[10:18:54] clamp - 	release clamp	-WRITE 1
+[10:18:54] REPEAT	181746	
+[10:18:54] ADAM6	communication error count 	
+[10:18:54] REPEAT	3120432	
+[10:18:54] ADAM6	communication error count 	
+[10:18:54] REPEAT	4282054	
+[10:18:54] clamp - 	release clamp	-WRITE 1
+[10:18:54] REPEAT	191821	
+[10:18:54] ADAM6	communication error count 	
+[10:18:54] REPEAT	4079406	
+[10:18:54] REPEAT	1	
+[10:18:54] ADAM6	communication error count 	
+[10:18:54] REPEAT	4050636	
+[10:18:54] clamp - 	release clamp	-WRITE 1
+[10:18:54] REPEAT	255091	
+[10:18:54] ADAM6	communication error count 	
+[10:18:54] REPEAT	4098854	
+[10:18:54] clamp - 	release clamp	-WRITE 1
+[10:18:54] REPEAT	223945	
+[10:18:54] ADAM6	communication error count 	
+[10:18:54] REPEAT	3238645	
+[10:18:54] REPEAT	1	
+[10:18:54] ADAM6	communication error count 	
+[10:18:54] REPEAT	1433425	
+[10:18:54] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:18:54] REPEAT	215611	
+[10:18:54] ADAM6	communication error count 	
+[10:18:54] REPEAT	1649699	
+[10:18:54] clamp - 	release clamp	-WRITE 1
+[10:18:54] REPEAT	184507	
+[10:18:54] ADAM6	communication error count 	
+[10:18:54] REPEAT	3421838	
+[10:18:54] clamp - 	release clamp	-WRITE 1
+[10:18:54] REPEAT	213963	
+[10:18:54] ADAM6	communication error count 	
+[10:18:55] REPEAT	4047071	
+[10:18:55] clamp - 	release clamp	-WRITE 1
+[10:18:55] REPEAT	215311	
+[10:18:55] ADAM6	communication error count 	
+[10:18:55] REPEAT	3424505	
+[10:18:55] clamp - 	release clamp	-WRITE 1
+[10:18:55] REPEAT	216376	
+[10:18:55] ADAM6	communication error count 	
+[10:18:55] REPEAT	4389448	
+[10:18:55] clamp - 	release clamp	-WRITE 1
+[10:18:55] REPEAT	201533	
+[10:18:55] ADAM6	communication error count 	
+[10:18:55] REPEAT	3489882	
+[10:18:55] clamp - 	release clamp	-WRITE 1
+[10:18:55] REPEAT	252592	
+[10:18:55] ADAM6	communication error count 	
+[10:18:55] REPEAT	3917915	
+[10:18:55] clamp - 	release clamp	-WRITE 1
+[10:18:55] REPEAT	222819	
+[10:18:55] ADAM6	communication error count 	
+[10:18:55] REPEAT	3628813	
+[10:18:55] clamp - 	release clamp	-WRITE 1
+[10:18:55] REPEAT	265759	
+[10:18:55] ADAM6	communication error count 	
+[10:18:55] REPEAT	4399155	
+[10:18:55] clamp - 	release clamp	-WRITE 1
+[10:18:55] REPEAT	215533	
+[10:18:55] ADAM6	communication error count 	
+[10:18:55] REPEAT	3286182	
+[10:18:55] clamp - 	release clamp	-WRITE 1
+[10:18:55] REPEAT	252469	
+[10:18:55] ADAM6	communication error count 	
+[10:18:55] REPEAT	3914709	
+[10:18:55] clamp - 	release clamp	-WRITE 1
+[10:18:55] REPEAT	220307	
+[10:18:55] ADAM6	communication error count 	
+[10:18:56] REPEAT	4156482	
+[10:18:56] REPEAT	1	
+[10:18:56] ADAM6	communication error count 	
+[10:18:56] REPEAT	4763921	
+[10:18:56] REPEAT	1	
+[10:18:56] ADAM6	communication error count 	
+[10:18:56] REPEAT	1859563	
+[10:18:56] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:18:56] REPEAT	183084	
+[10:18:56] ADAM6	communication error count 	
+[10:18:56] REPEAT	939552	
+[10:18:56] clamp - 	release clamp	-WRITE 1
+[10:18:56] REPEAT	180402	
+[10:18:56] ADAM6	communication error count 	
+[10:18:56] REPEAT	4351744	
+[10:18:56] ADAM6	communication error count 	
+[10:18:56] REPEAT	4145733	
+[10:18:56] clamp - 	release clamp	-WRITE 1
+[10:18:56] REPEAT	219907	
+[10:18:56] ADAM6	communication error count 	
+[10:18:56] REPEAT	4157382	
+[10:18:56] clamp - 	release clamp	-WRITE 1
+[10:18:56] REPEAT	332693	
+[10:18:56] ADAM6	communication error count 	
+[10:18:56] REPEAT	2505104	
+[10:18:56] clamp - 	release clamp	-WRITE 1
+[10:18:56] REPEAT	199566	
+[10:18:56] ADAM6	communication error count 	
+[10:18:56] REPEAT	4120252	
+[10:18:56] clamp - 	release clamp	-WRITE 1
+[10:18:56] REPEAT	166153	
+[10:18:56] ADAM6	communication error count 	
+[10:18:56] REPEAT	3492552	
+[10:18:56] REPEAT	1	
+[10:18:56] ADAM6	communication error count 	
+[10:18:57] REPEAT	4656550	
+[10:18:57] REPEAT	4976292	
+[10:18:57] ADAM6	communication error count 	
+[10:18:57] REPEAT	3846746	
+[10:18:57] clamp - 	release clamp	-WRITE 1
+[10:18:57] REPEAT	213688	
+[10:18:57] ADAM6	communication error count 	
+[10:18:57] REPEAT	3985182	
+[10:18:57] REPEAT	1	
+[10:18:57] ADAM6	communication error count 	
+[10:18:57] REPEAT	3678811	
+[10:18:57] REPEAT	1	
+[10:18:57] ADAM6	communication error count 	
+[10:18:57] REPEAT	4356793	
+[10:18:57] REPEAT	1	
+[10:18:57] ADAM6	communication error count 	
+[10:18:57] REPEAT	4080346	
+[10:18:57] REPEAT	1	
+[10:18:57] ADAM6	communication error count 	
+[10:18:57] REPEAT	4157293	
+[10:18:57] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:18:57] REPEAT	97757	
+[10:18:57] ADAM6	communication error count 	
+[10:18:57] REPEAT	4223637	
+[10:18:57] clamp - 	release clamp	-WRITE 1
+[10:18:57] REPEAT	210868	
+[10:18:57] ADAM6	communication error count 	
+[10:18:57] REPEAT	3670455	
+[10:18:57] clamp - 	release clamp	-WRITE 1
+[10:18:57] REPEAT	228056	
+[10:18:57] ADAM6	communication error count 	
+[10:18:58] REPEAT	3237508	
+[10:18:58] clamp - 	release clamp	-WRITE 1
+[10:18:58] REPEAT	271001	
+[10:18:58] ADAM6	communication error count 	
+[10:18:58] REPEAT	4001435	
+[10:18:58] REPEAT	1	
+[10:18:58] ADAM6	communication error count 	
+[10:18:58] REPEAT	4398302	
+[10:18:58] REPEAT	1	
+[10:18:58] ADAM6	communication error count 	
+[10:18:58] REPEAT	4513039	
+[10:18:58] clamp - 	release clamp	-WRITE 1
+[10:18:58] REPEAT	194521	
+[10:18:58] ADAM6	communication error count 	
+[10:18:58] REPEAT	3547379	
+[10:18:58] REPEAT	1	
+[10:18:58] ADAM6	communication error count 	
+[10:18:58] REPEAT	3732956	
+[10:18:58] clamp - 	release clamp	-WRITE 1
+[10:18:58] REPEAT	302823	
+[10:18:58] ADAM6	communication error count 	
+[10:18:58] REPEAT	4315897	
+[10:18:58] clamp - 	release clamp	-WRITE 1
+[10:18:58] REPEAT	260663	
+[10:18:58] ADAM6	communication error count 	
+[10:18:58] REPEAT	3310334	
+[10:18:58] REPEAT	1	
+[10:18:58] ADAM6	communication error count 	
+[10:18:58] REPEAT	4281715	
+[10:18:58] clamp - 	release clamp	-WRITE 1
+[10:18:58] REPEAT	390472	
+[10:18:58] ADAM6	communication error count 	
+[10:18:59] REPEAT	2894013	
+[10:18:59] clamp - 	release clamp	-WRITE 1
+[10:18:59] REPEAT	272378	
+[10:18:59] ADAM6	communication error count 	
+[10:18:59] REPEAT	3190832	
+[10:18:59] REPEAT	1	
+[10:18:59] ADAM6	communication error count 	
+[10:18:59] REPEAT	3720604	
+[10:18:59] ADAM6	communication error count 	
+[10:18:59] REPEAT	2442905	
+[10:18:59] ADAM6	communication error count 	
+[10:18:59] REPEAT	2365889	
+[10:18:59] ADAM6	communication error count 	
+[10:18:59] REPEAT	961386	
+[10:18:59] REPEAT	2	
+[10:18:59] ADAM6	communication error count 	
+[10:18:59] REPEAT	1114648	
+[10:18:59] ADAM6	communication error count 	
+[10:18:59] REPEAT	1095547	
+[10:18:59] ADAM6	communication error count 	
+[10:18:59] REPEAT	585803	
+[10:18:59] clamp - 	release clamp	-WRITE 1
+[10:18:59] REPEAT	56942	
+[10:18:59] ADAM6	communication error count 	
+[10:18:59] REPEAT	660821	
+[10:19:00] REPEAT	1	
+[10:19:00] ADAM6	communication error count 	
+[10:19:00] REPEAT	1997415	
+[10:19:00] REPEAT	1	
+[10:19:00] ADAM6	communication error count 	
+[10:19:00] REPEAT	2628720	
+[10:19:00] REPEAT	1	
+[10:19:00] ADAM6	communication error count 	
+[10:19:00] REPEAT	3444439	
+[10:19:00] REPEAT	1	
+[10:19:00] ADAM6	communication error count 	
+[10:19:00] REPEAT	3467051	
+[10:19:00] REPEAT	1	
+[10:19:00] ADAM6	communication error count 	
+[10:19:00] REPEAT	2968152	
+[10:19:00] clamp - 	release clamp	-WRITE 1
+[10:19:00] REPEAT	135658	
+[10:19:00] ADAM6	communication error count 	
+[10:19:00] REPEAT	1535367	
+[10:19:00] clamp - 	release clamp	-WRITE 1
+[10:19:00] REPEAT	375098	
+[10:19:00] ADAM6	communication error count 	
+[10:19:00] REPEAT	2932105	
+[10:19:00] clamp - 	release clamp	-WRITE 1
+[10:19:00] REPEAT	329170	
+[10:19:00] ADAM6	communication error count 	
+[10:19:00] REPEAT	2669881	
+[10:19:00] clamp - 	release clamp	-WRITE 1
+[10:19:00] REPEAT	367872	
+[10:19:00] ADAM6	communication error count 	
+[10:19:00] REPEAT	3284368	
+[10:19:00] REPEAT	1	
+[10:19:00] ADAM6	communication error count 	
+[10:19:01] REPEAT	3462955	
+[10:19:01] REPEAT	1	
+[10:19:01] ADAM6	communication error count 	
+[10:19:01] REPEAT	3568427	
+[10:19:01] REPEAT	1	
+[10:19:01] ADAM6	communication error count 	
+[10:19:01] REPEAT	2804948	
+[10:19:01] clamp - 	release clamp	-WRITE 1
+[10:19:01] REPEAT	344879	
+[10:19:01] ADAM6	communication error count 	
+[10:19:01] REPEAT	2581700	
+[10:19:01] ADAM6	communication error count 	
+[10:19:01] REPEAT	3635666	
+[10:19:01] clamp - 	release clamp	-WRITE 1
+[10:19:01] REPEAT	363560	
+[10:19:01] ADAM6	communication error count 	
+[10:19:01] REPEAT	3178167	
+[10:19:01] ADAM6	communication error count 	
+[10:19:01] REPEAT	3393710	
+[10:19:01] clamp - 	release clamp	-WRITE 1
+[10:19:01] REPEAT	363100	
+[10:19:01] ADAM6	communication error count 	
+[10:19:01] REPEAT	2259862	
+[10:19:01] clamp - 	release clamp	-WRITE 1
+[10:19:01] REPEAT	487037	
+[10:19:01] ADAM6	communication error count 	
+[10:19:01] REPEAT	3239379	
+[10:19:01] clamp - 	release clamp	-WRITE 1
+[10:19:01] REPEAT	349705	
+[10:19:01] ADAM6	communication error count 	
+[10:19:02] REPEAT	3121102	
+[10:19:02] ADAM6	communication error count 	
+[10:19:02] REPEAT	2823378	
+[10:19:02] clamp - 	release clamp	-WRITE 1
+[10:19:02] REPEAT	376248	
+[10:19:02] ADAM6	communication error count 	
+[10:19:02] REPEAT	2446134	
+[10:19:02] ADAM6	communication error count 	
+[10:19:02] REPEAT	4725433	
+[10:19:02] REPEAT	4	
+[10:19:02] ADAM6	communication error count 	
+[10:19:02] REPEAT	3286555	
+[10:19:02] REPEAT	1	
+[10:19:02] ADAM6	communication error count 	
+[10:19:02] REPEAT	3896955	
+[10:19:02] clamp - 	release clamp	-WRITE 1
+[10:19:02] REPEAT	380563	
+[10:19:02] ADAM6	communication error count 	
+[10:19:02] REPEAT	2203602	
+[10:19:02] REPEAT	1	
+[10:19:02] ADAM6	communication error count 	
+[10:19:02] REPEAT	3810344	
+[10:19:02] clamp - 	release clamp	-WRITE 1
+[10:19:02] REPEAT	306083	
+[10:19:02] ADAM6	communication error count 	
+[10:19:02] REPEAT	1983842	
+[10:19:02] REPEAT	1	
+[10:19:02] ADAM6	communication error count 	
+[10:19:03] REPEAT	3105897	
+[10:19:03] REPEAT	1	
+[10:19:03] ADAM6	communication error count 	
+[10:19:03] REPEAT	3202524	
+[10:19:03] clamp - 	release clamp	-WRITE 1
+[10:19:03] REPEAT	435914	
+[10:19:03] ADAM6	communication error count 	
+[10:19:03] REPEAT	3259553	
+[10:19:03] ADAM6	communication error count 	
+[10:19:03] REPEAT	3929318	
+[10:19:03] clamp - 	release clamp	-WRITE 1
+[10:19:03] REPEAT	388261	
+[10:19:03] ADAM6	communication error count 	
+[10:19:03] REPEAT	3200294	
+[10:19:03] clamp - 	release clamp	-WRITE 1
+[10:19:03] REPEAT	373744	
+[10:19:03] ADAM6	communication error count 	
+[10:19:03] REPEAT	2481979	
+[10:19:03] clamp - 	release clamp	-WRITE 1
+[10:19:03] REPEAT	373492	
+[10:19:03] ADAM6	communication error count 	
+[10:19:03] REPEAT	2702060	
+[10:19:03] clamp - 	release clamp	-WRITE 1
+[10:19:03] REPEAT	349255	
+[10:19:03] ADAM6	communication error count 	
+[10:19:03] REPEAT	2477529	
+[10:19:03] clamp - 	release clamp	-WRITE 1
+[10:19:03] REPEAT	377059	
+[10:19:03] ADAM6	communication error count 	
+[10:19:03] REPEAT	4154178	
+[10:19:03] clamp - 	release clamp	-WRITE 1
+[10:19:03] REPEAT	399424	
+[10:19:03] ADAM6	communication error count 	
+[10:19:04] REPEAT	2688566	
+[10:19:04] REPEAT	1	
+[10:19:04] ADAM6	communication error count 	
+[10:19:04] REPEAT	4369920	
+[10:19:04] clamp - 	release clamp	-WRITE 1
+[10:19:04] REPEAT	348978	
+[10:19:04] ADAM6	communication error count 	
+[10:19:04] REPEAT	2833053	
+[10:19:04] clamp - 	release clamp	-WRITE 1
+[10:19:04] REPEAT	300872	
+[10:19:04] ADAM6	communication error count 	
+[10:19:04] REPEAT	3114901	
+[10:19:04] REPEAT	1	
+[10:19:04] ADAM6	communication error count 	
+[10:19:04] REPEAT	2864333	
+[10:19:04] clamp - 	release clamp	-WRITE 1
+[10:19:04] REPEAT	377407	
+[10:19:04] ADAM6	communication error count 	
+[10:19:04] REPEAT	2935413	
+[10:19:04] clamp - 	release clamp	-WRITE 1
+[10:19:04] REPEAT	486390	
+[10:19:04] ADAM6	communication error count 	
+[10:19:04] REPEAT	2773117	
+[10:19:04] clamp - 	release clamp	-WRITE 1
+[10:19:04] REPEAT	225394	
+[10:19:04] ADAM6	communication error count 	
+[10:19:04] REPEAT	1827228	
+[10:19:04] REPEAT	1	
+[10:19:04] ADAM6	communication error count 	
+[10:19:04] REPEAT	1580701	
+[10:19:04] clamp - 	release clamp	-WRITE 1
+[10:19:04] REPEAT	352905	
+[10:19:04] ADAM6	communication error count 	
+[10:19:05] REPEAT	1701869	
+[10:19:05] REPEAT	1	
+[10:19:05] ADAM6	communication error count 	
+[10:19:05] REPEAT	1509090	
+[10:19:05] clamp - 	release clamp	-WRITE 1
+[10:19:05] REPEAT	476043	
+[10:19:05] ADAM6	communication error count 	
+[10:19:05] REPEAT	1417210	
+[10:19:05] clamp - 	release clamp	-WRITE 1
+[10:19:05] REPEAT	385432	
+[10:19:05] ADAM6	communication error count 	
+[10:19:05] REPEAT	1343026	
+[10:19:05] clamp - 	release clamp	-WRITE 1
+[10:19:05] REPEAT	315144	
+[10:19:05] ADAM6	communication error count 	
+[10:19:05] REPEAT	676576	
+[10:19:05] REPEAT	1	
+[10:19:05] ADAM6	communication error count 	
+[10:19:05] REPEAT	2588198	
+[10:19:05] clamp - 	release clamp	-WRITE 1
+[10:19:05] REPEAT	302171	
+[10:19:05] ADAM6	communication error count 	
+[10:19:05] REPEAT	1633452	
+[10:19:05] ADAM6	communication error count 	
+[10:19:05] REPEAT	2272970	
+[10:19:05] clamp - 	release clamp	-WRITE 1
+[10:19:05] REPEAT	408597	
+[10:19:05] ADAM6	communication error count 	
+[10:19:05] REPEAT	1969486	
+[10:19:05] clamp - 	release clamp	-WRITE 1
+[10:19:05] REPEAT	426971	
+[10:19:05] ADAM6	communication error count 	
+[10:19:06] REPEAT	1555782	
+[10:19:06] ADAM6	communication error count 	
+[10:19:06] REPEAT	3319584	
+[10:19:06] clamp - 	release clamp	-WRITE 1
+[10:19:06] REPEAT	444291	
+[10:19:06] ADAM6	communication error count 	
+[10:19:06] REPEAT	3105533	
+[10:19:06] clamp - 	release clamp	-WRITE 1
+[10:19:06] REPEAT	404249	
+[10:19:06] ADAM6	communication error count 	
+[10:19:06] REPEAT	1308	
+[10:19:06] ADAM6	communication error count 	
+[10:19:06] REPEAT	639113	
+[10:19:06] REPEAT	1	
+[10:19:06] ADAM6	communication error count 	
+[10:19:06] REPEAT	3078798	
+[10:19:06] clamp - 	release clamp	-WRITE 1
+[10:19:06] REPEAT	375307	
+[10:19:06] ADAM6	communication error count 	
+[10:19:06] REPEAT	3101041	
+[10:19:06] REPEAT	1	
+[10:19:06] ADAM6	communication error count 	
+[10:19:06] REPEAT	2356548	
+[10:19:06] clamp - 	release clamp	-WRITE 1
+[10:19:06] REPEAT	413834	
+[10:19:06] ADAM6	communication error count 	
+[10:19:06] REPEAT	2663489	
+[10:19:06] clamp - 	release clamp	-WRITE 1
+[10:19:06] REPEAT	380139	
+[10:19:06] ADAM6	communication error count 	
+[10:19:06] REPEAT	2395900	
+[10:19:06] clamp - 	release clamp	-WRITE 1
+[10:19:06] REPEAT	383937	
+[10:19:06] ADAM6	communication error count 	
+[10:19:06] REPEAT	1729917	
+[10:19:07] clamp - 	release clamp	-WRITE 1
+[10:19:07] REPEAT	365301	
+[10:19:07] ADAM6	communication error count 	
+[10:19:07] REPEAT	2792320	
+[10:19:07] REPEAT	1	
+[10:19:07] ADAM6	communication error count 	
+[10:19:07] REPEAT	2125023	
+[10:19:07] clamp - 	release clamp	-WRITE 1
+[10:19:07] REPEAT	385044	
+[10:19:07] ADAM6	communication error count 	
+[10:19:07] REPEAT	2493535	
+[10:19:07] REPEAT	1	
+[10:19:07] ADAM6	communication error count 	
+[10:19:07] REPEAT	2549683	
+[10:19:07] ADAM6	communication error count 	
+[10:19:07] REPEAT	2691957	
+[10:19:07] ADAM6	communication error count 	
+[10:19:07] REPEAT	2921046	
+[10:19:07] clamp - 	release clamp	-WRITE 1
+[10:19:07] REPEAT	392921	
+[10:19:07] ADAM6	communication error count 	
+[10:19:07] REPEAT	2414194	
+[10:19:07] clamp - 	release clamp	-WRITE 1
+[10:19:07] REPEAT	373654	
+[10:19:07] ADAM6	communication error count 	
+[10:19:07] REPEAT	1194219	
+[10:19:07] clamp - 	release clamp	-WRITE 1
+[10:19:07] REPEAT	362768	
+[10:19:07] ADAM6	communication error count 	
+[10:19:07] REPEAT	2721238	
+[10:19:07] REPEAT	1	
+[10:19:07] ADAM6	communication error count 	
+[10:19:08] REPEAT	2007346	
+[10:19:08] ADAM6	communication error count 	
+[10:19:08] REPEAT	3768080	
+[10:19:08] REPEAT	1	
+[10:19:08] ADAM6	communication error count 	
+[10:19:08] REPEAT	2310547	
+[10:19:08] REPEAT	2	
+[10:19:08] ADAM6	communication error count 	
+[10:19:08] REPEAT	2960688	
+[10:19:08] REPEAT	1	
+[10:19:08] ADAM6	communication error count 	
+[10:19:08] REPEAT	2424890	
+[10:19:08] clamp - 	release clamp	-WRITE 1
+[10:19:08] REPEAT	253258	
+[10:19:08] ADAM6	communication error count 	
+[10:19:08] REPEAT	2253053	
+[10:19:08] clamp - 	release clamp	-WRITE 1
+[10:19:08] REPEAT	366941	
+[10:19:08] ADAM6	communication error count 	
+[10:19:08] REPEAT	2150618	
+[10:19:08] REPEAT	1	
+[10:19:08] ADAM6	communication error count 	
+[10:19:08] REPEAT	3210827	
+[10:19:08] REPEAT	1	
+[10:19:08] ADAM6	communication error count 	
+[10:19:08] REPEAT	2435765	
+[10:19:08] REPEAT	1	
+[10:19:08] ADAM6	communication error count 	
+[10:19:09] REPEAT	3005978	
+[10:19:09] REPEAT	1	
+[10:19:09] ADAM6	communication error count 	
+[10:19:09] REPEAT	209199	
+[10:19:09] REPEAT	622504	
+[10:19:09] ADAM6	communication error count 	
+[10:19:09] REPEAT	848876	
+[10:19:09] REPEAT	1	
+[10:19:09] ADAM6	communication error count 	
+[10:19:09] REPEAT	3449899	
+[10:19:09] REPEAT	1	
+[10:19:09] ADAM6	communication error count 	
+[10:19:09] REPEAT	2868582	
+[10:19:09] clamp - 	release clamp	-WRITE 1
+[10:19:09] REPEAT	406377	
+[10:19:09] ADAM6	communication error count 	
+[10:19:09] REPEAT	2179896	
+[10:19:09] REPEAT	2548342	
+[10:19:09] ADAM6	communication error count 	
+[10:19:09] REPEAT	2470192	
+[10:19:09] clamp - 	release clamp	-WRITE 1
+[10:19:09] REPEAT	460308	
+[10:19:09] ADAM6	communication error count 	
+[10:19:09] REPEAT	1849151	
+[10:19:09] clamp - 	release clamp	-WRITE 1
+[10:19:09] REPEAT	373458	
+[10:19:09] ADAM6	communication error count 	
+[10:19:09] REPEAT	2081781	
+[10:19:09] ADAM6	communication error count 	
+[10:19:09] REPEAT	3305375	
+[10:19:09] REPEAT	1	
+[10:19:09] ADAM6	communication error count 	
+[10:19:10] REPEAT	2371195	
+[10:19:10] ADAM6	communication error count 	
+[10:19:10] REPEAT	3516947	
+[10:19:10] clamp - 	release clamp	-WRITE 1
+[10:19:10] REPEAT	327184	
+[10:19:10] ADAM6	communication error count 	
+[10:19:10] REPEAT	2028974	
+[10:19:10] clamp - 	release clamp	-WRITE 1
+[10:19:10] REPEAT	428029	
+[10:19:10] ADAM6	communication error count 	
+[10:19:10] REPEAT	2047902	
+[10:19:10] clamp - 	release clamp	-WRITE 1
+[10:19:10] REPEAT	411291	
+[10:19:10] ADAM6	communication error count 	
+[10:19:10] REPEAT	2350281	
+[10:19:10] REPEAT	1	
+[10:19:10] ADAM6	communication error count 	
+[10:19:10] REPEAT	1387917	
+[10:19:10] REPEAT	1	
+[10:19:10] ADAM6	communication error count 	
+[10:19:10] REPEAT	56031	
+[10:19:10] REPEAT	1	
+[10:19:10] ADAM6	communication error count 	
+[10:19:10] REPEAT	2630974	
+[10:19:10] clamp - 	release clamp	-WRITE 1
+[10:19:10] REPEAT	361863	
+[10:19:10] ADAM6	communication error count 	
+[10:19:10] REPEAT	2325364	
+[10:19:10] REPEAT	2	
+[10:19:10] ADAM6	communication error count 	
+[10:19:10] REPEAT	3143433	
+[10:19:10] clamp - 	release clamp	-WRITE 1
+[10:19:10] REPEAT	358283	
+[10:19:10] ADAM6	communication error count 	
+[10:19:11] REPEAT	2533622	
+[10:19:11] clamp - 	release clamp	-WRITE 1
+[10:19:11] REPEAT	367764	
+[10:19:11] ADAM6	communication error count 	
+[10:19:11] REPEAT	1854644	
+[10:19:11] clamp - 	release clamp	-WRITE 1
+[10:19:11] REPEAT	349977	
+[10:19:11] ADAM6	communication error count 	
+[10:19:11] REPEAT	1926512	
+[10:19:11] REPEAT	1	
+[10:19:11] ADAM6	communication error count 	
+[10:19:11] REPEAT	3265454	
+[10:19:11] clamp - 	release clamp	-WRITE 1
+[10:19:11] REPEAT	369310	
+[10:19:11] ADAM6	communication error count 	
+[10:19:11] REPEAT	1728190	
+[10:19:11] clamp - 	release clamp	-WRITE 1
+[10:19:11] REPEAT	550662	
+[10:19:11] ADAM6	communication error count 	
+[10:19:11] REPEAT	2586415	
+[10:19:11] REPEAT	3047962	
+[10:19:11] ADAM6	communication error count 	
+[10:19:11] REPEAT	2987078	
+[10:19:11] clamp - 	release clamp	-WRITE 1
+[10:19:11] REPEAT	372268	
+[10:19:11] ADAM6	communication error count 	
+[10:19:11] REPEAT	2263020	
+[10:19:11] REPEAT	1	
+[10:19:11] ADAM6	communication error count 	
+[10:19:11] REPEAT	2796657	
+[10:19:11] REPEAT	1	
+[10:19:11] ADAM6	communication error count 	
+[10:19:11] REPEAT	2188391	
+[10:19:12] REPEAT	1	
+[10:19:12] ADAM6	communication error count 	
+[10:19:12] REPEAT	3565655	
+[10:19:12] clamp - 	release clamp	-WRITE 1
+[10:19:12] REPEAT	373905	
+[10:19:12] ADAM6	communication error count 	
+[10:19:12] REPEAT	2479642	
+[10:19:12] REPEAT	1	
+[10:19:12] ADAM6	communication error count 	
+[10:19:12] REPEAT	2009961	
+[10:19:12] ADAM6	communication error count 	
+[10:19:12] REPEAT	3614717	
+[10:19:12] clamp - 	release clamp	-WRITE 1
+[10:19:12] REPEAT	377791	
+[10:19:12] ADAM6	communication error count 	
+[10:19:12] REPEAT	2518231	
+[10:19:12] REPEAT	1	
+[10:19:12] ADAM6	communication error count 	
+[10:19:12] REPEAT	3390501	
+[10:19:12] clamp - 	release clamp	-WRITE 1
+[10:19:12] REPEAT	339984	
+[10:19:12] ADAM6	communication error count 	
+[10:19:12] REPEAT	2456667	
+[10:19:12] clamp - 	release clamp	-WRITE 1
+[10:19:12] REPEAT	340775	
+[10:19:12] ADAM6	communication error count 	
+[10:19:12] REPEAT	2175472	
+[10:19:12] REPEAT	1	
+[10:19:12] ADAM6	communication error count 	
+[10:19:13] REPEAT	2796246	
+[10:19:13] clamp - 	release clamp	-WRITE 1
+[10:19:13] REPEAT	438167	
+[10:19:13] ADAM6	communication error count 	
+[10:19:13] REPEAT	2885309	
+[10:19:13] clamp - 	release clamp	-WRITE 1
+[10:19:13] REPEAT	357491	
+[10:19:13] ADAM6	communication error count 	
+[10:19:13] REPEAT	2163643	
+[10:19:13] clamp - 	release clamp	-WRITE 1
+[10:19:13] REPEAT	353972	
+[10:19:13] ADAM6	communication error count 	
+[10:19:13] REPEAT	2433528	
+[10:19:13] clamp - 	release clamp	-WRITE 1
+[10:19:13] REPEAT	374620	
+[10:19:13] ADAM6	communication error count 	
+[10:19:13] REPEAT	1784695	
+[10:19:13] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:19:13] REPEAT	389551	
+[10:19:13] ADAM6	communication error count 	
+[10:19:13] REPEAT	2961131	
+[10:19:13] clamp - 	release clamp	-WRITE 1
+[10:19:13] REPEAT	280578	
+[10:19:13] ADAM6	communication error count 	
+[10:19:13] REPEAT	2380860	
+[10:19:13] clamp - 	release clamp	-WRITE 1
+[10:19:13] REPEAT	356723	
+[10:19:13] ADAM6	communication error count 	
+[10:19:13] REPEAT	2157887	
+[10:19:13] ADAM6	communication error count 	
+[10:19:13] REPEAT	3255617	
+[10:19:13] REPEAT	1	
+[10:19:13] ADAM6	communication error count 	
+[10:19:13] REPEAT	2292241	
+[10:19:14] clamp - 	release clamp	-WRITE 1
+[10:19:14] REPEAT	329545	
+[10:19:14] ADAM6	communication error count 	
+[10:19:14] REPEAT	2632761	
+[10:19:14] clamp - 	release clamp	-WRITE 1
+[10:19:14] REPEAT	368335	
+[10:19:14] ADAM6	communication error count 	
+[10:19:14] REPEAT	2270816	
+[10:19:14] clamp - 	release clamp	-WRITE 1
+[10:19:14] REPEAT	263445	
+[10:19:14] ADAM6	communication error count 	
+[10:19:14] REPEAT	3251930	
+[10:19:14] clamp - 	release clamp	-WRITE 1
+[10:19:14] REPEAT	367909	
+[10:19:14] ADAM6	communication error count 	
+[10:19:14] REPEAT	1737127	
+[10:19:14] REPEAT	1	
+[10:19:14] ADAM6	communication error count 	
+[10:19:14] REPEAT	2953870	
+[10:19:14] clamp - 	release clamp	-WRITE 1
+[10:19:14] REPEAT	373323	
+[10:19:14] ADAM6	communication error count 	
+[10:19:14] REPEAT	2247700	
+[10:19:14] clamp - 	release clamp	-WRITE 1
+[10:19:14] REPEAT	370919	
+[10:19:14] ADAM6	communication error count 	
+[10:19:14] REPEAT	2525198	
+[10:19:14] clamp - 	release clamp	-WRITE 1
+[10:19:14] REPEAT	437133	
+[10:19:14] ADAM6	communication error count 	
+[10:19:14] REPEAT	1822244	
+[10:19:14] clamp - 	release clamp	-WRITE 1
+[10:19:14] REPEAT	128486	
+[10:19:14] ADAM6	communication error count 	
+[10:19:14] REPEAT	2786644	
+[10:19:14] ADAM6	communication error count 	
+[10:19:15] REPEAT	2690376	
+[10:19:15] REPEAT	1	
+[10:19:15] ADAM6	communication error count 	
+[10:19:15] REPEAT	3324616	
+[10:19:15] clamp - 	release clamp	-WRITE 1
+[10:19:15] REPEAT	324149	
+[10:19:15] ADAM6	communication error count 	
+[10:19:15] REPEAT	2299412	
+[10:19:15] REPEAT	2804884	
+[10:19:15] ADAM6	communication error count 	
+[10:19:15] REPEAT	3124844	
+[10:19:15] REPEAT	1	
+[10:19:15] ADAM6	communication error count 	
+[10:19:15] REPEAT	2162950	
+[10:19:15] clamp - 	release clamp	-WRITE 1
+[10:19:15] REPEAT	382497	
+[10:19:15] ADAM6	communication error count 	
+[10:19:15] REPEAT	2727147	
+[10:19:15] clamp - 	release clamp	-WRITE 1
+[10:19:15] REPEAT	430884	
+[10:19:15] ADAM6	communication error count 	
+[10:19:15] REPEAT	2221943	
+[10:19:15] clamp - 	release clamp	-WRITE 1
+[10:19:15] REPEAT	365485	
+[10:19:15] ADAM6	communication error count 	
+[10:19:15] REPEAT	2797071	
+[10:19:15] clamp - 	release clamp	-WRITE 1
+[10:19:15] REPEAT	346536	
+[10:19:15] ADAM6	communication error count 	
+[10:19:15] REPEAT	2524088	
+[10:19:15] clamp - 	release clamp	-WRITE 1
+[10:19:15] REPEAT	374284	
+[10:19:15] ADAM6	communication error count 	
+[10:19:16] REPEAT	2363589	
+[10:19:16] clamp - 	release clamp	-WRITE 1
+[10:19:16] REPEAT	318025	
+[10:19:16] ADAM6	communication error count 	
+[10:19:16] REPEAT	2924831	
+[10:19:16] REPEAT	1	
+[10:19:16] ADAM6	communication error count 	
+[10:19:16] REPEAT	3306951	
+[10:19:16] ADAM6	communication error count 	
+[10:19:16] REPEAT	3331946	
+[10:19:16] clamp - 	release clamp	-WRITE 1
+[10:19:16] REPEAT	429053	
+[10:19:16] ADAM6	communication error count 	
+[10:19:16] REPEAT	2192231	
+[10:19:16] REPEAT	3	
+[10:19:16] ADAM6	communication error count 	
+[10:19:16] REPEAT	2931902	
+[10:19:16] clamp - 	release clamp	-WRITE 1
+[10:19:16] REPEAT	454182	
+[10:19:16] ADAM6	communication error count 	
+[10:19:16] REPEAT	2931868	
+[10:19:16] clamp - 	release clamp	-WRITE 1
+[10:19:16] REPEAT	380797	
+[10:19:16] ADAM6	communication error count 	
+[10:19:16] REPEAT	2342333	
+[10:19:16] REPEAT	1	
+[10:19:16] ADAM6	communication error count 	
+[10:19:16] REPEAT	2565516	
+[10:19:16] REPEAT	1	
+[10:19:16] ADAM6	communication error count 	
+[10:19:17] REPEAT	3032271	
+[10:19:17] ADAM6	communication error count 	
+[10:19:17] REPEAT	3024197	
+[10:19:17] clamp - 	release clamp	-WRITE 1
+[10:19:17] REPEAT	355804	
+[10:19:17] ADAM6	communication error count 	
+[10:19:17] REPEAT	2415034	
+[10:19:17] clamp - 	release clamp	-WRITE 1
+[10:19:17] REPEAT	384082	
+[10:19:17] ADAM6	communication error count 	
+[10:19:17] REPEAT	2235421	
+[10:19:17] clamp - 	release clamp	-WRITE 1
+[10:19:17] REPEAT	385663	
+[10:19:17] ADAM6	communication error count 	
+[10:19:17] REPEAT	2736358	
+[10:19:17] clamp - 	release clamp	-WRITE 1
+[10:19:17] REPEAT	358436	
+[10:19:17] ADAM6	communication error count 	
+[10:19:17] REPEAT	1918593	
+[10:19:17] clamp - 	release clamp	-WRITE 1
+[10:19:17] REPEAT	350541	
+[10:19:17] ADAM6	communication error count 	
+[10:19:17] REPEAT	2833963	
+[10:19:17] clamp - 	release clamp	-WRITE 1
+[10:19:17] REPEAT	357773	
+[10:19:17] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:19:17] REPEAT	396539	
+[10:19:17] ADAM6	communication error count 	
+[10:19:17] REPEAT	1688810	
+[10:19:17] clamp - 	release clamp	-WRITE 1
+[10:19:17] REPEAT	361168	
+[10:19:17] ADAM6	communication error count 	
+[10:19:17] REPEAT	2664090	
+[10:19:17] REPEAT	3042276	
+[10:19:17] ADAM6	communication error count 	
+[10:19:18] REPEAT	2306221	
+[10:19:18] clamp - 	release clamp	-WRITE 1
+[10:19:18] REPEAT	417282	
+[10:19:18] ADAM6	communication error count 	
+[10:19:18] REPEAT	2819227	
+[10:19:18] clamp - 	release clamp	-WRITE 1
+[10:19:18] REPEAT	441777	
+[10:19:18] ADAM6	communication error count 	
+[10:19:18] REPEAT	2537970	
+[10:19:18] clamp - 	release clamp	-WRITE 1
+[10:19:18] REPEAT	356643	
+[10:19:18] ADAM6	communication error count 	
+[10:19:18] REPEAT	2418409	
+[10:19:18] clamp - 	release clamp	-WRITE 1
+[10:19:18] REPEAT	359108	
+[10:19:18] ADAM6	communication error count 	
+[10:19:18] REPEAT	2202617	
+[10:19:18] clamp - 	release clamp	-WRITE 1
+[10:19:18] REPEAT	377121	
+[10:19:18] ADAM6	communication error count 	
+[10:19:18] REPEAT	3023628	
+[10:19:18] clamp - 	release clamp	-WRITE 1
+[10:19:18] REPEAT	370150	
+[10:19:18] ADAM6	communication error count 	
+[10:19:18] REPEAT	2033297	
+[10:19:18] clamp - 	release clamp	-WRITE 1
+[10:19:18] REPEAT	347437	
+[10:19:18] ADAM6	communication error count 	
+[10:19:18] REPEAT	3238713	
+[10:19:18] clamp - 	release clamp	-WRITE 1
+[10:19:18] REPEAT	404832	
+[10:19:18] ADAM6	communication error count 	
+[10:19:18] REPEAT	1885043	
+[10:19:18] REPEAT	2333400	
+[10:19:18] ADAM6	communication error count 	
+[10:19:19] REPEAT	3386068	
+[10:19:19] clamp - 	release clamp	-WRITE 1
+[10:19:19] REPEAT	435294	
+[10:19:19] ADAM6	communication error count 	
+[10:19:19] REPEAT	2256632	
+[10:19:19] ADAM6	communication error count 	
+[10:19:19] REPEAT	804385	
+[10:19:19] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:19:19] REPEAT	417171	
+[10:19:19] ADAM6	communication error count 	
+[10:19:19] REPEAT	823864	
+[10:19:19] REPEAT	1271664	
+[10:19:19] ADAM6	communication error count 	
+[10:19:19] REPEAT	2908942	
+[10:19:19] clamp - 	release clamp	-WRITE 1
+[10:19:19] REPEAT	354064	
+[10:19:19] ADAM6	communication error count 	
+[10:19:19] REPEAT	3087020	
+[10:19:19] clamp - 	release clamp	-WRITE 1
+[10:19:19] REPEAT	431182	
+[10:19:19] ADAM6	communication error count 	
+[10:19:19] REPEAT	2407947	
+[10:19:19] clamp - 	release clamp	-WRITE 1
+[10:19:19] REPEAT	362953	
+[10:19:19] ADAM6	communication error count 	
+[10:19:19] REPEAT	2507761	
+[10:19:19] clamp - 	release clamp	-WRITE 1
+[10:19:19] REPEAT	387572	
+[10:19:19] ADAM6	communication error count 	
+[10:19:19] REPEAT	1793673	
+[10:19:19] clamp - 	release clamp	-WRITE 1
+[10:19:19] REPEAT	306201	
+[10:19:19] ADAM6	communication error count 	
+[10:19:19] REPEAT	2438335	
+[10:19:19] clamp - 	release clamp	-WRITE 1
+[10:19:19] REPEAT	195895	
+[10:19:19] ADAM6	communication error count 	
+[10:19:20] REPEAT	1932021	
+[10:19:20] REPEAT	2	
+[10:19:20] ADAM6	communication error count 	
+[10:19:20] REPEAT	3097873	
+[10:19:20] clamp - 	release clamp	-WRITE 1
+[10:19:20] REPEAT	378335	
+[10:19:20] ADAM6	communication error count 	
+[10:19:20] REPEAT	2595816	
+[10:19:20] clamp - 	release clamp	-WRITE 1
+[10:19:20] REPEAT	397107	
+[10:19:20] ADAM6	communication error count 	
+[10:19:20] REPEAT	2408801	
+[10:19:20] clamp - 	release clamp	-WRITE 1
+[10:19:20] REPEAT	368823	
+[10:19:20] ADAM6	communication error count 	
+[10:19:20] REPEAT	3025148	
+[10:19:20] clamp - 	release clamp	-WRITE 1
+[10:19:20] REPEAT	406728	
+[10:19:20] ADAM6	communication error count 	
+[10:19:20] REPEAT	2029490	
+[10:19:20] REPEAT	1	
+[10:19:20] ADAM6	communication error count 	
+[10:19:20] REPEAT	1490356	
+[10:19:20] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:19:20] REPEAT	356673	
+[10:19:20] ADAM6	communication error count 	
+[10:19:20] REPEAT	3438892	
+[10:19:20] REPEAT	2	
+[10:19:20] ADAM6	communication error count 	
+[10:19:20] REPEAT	3349087	
+[10:19:20] REPEAT	1	
+[10:19:20] ADAM6	communication error count 	
+[10:19:20] REPEAT	2453594	
+[10:19:20] clamp - 	release clamp	-WRITE 1
+[10:19:21] REPEAT	468909	
+[10:19:21] ADAM6	communication error count 	
+[10:19:21] REPEAT	2724646	
+[10:19:21] REPEAT	1	
+[10:19:21] ADAM6	communication error count 	
+[10:19:21] REPEAT	2745500	
+[10:19:21] REPEAT	1	
+[10:19:21] ADAM6	communication error count 	
+[10:19:21] REPEAT	3115482	
+[10:19:21] REPEAT	1	
+[10:19:21] ADAM6	communication error count 	
+[10:19:21] REPEAT	2339452	
+[10:19:21] ADAM6	communication error count 	
+[10:19:21] REPEAT	3603329	
+[10:19:21] clamp - 	release clamp	-WRITE 1
+[10:19:21] REPEAT	342335	
+[10:19:21] ADAM6	communication error count 	
+[10:19:21] REPEAT	2563301	
+[10:19:21] ADAM6	communication error count 	
+[10:19:21] REPEAT	4193132	
+[10:19:21] clamp - 	release clamp	-WRITE 1
+[10:19:21] REPEAT	441947	
+[10:19:21] ADAM6	communication error count 	
+[10:19:21] REPEAT	1760036	
+[10:19:21] REPEAT	1	
+[10:19:21] ADAM6	communication error count 	
+[10:19:21] REPEAT	3597414	
+[10:19:21] clamp - 	release clamp	-WRITE 1
+[10:19:22] REPEAT	321227	
+[10:19:22] ADAM6	communication error count 	
+[10:19:22] REPEAT	1705922	
+[10:19:22] clamp - 	release clamp	-WRITE 1
+[10:19:22] REPEAT	368692	
+[10:19:22] ADAM6	communication error count 	
+[10:19:22] REPEAT	3427864	
+[10:19:22] REPEAT	3894755	
+[10:19:22] ADAM6	communication error count 	
+[10:19:22] REPEAT	2090333	
+[10:19:22] clamp - 	release clamp	-WRITE 1
+[10:19:22] REPEAT	383347	
+[10:19:22] ADAM6	communication error count 	
+[10:19:22] REPEAT	2943455	
+[10:19:22] REPEAT	1	
+[10:19:22] ADAM6	communication error count 	
+[10:19:22] REPEAT	3307668	
+[10:19:22] clamp - 	release clamp	-WRITE 1
+[10:19:22] REPEAT	339105	
+[10:19:22] ADAM6	communication error count 	
+[10:19:22] REPEAT	3187492	
+[10:19:22] clamp - 	release clamp	-WRITE 1
+[10:19:22] REPEAT	427604	
+[10:19:22] ADAM6	communication error count 	
+[10:19:22] REPEAT	2411373	
+[10:19:22] clamp - 	release clamp	-WRITE 1
+[10:19:22] REPEAT	361280	
+[10:19:22] ADAM6	communication error count 	
+[10:19:22] REPEAT	2803355	
+[10:19:22] clamp - 	release clamp	-WRITE 1
+[10:19:22] REPEAT	423320	
+[10:19:22] ADAM6	communication error count 	
+[10:19:22] REPEAT	1879481	
+[10:19:22] REPEAT	1	
+[10:19:22] ADAM6	communication error count 	
+[10:19:23] REPEAT	3357092	
+[10:19:23] clamp - 	release clamp	-WRITE 1
+[10:19:23] REPEAT	355666	
+[10:19:23] ADAM6	communication error count 	
+[10:19:23] REPEAT	2512993	
+[10:19:23] REPEAT	2	
+[10:19:23] ADAM6	communication error count 	
+[10:19:23] REPEAT	3257538	
+[10:19:23] clamp - 	release clamp	-WRITE 1
+[10:19:23] REPEAT	449799	
+[10:19:23] ADAM6	communication error count 	
+[10:19:23] REPEAT	1937795	
+[10:19:23] REPEAT	1	
+[10:19:23] ADAM6	communication error count 	
+[10:19:23] REPEAT	3054541	
+[10:19:23] REPEAT	1	
+[10:19:23] ADAM6	communication error count 	
+[10:19:23] REPEAT	2926304	
+[10:19:23] clamp - 	release clamp	-WRITE 1
+[10:19:23] REPEAT	368528	
+[10:19:23] ADAM6	communication error count 	
+[10:19:23] REPEAT	2486043	
+[10:19:23] REPEAT	1	
+[10:19:23] ADAM6	communication error count 	
+[10:19:23] REPEAT	3209898	
+[10:19:23] clamp - 	release clamp	-WRITE 1
+[10:19:23] REPEAT	361294	
+[10:19:23] ADAM6	communication error count 	
+[10:19:23] REPEAT	2390023	
+[10:19:23] REPEAT	1	
+[10:19:23] ADAM6	communication error count 	
+[10:19:24] REPEAT	3324374	
+[10:19:24] clamp - 	release clamp	-WRITE 1
+[10:19:24] REPEAT	367041	
+[10:19:24] ADAM6	communication error count 	
+[10:19:24] REPEAT	3140805	
+[10:19:24] clamp - 	release clamp	-WRITE 1
+[10:19:24] REPEAT	394740	
+[10:19:24] ADAM6	communication error count 	
+[10:19:24] REPEAT	2485537	
+[10:19:24] clamp - 	release clamp	-WRITE 1
+[10:19:24] REPEAT	338849	
+[10:19:24] ADAM6	communication error count 	
+[10:19:24] REPEAT	2622735	
+[10:19:24] REPEAT	1	
+[10:19:24] ADAM6	communication error count 	
+[10:19:24] REPEAT	2713588	
+[10:19:24] clamp - 	release clamp	-WRITE 1
+[10:19:24] REPEAT	355480	
+[10:19:24] ADAM6	communication error count 	
+[10:19:24] REPEAT	2761451	
+[10:19:24] clamp - 	release clamp	-WRITE 1
+[10:19:24] REPEAT	385896	
+[10:19:24] ADAM6	communication error count 	
+[10:19:24] REPEAT	2526624	
+[10:19:24] clamp - 	release clamp	-WRITE 1
+[10:19:24] REPEAT	359974	
+[10:19:24] ADAM6	communication error count 	
+[10:19:24] REPEAT	3065788	
+[10:19:24] clamp - 	release clamp	-WRITE 1
+[10:19:24] REPEAT	380082	
+[10:19:24] ADAM6	communication error count 	
+[10:19:24] REPEAT	2356423	
+[10:19:24] clamp - 	release clamp	-WRITE 1
+[10:19:24] REPEAT	177688	
+[10:19:24] ADAM6	communication error count 	
+[10:19:25] REPEAT	3006495	
+[10:19:25] clamp - 	release clamp	-WRITE 1
+[10:19:25] REPEAT	337112	
+[10:19:25] ADAM6	communication error count 	
+[10:19:25] REPEAT	2507194	
+[10:19:25] REPEAT	2833344	
+[10:19:25] ADAM6	communication error count 	
+[10:19:25] REPEAT	3252782	
+[10:19:25] clamp - 	release clamp	-WRITE 1
+[10:19:25] REPEAT	382965	
+[10:19:25] ADAM6	communication error count 	
+[10:19:25] REPEAT	3023848	
+[10:19:25] clamp - 	release clamp	-WRITE 1
+[10:19:25] REPEAT	369319	
+[10:19:25] ADAM6	communication error count 	
+[10:19:25] REPEAT	2344505	
+[10:19:25] ADAM6	communication error count 	
+[10:19:25] REPEAT	3921238	
+[10:19:25] REPEAT	1	
+[10:19:25] ADAM6	communication error count 	
+[10:19:25] REPEAT	3471358	
+[10:19:25] clamp - 	release clamp	-WRITE 1
+[10:19:25] REPEAT	388437	
+[10:19:25] ADAM6	communication error count 	
+[10:19:25] REPEAT	2863131	
+[10:19:25] REPEAT	2	
+[10:19:25] ADAM6	communication error count 	
+[10:19:25] REPEAT	2931903	
+[10:19:25] clamp - 	release clamp	-WRITE 1
+[10:19:25] REPEAT	489223	
+[10:19:25] ADAM6	communication error count 	
+[10:19:26] REPEAT	1947147	
+[10:19:26] REPEAT	1	
+[10:19:26] ADAM6	communication error count 	
+[10:19:26] REPEAT	2974694	
+[10:19:26] REPEAT	1	
+[10:19:26] ADAM6	communication error count 	
+[10:19:26] REPEAT	3577328	
+[10:19:26] REPEAT	1	
+[10:19:26] ADAM6	communication error count 	
+[10:19:26] REPEAT	2633540	
+[10:19:26] clamp - 	release clamp	-WRITE 1
+[10:19:26] REPEAT	344209	
+[10:19:26] ADAM6	communication error count 	
+[10:19:26] REPEAT	2266200	
+[10:19:26] clamp - 	release clamp	-WRITE 1
+[10:19:26] REPEAT	578420	
+[10:19:26] ADAM6	communication error count 	
+[10:19:26] REPEAT	1932900	
+[10:19:26] REPEAT	1	
+[10:19:26] ADAM6	communication error count 	
+[10:19:26] REPEAT	3398323	
+[10:19:26] REPEAT	1	
+[10:19:26] ADAM6	communication error count 	
+[10:19:26] REPEAT	2705554	
+[10:19:26] clamp - 	release clamp	-WRITE 1
+[10:19:26] REPEAT	369135	
+[10:19:26] ADAM6	communication error count 	
+[10:19:26] REPEAT	2878517	
+[10:19:26] REPEAT	1	
+[10:19:26] ADAM6	communication error count 	
+[10:19:27] REPEAT	3017162	
+[10:19:27] REPEAT	1	
+[10:19:27] ADAM6	communication error count 	
+[10:19:27] REPEAT	3263052	
+[10:19:27] clamp - 	release clamp	-WRITE 1
+[10:19:27] REPEAT	368119	
+[10:19:27] ADAM6	communication error count 	
+[10:19:27] REPEAT	2662169	
+[10:19:27] clamp - 	release clamp	-WRITE 1
+[10:19:27] REPEAT	407742	
+[10:19:27] ADAM6	communication error count 	
+[10:19:27] REPEAT	2632198	
+[10:19:27] REPEAT	1	
+[10:19:27] ADAM6	communication error count 	
+[10:19:27] REPEAT	2864756	
+[10:19:27] REPEAT	1	
+[10:19:27] ADAM6	communication error count 	
+[10:19:27] REPEAT	3312158	
+[10:19:27] REPEAT	3604676	
+[10:19:27] ADAM6	communication error count 	
+[10:19:27] REPEAT	2460170	
+[10:19:27] clamp - 	release clamp	-WRITE 1
+[10:19:27] REPEAT	373313	
+[10:19:27] ADAM6	communication error count 	
+[10:19:27] REPEAT	3082357	
+[10:19:27] ADAM6	communication error count 	
+[10:19:27] REPEAT	3162494	
+[10:19:27] clamp - 	release clamp	-WRITE 1
+[10:19:27] REPEAT	388213	
+[10:19:27] ADAM6	communication error count 	
+[10:19:27] REPEAT	2407786	
+[10:19:28] ADAM6	communication error count 	
+[10:19:28] REPEAT	3055110	
+[10:19:28] clamp - 	release clamp	-WRITE 1
+[10:19:28] REPEAT	390831	
+[10:19:28] ADAM6	communication error count 	
+[10:19:28] REPEAT	2816320	
+[10:19:28] clamp - 	release clamp	-WRITE 1
+[10:19:28] REPEAT	338946	
+[10:19:28] ADAM6	communication error count 	
+[10:19:28] REPEAT	2234028	
+[10:19:28] clamp - 	release clamp	-WRITE 1
+[10:19:28] REPEAT	390669	
+[10:19:28] ADAM6	communication error count 	
+[10:19:28] REPEAT	2784751	
+[10:19:28] clamp - 	release clamp	-WRITE 1
+[10:19:28] REPEAT	377300	
+[10:19:28] ADAM6	communication error count 	
+[10:19:28] REPEAT	2019516	
+[10:19:28] ADAM6	communication error count 	
+[10:19:28] REPEAT	3475860	
+[10:19:28] clamp - 	release clamp	-WRITE 1
+[10:19:28] REPEAT	361020	
+[10:19:28] ADAM6	communication error count 	
+[10:19:28] REPEAT	2302598	
+[10:19:28] clamp - 	release clamp	-WRITE 1
+[10:19:28] REPEAT	460388	
+[10:19:28] ADAM6	communication error count 	
+[10:19:28] REPEAT	2998954	
+[10:19:28] clamp - 	release clamp	-WRITE 1
+[10:19:28] REPEAT	460029	
+[10:19:28] ADAM6	communication error count 	
+[10:19:28] REPEAT	2189709	
+[10:19:28] clamp - 	release clamp	-WRITE 1
+[10:19:28] REPEAT	368505	
+[10:19:29] ADAM6	communication error count 	
+[10:19:29] REPEAT	3158897	
+[10:19:29] clamp - 	release clamp	-WRITE 1
+[10:19:29] REPEAT	244031	
+[10:19:29] ADAM6	communication error count 	
+[10:19:29] REPEAT	1801101	
+[10:19:29] clamp - 	release clamp	-WRITE 1
+[10:19:29] REPEAT	383260	
+[10:19:29] ADAM6	communication error count 	
+[10:19:29] REPEAT	2965885	
+[10:19:29] clamp - 	release clamp	-WRITE 1
+[10:19:29] REPEAT	409450	
+[10:19:29] ADAM6	communication error count 	
+[10:19:29] REPEAT	2472629	
+[10:19:29] REPEAT	1	
+[10:19:29] ADAM6	communication error count 	
+[10:19:29] REPEAT	2884155	
+[10:19:29] REPEAT	1	
+[10:19:29] ADAM6	communication error count 	
+[10:19:29] REPEAT	3056292	
+[10:19:29] REPEAT	1	
+[10:19:29] ADAM6	communication error count 	
+[10:19:29] REPEAT	3050592	
+[10:19:29] REPEAT	1	
+[10:19:29] ADAM6	communication error count 	
+[10:19:29] REPEAT	3040921	
+[10:19:29] clamp - 	release clamp	-WRITE 1
+[10:19:29] REPEAT	365679	
+[10:19:29] ADAM6	communication error count 	
+[10:19:29] REPEAT	2244536	
+[10:19:29] ADAM6	communication error count 	
+[10:19:30] REPEAT	1151347	
+[10:19:30] clamp - 	release clamp	-WRITE 1
+[10:19:30] REPEAT	310560	
+[10:19:30] ADAM6	communication error count 	
+[10:19:30] REPEAT	263678	
+[10:19:30] REPEAT	1	
+[10:19:30] ADAM6	communication error count 	
+[10:19:30] REPEAT	1027881	
+[10:19:30] clamp - 	release clamp	-WRITE 1
+[10:19:30] REPEAT	350975	
+[10:19:30] ADAM6	communication error count 	
+[10:19:30] REPEAT	892154	
+[10:19:30] REPEAT	1	
+[10:19:30] ADAM6	communication error count 	
+[10:19:30] REPEAT	3221395	
+[10:19:30] REPEAT	1	
+[10:19:30] ADAM6	communication error count 	
+[10:19:30] REPEAT	557727	
+[10:19:30] REPEAT	1	
+[10:19:30] ADAM6	communication error count 	
+[10:19:30] REPEAT	1415187	
+[10:19:30] clamp - 	release clamp	-WRITE 1
+[10:19:30] REPEAT	703571	
+[10:19:30] ADAM6	communication error count 	
+[10:19:30] REPEAT	2268436	
+[10:19:30] REPEAT	3	
+[10:19:30] ADAM6	communication error count 	
+[10:19:30] REPEAT	4063862	
+[10:19:30] clamp - 	release clamp	-WRITE 1
+[10:19:30] REPEAT	356441	
+[10:19:30] ADAM6	communication error count 	
+[10:19:31] REPEAT	2687146	
+[10:19:31] clamp - 	release clamp	-WRITE 1
+[10:19:31] REPEAT	358374	
+[10:19:31] ADAM6	communication error count 	
+[10:19:31] REPEAT	3541616	
+[10:19:31] clamp - 	release clamp	-WRITE 1
+[10:19:31] REPEAT	295703	
+[10:19:31] ADAM6	communication error count 	
+[10:19:31] REPEAT	2467158	
+[10:19:31] REPEAT	1	
+[10:19:31] ADAM6	communication error count 	
+[10:19:31] REPEAT	3116929	
+[10:19:31] clamp - 	release clamp	-WRITE 1
+[10:19:31] REPEAT	376571	
+[10:19:31] ADAM6	communication error count 	
+[10:19:31] REPEAT	3175811	
+[10:19:31] REPEAT	1	
+[10:19:31] ADAM6	communication error count 	
+[10:19:31] REPEAT	3820797	
+[10:19:31] clamp - 	release clamp	-WRITE 1
+[10:19:31] REPEAT	349421	
+[10:19:31] ADAM6	communication error count 	
+[10:19:31] REPEAT	2986990	
+[10:19:31] clamp - 	release clamp	-WRITE 1
+[10:19:31] REPEAT	383181	
+[10:19:31] ADAM6	communication error count 	
+[10:19:31] REPEAT	2758136	
+[10:19:31] REPEAT	1	
+[10:19:31] ADAM6	communication error count 	
+[10:19:31] REPEAT	3030822	
+[10:19:31] clamp - 	release clamp	-WRITE 1
+[10:19:31] REPEAT	481465	
+[10:19:31] ADAM6	communication error count 	
+[10:19:32] REPEAT	3650068	
+[10:19:32] clamp - 	release clamp	-WRITE 1
+[10:19:32] REPEAT	492015	
+[10:19:32] ADAM6	communication error count 	
+[10:19:32] REPEAT	311288	
+[10:19:32] ADAM6	communication error count 	
+[10:19:32] REPEAT	1126996	
+[10:19:32] clamp - 	release clamp	-WRITE 1
+[10:19:32] REPEAT	352165	
+[10:19:32] ADAM6	communication error count 	
+[10:19:32] REPEAT	3110484	
+[10:19:32] clamp - 	release clamp	-WRITE 1
+[10:19:32] REPEAT	617908	
+[10:19:32] ADAM6	communication error count 	
+[10:19:32] REPEAT	2037487	
+[10:19:32] clamp - 	release clamp	-WRITE 1
+[10:19:32] REPEAT	384340	
+[10:19:32] ADAM6	communication error count 	
+[10:19:32] REPEAT	3156838	
+[10:19:32] clamp - 	release clamp	-WRITE 1
+[10:19:32] REPEAT	384088	
+[10:19:32] ADAM6	communication error count 	
+[10:19:32] REPEAT	2667050	
+[10:19:32] clamp - 	release clamp	-WRITE 1
+[10:19:32] REPEAT	422279	
+[10:19:32] ADAM6	communication error count 	
+[10:19:32] REPEAT	3827651	
+[10:19:32] REPEAT	1	
+[10:19:32] ADAM6	communication error count 	
+[10:19:32] REPEAT	2997008	
+[10:19:32] REPEAT	5	
+[10:19:32] ADAM6	communication error count 	
+[10:19:32] REPEAT	2340550	
+[10:19:32] REPEAT	1	
+[10:19:32] ADAM6	communication error count 	
+[10:19:33] REPEAT	2609665	
+[10:19:33] REPEAT	1	
+[10:19:33] ADAM6	communication error count 	
+[10:19:33] REPEAT	3862115	
+[10:19:33] REPEAT	1	
+[10:19:33] ADAM6	communication error count 	
+[10:19:33] REPEAT	3229232	
+[10:19:33] clamp - 	release clamp	-WRITE 1
+[10:19:33] REPEAT	357428	
+[10:19:33] ADAM6	communication error count 	
+[10:19:33] REPEAT	2898303	
+[10:19:33] clamp - 	release clamp	-WRITE 1
+[10:19:33] REPEAT	305727	
+[10:19:33] ADAM6	communication error count 	
+[10:19:33] REPEAT	1947941	
+[10:19:33] clamp - 	release clamp	-WRITE 1
+[10:19:33] REPEAT	511965	
+[10:19:33] ADAM6	communication error count 	
+[10:19:33] REPEAT	1173689	
+[10:19:33] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:19:33] REPEAT	414655	
+[10:19:33] ADAM6	communication error count 	
+[10:19:33] REPEAT	3872731	
+[10:19:33] clamp - 	release clamp	-WRITE 1
+[10:19:33] REPEAT	500949	
+[10:19:33] ADAM6	communication error count 	
+[10:19:33] REPEAT	3143531	
+[10:19:33] REPEAT	1	
+[10:19:33] clamp - 	release clamp	-WRITE 1
+[10:19:33] REPEAT	277541	
+[10:19:33] ADAM6	communication error count 	
+[10:19:33] REPEAT	2712452	
+[10:19:33] REPEAT	1	
+[10:19:33] ADAM6	communication error count 	
+[10:19:34] REPEAT	3690730	
+[10:19:34] clamp - 	release clamp	-WRITE 1
+[10:19:34] REPEAT	230354	
+[10:19:34] ADAM6	communication error count 	
+[10:19:34] REPEAT	2812214	
+[10:19:34] REPEAT	1	
+[10:19:34] ADAM6	communication error count 	
+[10:19:34] REPEAT	3551819	
+[10:19:34] ADAM6	communication error count 	
+[10:19:34] REPEAT	3645963	
+[10:19:34] clamp - 	release clamp	-WRITE 1
+[10:19:34] REPEAT	433591	
+[10:19:34] ADAM6	communication error count 	
+[10:19:34] REPEAT	2510754	
+[10:19:34] clamp - 	release clamp	-WRITE 1
+[10:19:34] REPEAT	449931	
+[10:19:34] ADAM6	communication error count 	
+[10:19:34] REPEAT	2233258	
+[10:19:34] clamp - 	release clamp	-WRITE 1
+[10:19:34] REPEAT	373232	
+[10:19:34] ADAM6	communication error count 	
+[10:19:34] REPEAT	3651941	
+[10:19:34] clamp - 	release clamp	-WRITE 1
+[10:19:34] REPEAT	455953	
+[10:19:34] ADAM6	communication error count 	
+[10:19:34] REPEAT	3237527	
+[10:19:34] REPEAT	3689657	
+[10:19:34] ADAM6	communication error count 	
+[10:19:34] REPEAT	3162184	
+[10:19:34] REPEAT	1	
+[10:19:34] ADAM6	communication error count 	
+[10:19:34] REPEAT	2333823	
+[10:19:34] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:19:34] REPEAT	233322	
+[10:19:35] ADAM6	communication error count 	
+[10:19:35] REPEAT	3198822	
+[10:19:35] ADAM6	communication error count 	
+[10:19:35] REPEAT	3844031	
+[10:19:35] clamp - 	release clamp	-WRITE 1
+[10:19:35] REPEAT	386868	
+[10:19:35] ADAM6	communication error count 	
+[10:19:35] REPEAT	3273166	
+[10:19:35] REPEAT	1	
+[10:19:35] ADAM6	communication error count 	
+[10:19:35] REPEAT	3709779	
+[10:19:35] clamp - 	release clamp	-WRITE 1
+[10:19:35] REPEAT	528398	
+[10:19:35] ADAM6	communication error count 	
+[10:19:35] REPEAT	2182039	
+[10:19:35] clamp - 	release clamp	-WRITE 1
+[10:19:35] REPEAT	401840	
+[10:19:35] ADAM6	communication error count 	
+[10:19:35] REPEAT	3436334	
+[10:19:35] clamp - 	release clamp	-WRITE 1
+[10:19:35] REPEAT	366601	
+[10:19:35] ADAM6	communication error count 	
+[10:19:35] REPEAT	2729531	
+[10:19:35] REPEAT	1	
+[10:19:35] ADAM6	communication error count 	
+[10:19:35] REPEAT	3279239	
+[10:19:35] REPEAT	1	
+[10:19:35] ADAM6	communication error count 	
+[10:19:35] REPEAT	2364274	
+[10:19:35] clamp - 	release clamp	-WRITE 1
+[10:19:35] REPEAT	524530	
+[10:19:36] ADAM6	communication error count 	
+[10:19:36] REPEAT	3241521	
+[10:19:36] clamp - 	release clamp	-WRITE 1
+[10:19:36] REPEAT	329021	
+[10:19:36] ADAM6	communication error count 	
+[10:19:36] REPEAT	3049248	
+[10:19:36] REPEAT	1	
+[10:19:36] ADAM6	communication error count 	
+[10:19:36] REPEAT	3528243	
+[10:19:36] REPEAT	1	
+[10:19:36] ADAM6	communication error count 	
+[10:19:36] REPEAT	3145998	
+[10:19:36] ADAM6	communication error count 	
+[10:19:36] REPEAT	4174115	
+[10:19:36] clamp - 	release clamp	-WRITE 1
+[10:19:36] REPEAT	388520	
+[10:19:36] ADAM6	communication error count 	
+[10:19:36] REPEAT	2980186	
+[10:19:36] REPEAT	1	
+[10:19:36] ADAM6	communication error count 	
+[10:19:36] REPEAT	3653236	
+[10:19:36] clamp - 	release clamp	-WRITE 1
+[10:19:36] REPEAT	450722	
+[10:19:36] ADAM6	communication error count 	
+[10:19:36] REPEAT	2412674	
+[10:19:36] REPEAT	1	
+[10:19:36] ADAM6	communication error count 	
+[10:19:36] REPEAT	3432332	
+[10:19:36] clamp - 	release clamp	-WRITE 1
+[10:19:36] REPEAT	363766	
+[10:19:36] ADAM6	communication error count 	
+[10:19:37] REPEAT	2631890	
+[10:19:37] ADAM6	communication error count 	
+[10:19:37] REPEAT	3884193	
+[10:19:37] clamp - 	release clamp	-WRITE 1
+[10:19:37] REPEAT	376132	
+[10:19:37] ADAM6	communication error count 	
+[10:19:37] REPEAT	3108073	
+[10:19:37] clamp - 	release clamp	-WRITE 1
+[10:19:37] REPEAT	355759	
+[10:19:37] ADAM6	communication error count 	
+[10:19:37] REPEAT	3466056	
+[10:19:37] clamp - 	release clamp	-WRITE 1
+[10:19:37] REPEAT	348512	
+[10:19:37] ADAM6	communication error count 	
+[10:19:37] REPEAT	2147139	
+[10:19:37] ADAM6	communication error count 	
+[10:19:37] REPEAT	4252005	
+[10:19:37] clamp - 	release clamp	-WRITE 1
+[10:19:37] REPEAT	367676	
+[10:19:37] ADAM6	communication error count 	
+[10:19:37] REPEAT	3357170	
+[10:19:37] clamp - 	release clamp	-WRITE 1
+[10:19:37] REPEAT	300900	
+[10:19:37] ADAM6	communication error count 	
+[10:19:37] REPEAT	2688493	
+[10:19:37] clamp - 	release clamp	-WRITE 1
+[10:19:37] REPEAT	168227	
+[10:19:37] ADAM6	communication error count 	
+[10:19:37] REPEAT	1731351	
+[10:19:37] clamp - 	release clamp	-WRITE 1
+[10:19:37] REPEAT	359915	
+[10:19:37] ADAM6	communication error count 	
+[10:19:38] REPEAT	2739087	
+[10:19:38] REPEAT	3177969	
+[10:19:38] ADAM6	communication error count 	
+[10:19:38] REPEAT	2605759	
+[10:19:38] REPEAT	1	
+[10:19:38] ADAM6	communication error count 	
+[10:19:38] REPEAT	3718637	
+[10:19:38] clamp - 	release clamp	-WRITE 1
+[10:19:38] REPEAT	349101	
+[10:19:38] ADAM6	communication error count 	
+[10:19:38] REPEAT	2200815	
+[10:19:38] clamp - 	release clamp	-WRITE 1
+[10:19:38] REPEAT	363531	
+[10:19:38] ADAM6	communication error count 	
+[10:19:38] REPEAT	3282725	
+[10:19:38] clamp - 	release clamp	-WRITE 1
+[10:19:38] REPEAT	422447	
+[10:19:38] ADAM6	communication error count 	
+[10:19:38] REPEAT	1805172	
+[10:19:38] clamp - 	release clamp	-WRITE 1
+[10:19:38] REPEAT	597463	
+[10:19:38] ADAM6	communication error count 	
+[10:19:38] REPEAT	2867656	
+[10:19:38] REPEAT	1	
+[10:19:38] ADAM6	communication error count 	
+[10:19:38] REPEAT	2881895	
+[10:19:38] clamp - 	release clamp	-WRITE 1
+[10:19:38] REPEAT	433338	
+[10:19:38] ADAM6	communication error count 	
+[10:19:38] REPEAT	2562883	
+[10:19:38] REPEAT	1	
+[10:19:38] ADAM6	communication error count 	
+[10:19:39] REPEAT	2470520	
+[10:19:39] clamp - 	release clamp	-WRITE 1
+[10:19:39] REPEAT	359455	
+[10:19:39] ADAM6	communication error count 	
+[10:19:39] REPEAT	3069631	
+[10:19:39] clamp - 	release clamp	-WRITE 1
+[10:19:39] REPEAT	362434	
+[10:19:39] ADAM6	communication error count 	
+[10:19:39] REPEAT	2545613	
+[10:19:39] clamp - 	release clamp	-WRITE 1
+[10:19:39] REPEAT	211886	
+[10:19:39] ADAM6	communication error count 	
+[10:19:39] REPEAT	2014858	
+[10:19:39] clamp - 	release clamp	-WRITE 1
+[10:19:39] REPEAT	376195	
+[10:19:39] ADAM6	communication error count 	
+[10:19:39] REPEAT	2782661	
+[10:19:39] clamp - 	release clamp	-WRITE 1
+[10:19:39] REPEAT	505596	
+[10:19:39] ADAM6	communication error count 	
+[10:19:39] REPEAT	2287940	
+[10:19:39] REPEAT	1	
+[10:19:39] ADAM6	communication error count 	
+[10:19:39] REPEAT	3164825	
+[10:19:39] clamp - 	release clamp	-WRITE 1
+[10:19:39] REPEAT	547587	
+[10:19:39] ADAM6	communication error count 	
+[10:19:39] REPEAT	1899845	
+[10:19:39] REPEAT	1	
+[10:19:39] ADAM6	communication error count 	
+[10:19:39] REPEAT	3568591	
+[10:19:39] clamp - 	release clamp	-WRITE 1
+[10:19:39] REPEAT	464759	
+[10:19:39] ADAM6	communication error count 	
+[10:19:40] REPEAT	2108519	
+[10:19:40] REPEAT	1	
+[10:19:40] ADAM6	communication error count 	
+[10:19:40] REPEAT	3474234	
+[10:19:40] REPEAT	3951376	
+[10:19:40] ADAM6	communication error count 	
+[10:19:40] REPEAT	2511222	
+[10:19:40] clamp - 	release clamp	-WRITE 1
+[10:19:40] REPEAT	216788	
+[10:19:40] ADAM6	communication error count 	
+[10:19:40] REPEAT	2251813	
+[10:19:40] REPEAT	1	
+[10:19:40] ADAM6	communication error count 	
+[10:19:40] REPEAT	2996795	
+[10:19:40] clamp - 	release clamp	-WRITE 1
+[10:19:40] REPEAT	473204	
+[10:19:40] ADAM6	communication error count 	
+[10:19:40] REPEAT	2625274	
+[10:19:40] REPEAT	1	
+[10:19:40] ADAM6	communication error count 	
+[10:19:40] REPEAT	2854612	
+[10:19:40] REPEAT	1	
+[10:19:40] ADAM6	communication error count 	
+[10:19:40] REPEAT	2875781	
+[10:19:40] REPEAT	1	
+[10:19:40] ADAM6	communication error count 	
+[10:19:40] REPEAT	2783382	
+[10:19:40] clamp - 	release clamp	-WRITE 1
+[10:19:40] REPEAT	411289	
+[10:19:40] ADAM6	communication error count 	
+[10:19:41] REPEAT	2592185	
+[10:19:41] REPEAT	1	
+[10:19:41] ADAM6	communication error count 	
+[10:19:41] REPEAT	2545692	
+[10:19:41] REPEAT	2989472	
+[10:19:41] ADAM6	communication error count 	
+[10:19:41] REPEAT	3743949	
+[10:19:41] clamp - 	release clamp	-WRITE 1
+[10:19:41] REPEAT	365533	
+[10:19:41] ADAM6	communication error count 	
+[10:19:41] REPEAT	2919711	
+[10:19:41] REPEAT	9	
+[10:19:41] ADAM6	communication error count 	
+[10:19:41] REPEAT	3855157	
+[10:19:41] clamp - 	release clamp	-WRITE 1
+[10:19:41] REPEAT	357027	
+[10:19:41] ADAM6	communication error count 	
+[10:19:41] REPEAT	2403399	
+[10:19:41] REPEAT	1	
+[10:19:41] ADAM6	communication error count 	
+[10:19:41] REPEAT	3237976	
+[10:19:41] clamp - 	release clamp	-WRITE 1
+[10:19:41] REPEAT	439871	
+[10:19:41] ADAM6	communication error count 	
+[10:19:41] REPEAT	2878423	
+[10:19:41] REPEAT	1	
+[10:19:41] ADAM6	communication error count 	
+[10:19:41] REPEAT	3824120	
+[10:19:41] REPEAT	4274602	
+[10:19:41] ADAM6	communication error count 	
+[10:19:41] REPEAT	3332568	
+[10:19:42] clamp - 	release clamp	-WRITE 1
+[10:19:42] REPEAT	370779	
+[10:19:42] ADAM6	communication error count 	
+[10:19:42] REPEAT	3206941	
+[10:19:42] clamp - 	release clamp	-WRITE 1
+[10:19:42] REPEAT	460984	
+[10:19:42] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:19:42] REPEAT	398018	
+[10:19:42] ADAM6	communication error count 	
+[10:19:42] REPEAT	1707531	
+[10:19:42] clamp - 	release clamp	-WRITE 1
+[10:19:42] REPEAT	374097	
+[10:19:42] ADAM6	communication error count 	
+[10:19:42] REPEAT	3355781	
+[10:19:42] REPEAT	1	
+[10:19:42] ADAM6	communication error count 	
+[10:19:42] REPEAT	3265809	
+[10:19:42] REPEAT	1	
+[10:19:42] ADAM6	communication error count 	
+[10:19:42] REPEAT	4191404	
+[10:19:42] REPEAT	1	
+[10:19:42] ADAM6	communication error count 	
+[10:19:42] REPEAT	3299726	
+[10:19:42] REPEAT	1	
+[10:19:42] ADAM6	communication error count 	
+[10:19:42] REPEAT	3822230	
+[10:19:42] REPEAT	1	
+[10:19:42] ADAM6	communication error count 	
+[10:19:42] REPEAT	3471036	
+[10:19:42] REPEAT	3909605	
+[10:19:42] ADAM6	communication error count 	
+[10:19:42] REPEAT	3525218	
+[10:19:42] clamp - 	release clamp	-WRITE 1
+[10:19:43] REPEAT	552664	
+[10:19:43] ADAM6	communication error count 	
+[10:19:43] REPEAT	2652770	
+[10:19:43] clamp - 	release clamp	-WRITE 1
+[10:19:43] REPEAT	393347	
+[10:19:43] ADAM6	communication error count 	
+[10:19:43] REPEAT	3274022	
+[10:19:43] REPEAT	1	
+[10:19:43] ADAM6	communication error count 	
+[10:19:43] REPEAT	3747277	
+[10:19:43] clamp - 	release clamp	-WRITE 1
+[10:19:43] REPEAT	375098	
+[10:19:43] ADAM6	communication error count 	
+[10:19:43] REPEAT	3021088	
+[10:19:43] clamp - 	release clamp	-WRITE 1
+[10:19:43] REPEAT	450010	
+[10:19:43] ADAM6	communication error count 	
+[10:19:43] REPEAT	2547423	
+[10:19:43] REPEAT	1	
+[10:19:43] ADAM6	communication error count 	
+[10:19:43] REPEAT	928844	
+[10:19:43] REPEAT	1	
+[10:19:43] ADAM6	communication error count 	
+[10:19:43] REPEAT	741024	
+[10:19:43] clamp - 	release clamp	-WRITE 1
+[10:19:43] REPEAT	359900	
+[10:19:43] ADAM6	communication error count 	
+[10:19:43] REPEAT	3017701	
+[10:19:43] clamp - 	release clamp	-WRITE 1
+[10:19:43] REPEAT	366426	
+[10:19:43] ADAM6	communication error count 	
+[10:19:43] REPEAT	2788529	
+[10:19:43] clamp - 	release clamp	-WRITE 1
+[10:19:43] REPEAT	348627	
+[10:19:43] ADAM6	communication error count 	
+[10:19:43] REPEAT	2936917	
+[10:19:43] clamp - 	release clamp	-WRITE 1
+[10:19:43] REPEAT	393459	
+[10:19:43] ADAM6	communication error count 	
+[10:19:44] REPEAT	2566703	
+[10:19:44] clamp - 	release clamp	-WRITE 1
+[10:19:44] REPEAT	349319	
+[10:19:44] ADAM6	communication error count 	
+[10:19:44] REPEAT	2405628	
+[10:19:44] clamp - 	release clamp	-WRITE 1
+[10:19:44] REPEAT	413531	
+[10:19:44] ADAM6	communication error count 	
+[10:19:44] REPEAT	2847957	
+[10:19:44] ADAM6	communication error count 	
+[10:19:44] REPEAT	3441268	
+[10:19:44] ADAM6	communication error count 	
+[10:19:44] REPEAT	3225673	
+[10:19:44] clamp - 	release clamp	-WRITE 1
+[10:19:44] REPEAT	400763	
+[10:19:44] ADAM6	communication error count 	
+[10:19:44] REPEAT	3490906	
+[10:19:44] clamp - 	release clamp	-WRITE 1
+[10:19:44] REPEAT	502019	
+[10:19:44] ADAM6	communication error count 	
+[10:19:44] REPEAT	2910192	
+[10:19:44] REPEAT	1	
+[10:19:44] ADAM6	communication error count 	
+[10:19:44] REPEAT	3446130	
+[10:19:44] clamp - 	release clamp	-WRITE 1
+[10:19:44] REPEAT	375695	
+[10:19:44] ADAM6	communication error count 	
+[10:19:44] REPEAT	3045927	
+[10:19:44] REPEAT	2	
+[10:19:44] ADAM6	communication error count 	
+[10:19:45] REPEAT	1597481	
+[10:19:45] ADAM6	communication error count 	
+[10:19:45] REPEAT	1325233	
+[10:19:45] clamp - 	release clamp	-WRITE 1
+[10:19:45] REPEAT	369634	
+[10:19:45] ADAM6	communication error count 	
+[10:19:45] REPEAT	2871402	
+[10:19:45] REPEAT	1	
+[10:19:45] ADAM6	communication error count 	
+[10:19:45] REPEAT	3702543	
+[10:19:45] clamp - 	release clamp	-WRITE 1
+[10:19:45] REPEAT	358646	
+[10:19:45] ADAM6	communication error count 	
+[12:34:54] CheckDBConnection	CheckDBConnection error	System.Data.SqlClient.SqlException (0x80131904): SQL Server에 연결을 설정하는 중에 네트워크 관련 또는 인스턴스 관련 오류가 발생했습니다. 서버를 찾을 수 없거나 액세스할 수 없습니다. 인스턴스 이름이 올바르고 SQL Server가 원격 연결을 허용하도록 구성되어 있는지 확인하십시오. (provider: Named Pipes Provider, error: 40 - SQL Server에 대한 연결을 열 수 없습니다.) ---> System.ComponentModel.Win32Exception (0x80004005): 네트워크 경로를 찾지 못했습니다
+   위치: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   위치: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   위치: System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   위치: System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   위치: System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   위치: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   위치: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   위치: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   위치: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   위치: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   위치: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   위치: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   위치: System.Data.SqlClient.SqlConnection.Open()
+   위치: SideBoster_Program.DBcontrol.CheckDBConnection() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R - 복사본\SideBoster_Program\DBcontrol.cs:줄 99
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+[12:34:54] Send DB	Receive Data-	A_ERROR,
+[12:34:54] ADAM_6050 - 	initialize	
+[12:34:54] ADAM_6050	ini opened	
+[12:34:54] ADAM_6050 - 	start	
+[12:34:54] ADAM_6050 - 	init socket	
+[12:34:55] ADAM_6050 - 	start thread	
+[12:34:55] REPEAT	368087	
+[12:34:55] ADAM6	communication error count 	
+[12:34:55] REPEAT	2573404	
+[12:34:55] SERCOM	start read data	
+[12:34:55] REPEAT	380521	
+[12:34:55] ADAM6	communication error count 	
+[12:34:57] REPEAT	43555066	
+[12:34:57] ADAM_6050 - 	connection fail - 	192.168.50.190
+[12:34:57] REPEAT	424408	
+[12:34:57] ADAM6	communication error count 	
+[12:34:58] REPEAT	53869737	
+[12:34:58] ADAM_6050 - 	connection fail - 	192.168.50.190
+[12:34:58] REPEAT	454422	
+[12:34:58] ADAM6	communication error count 	
+[12:34:59] REPEAT	55730528	
+[12:34:59] REPEAT	1	
+[12:35:00] ADAM6	communication error count 	
+[12:35:01] REPEAT	55754736	
+[12:35:01] ADAM_6050 - 	connection fail - 	192.168.50.190
+[12:35:01] REPEAT	364188	
+[12:35:01] ADAM6	communication error count 	
+[12:35:02] REPEAT	60528601	
+[12:35:02] ADAM_6050 - 	connection fail - 	192.168.50.190
+[12:35:02] REPEAT	398291	
+[12:35:02] ADAM6	communication error count 	
+[12:35:04] REPEAT	61139738	
+[12:35:04] ADAM_6050 - 	connection fail - 	192.168.50.190
+[12:35:04] REPEAT	457274	
+[12:35:04] ADAM6	communication error count 	
+[12:35:05] REPEAT	61271557	
+[12:35:05] REPEAT	1	
+[12:35:05] ADAM6	communication error count 	
+[12:35:07] REPEAT	58845442	
+[12:35:07] REPEAT	1	
+[12:35:07] ADAM6	communication error count 	
+[12:35:08] REPEAT	53101672	
+[12:35:08] ADAM_6050 - 	connection fail - 	192.168.50.190
+[12:35:08] REPEAT	351930	
+[12:35:08] ADAM6	communication error count 	
+[12:35:10] REPEAT	59382033	
+[12:35:10] REPEAT	1	
+[12:35:10] ADAM6	communication error count 	
+[12:35:11] REPEAT	54687608	
+[12:35:11] REPEAT	1	
+[12:35:11] ADAM6	communication error count 	
+[12:35:12] REPEAT	60077889	
+[12:35:12] ADAM_6050 - 	connection fail - 	192.168.50.190
+[12:35:12] REPEAT	372867	
+[12:35:12] ADAM6	communication error count 	
+[12:35:14] REPEAT	61395021	
+[12:35:14] ADAM_6050 - 	connection fail - 	192.168.50.190
+[12:35:14] REPEAT	428162	
+[12:35:14] ADAM6	communication error count 	
+[12:35:15] REPEAT	62639546	
+[12:35:15] REPEAT	1	
+[12:35:15] ADAM6	communication error count 	
+[12:35:16] REPEAT	39096483	
+[12:35:16] Exception		System.Net.Sockets.SocketException (0x80004005): 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다 192.168.50.181:4545
+   위치: System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   위치: System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   위치: SideBoster_Program.NutRunner_TCP.connect() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R - 복사본\SideBoster_Program\NutRunner_TCP.cs:줄 89
+[12:35:16] REPEAT	387171	
+[12:35:16] ADAM6	communication error count 	
+[12:35:17] REPEAT	12361593	
+[12:35:17] ADAM6	communication error count 	
+[12:35:18] REPEAT	43824631	
+[12:35:18] REPEAT	1	
+[12:35:18] ADAM6	communication error count 	
+[12:35:20] REPEAT	52191592	
+[12:35:20] REPEAT	1	
+[12:35:20] ADAM6	communication error count 	
+[12:35:21] REPEAT	63070606	
+[12:35:21] REPEAT	7	
+[12:35:21] ADAM6	communication error count 	
+[12:35:23] REPEAT	63133727	
+[12:35:23] ADAM_6050 - 	connection fail - 	192.168.50.190
+[12:35:23] REPEAT	381786	
+[12:35:23] ADAM6	communication error count 	
+[12:35:24] REPEAT	62058920	
+[12:35:24] REPEAT	62577657	
+[12:35:24] ADAM6	communication error count 	
+[12:35:25] REPEAT	54361965	
+[12:35:25] REPEAT	1	
+[12:35:25] ADAM6	communication error count 	
+[12:35:27] REPEAT	59182231	
+[12:35:27] ADAM6	communication error count 	
+[12:35:32] SERCOM	start read data	
+[12:35:32] SendDB	sp_Option	sp_SUB_GET_OPTION,GSUV,L,20190323
+[12:36:01] CheckDBConnection	CheckDBConnection error	System.Data.SqlClient.SqlException (0x80131904): SQL Server에 연결을 설정하는 중에 네트워크 관련 또는 인스턴스 관련 오류가 발생했습니다. 서버를 찾을 수 없거나 액세스할 수 없습니다. 인스턴스 이름이 올바르고 SQL Server가 원격 연결을 허용하도록 구성되어 있는지 확인하십시오. (provider: Named Pipes Provider, error: 40 - SQL Server에 대한 연결을 열 수 없습니다.) ---> System.ComponentModel.Win32Exception (0x80004005): 네트워크 경로를 찾지 못했습니다
+   위치: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   위치: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   위치: System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   위치: System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   위치: System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   위치: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   위치: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   위치: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   위치: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   위치: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   위치: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   위치: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   위치: System.Data.SqlClient.SqlConnection.Open()
+   위치: SideBoster_Program.DBcontrol.CheckDBConnection() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R - 복사본\SideBoster_Program\DBcontrol.cs:줄 99
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+[12:36:01] ADAM_6050 - 	initialize	
+[12:36:01] ADAM_6050	ini opened	
+[12:36:01] ADAM_6050 - 	start	
+[12:36:01] ADAM_6050 - 	init socket	
+[12:36:02] ADAM_6050 - 	start thread	
+[12:36:02] REPEAT	655235	
+[12:36:02] ADAM6	communication error count 	
+[12:36:02] REPEAT	967429	
+[12:36:02] clamp - 	release clamp	-WRITE 1
+[12:36:02] REPEAT	456338	
+[12:36:02] ADAM6	communication error count 	
+[12:36:02] REPEAT	361925	
+[12:36:02] clamp - 	release clamp	-WRITE 1
+[12:36:02] REPEAT	421528	
+[12:36:02] ADAM6	communication error count 	
+[12:36:02] REPEAT	383203	
+[12:36:02] clamp - 	release clamp	-WRITE 1
+[12:36:02] REPEAT	503075	
+[12:36:02] ADAM6	communication error count 	
+[12:36:02] REPEAT	1362372	
+[12:36:02] clamp - 	release clamp	-WRITE 1
+[12:36:02] REPEAT	515035	
+[12:36:02] ADAM6	communication error count 	
+[12:36:02] REPEAT	1252201	
+[12:36:02] clamp - 	release clamp	-WRITE 1
+[12:36:02] REPEAT	369145	
+[12:36:02] ADAM6	communication error count 	
+[12:36:02] REPEAT	1684258	
+[12:36:02] clamp - 	release clamp	-WRITE 1
+[12:36:02] REPEAT	394397	
+[12:36:02] ADAM6	communication error count 	
+[12:36:03] REPEAT	1880777	
+[12:36:03] clamp - 	release clamp	-WRITE 1
+[12:36:03] REPEAT	346735	
+[12:36:03] ADAM6	communication error count 	
+[12:36:03] REPEAT	1861776	
+[12:36:03] REPEAT	3	
+[12:36:03] ADAM6	communication error count 	
+[12:36:03] REPEAT	2689058	
+[12:36:03] REPEAT	1	
+[12:36:03] ADAM6	communication error count 	
+[12:36:03] REPEAT	2490538	
+[12:36:03] clamp - 	release clamp	-WRITE 1
+[12:36:03] REPEAT	535894	
+[12:36:03] ADAM6	communication error count 	
+[12:36:03] REPEAT	2233831	
+[12:36:03] clamp - 	release clamp	-WRITE 1
+[12:36:03] REPEAT	378090	
+[12:36:03] ADAM6	communication error count 	
+[12:36:03] REPEAT	1844019	
+[12:36:03] clamp - 	release clamp	-WRITE 1
+[12:36:03] REPEAT	433712	
+[12:36:03] ADAM6	communication error count 	
+[12:36:03] REPEAT	2418119	
+[12:36:03] REPEAT	1	
+[12:36:03] ADAM6	communication error count 	
+[12:36:03] REPEAT	64748	
+[12:36:03] REPEAT	1	
+[12:36:03] ADAM6	communication error count 	
+[12:36:03] REPEAT	519317	
+[12:36:03] clamp - 	release clamp	-WRITE 1
+[12:36:03] REPEAT	500239	
+[12:36:03] ADAM6	communication error count 	
+[12:36:03] REPEAT	1710175	
+[12:36:03] ADAM6	communication error count 	
+[12:36:03] REPEAT	3433581	
+[12:36:04] clamp - 	release clamp	-WRITE 1
+[12:36:04] REPEAT	415809	
+[12:36:04] ADAM6	communication error count 	
+[12:36:04] REPEAT	2123445	
+[12:36:04] clamp - 	release clamp	-WRITE 1
+[12:36:04] REPEAT	682151	
+[12:36:04] ADAM6	communication error count 	
+[12:36:04] REPEAT	1571571	
+[12:36:04] ADAM6	communication error count 	
+[12:36:04] REPEAT	2623334	
+[12:36:04] clamp - 	release clamp	-WRITE 1
+[12:36:04] REPEAT	351327	
+[12:36:04] ADAM6	communication error count 	
+[12:36:04] REPEAT	2180274	
+[12:36:04] REPEAT	1	
+[12:36:04] ADAM6	communication error count 	
+[12:36:04] REPEAT	2621043	
+[12:36:04] clamp - 	release clamp	-WRITE 1
+[12:36:04] REPEAT	339821	
+[12:36:04] ADAM6	communication error count 	
+[12:36:04] REPEAT	2024388	
+[12:36:04] REPEAT	1	
+[12:36:04] ADAM6	communication error count 	
+[12:36:04] REPEAT	2617197	
+[12:36:04] clamp - 	release clamp	-WRITE 1
+[12:36:04] REPEAT	298082	
+[12:36:04] ADAM6	communication error count 	
+[12:36:04] REPEAT	1647143	
+[12:36:04] REPEAT	1	
+[12:36:04] ADAM6	communication error count 	
+[12:36:04] REPEAT	3376519	
+[12:36:04] clamp - 	release clamp	-WRITE 1
+[12:36:05] REPEAT	343293	
+[12:36:05] ADAM6	communication error count 	
+[12:36:05] REPEAT	2056668	
+[12:36:05] clamp - 	release clamp	-WRITE 1
+[12:36:05] REPEAT	465392	
+[12:36:05] ADAM6	communication error count 	
+[12:36:05] REPEAT	751512	
+[12:36:05] REPEAT	1	
+[12:36:05] ADAM6	communication error count 	
+[12:36:05] REPEAT	2505964	
+[12:36:05] REPEAT	1	
+[12:36:05] ADAM6	communication error count 	
+[12:36:05] REPEAT	1924216	
+[12:36:05] clamp - 	release clamp	-WRITE 1
+[12:36:05] REPEAT	364016	
+[12:36:05] ADAM6	communication error count 	
+[12:36:05] REPEAT	2206268	
+[12:36:05] clamp - 	release clamp	-WRITE 1
+[12:36:05] REPEAT	311453	
+[12:36:05] ADAM6	communication error count 	
+[12:36:05] REPEAT	2123267	
+[12:36:05] clamp - 	release clamp	-WRITE 1
+[12:36:05] REPEAT	332273	
+[12:36:05] ADAM6	communication error count 	
+[12:36:05] REPEAT	2157933	
+[12:36:05] clamp - 	release clamp	-WRITE 1
+[12:36:05] REPEAT	339091	
+[12:36:05] ADAM6	communication error count 	
+[12:36:05] REPEAT	1881653	
+[12:36:05] clamp - 	release clamp	-WRITE 1
+[12:36:05] REPEAT	393625	
+[12:36:05] ADAM6	communication error count 	
+[12:36:05] REPEAT	1504253	
+[12:36:05] clamp - 	release clamp	-WRITE 1
+[12:36:05] REPEAT	304051	
+[12:36:06] ADAM6	communication error count 	
+[12:36:06] REPEAT	2160267	
+[12:36:06] REPEAT	2	
+[12:36:06] ADAM6	communication error count 	
+[12:36:06] REPEAT	2607327	
+[12:36:06] clamp - 	release clamp	-WRITE 1
+[12:36:06] REPEAT	423092	
+[12:36:06] ADAM6	communication error count 	
+[12:36:06] REPEAT	1869316	
+[12:36:06] clamp - 	release clamp	-WRITE 1
+[12:36:06] REPEAT	361015	
+[12:36:06] ADAM6	communication error count 	
+[12:36:06] REPEAT	2251902	
+[12:36:06] clamp - 	release clamp	-WRITE 1
+[12:36:06] REPEAT	412214	
+[12:36:06] ADAM6	communication error count 	
+[12:36:06] REPEAT	2392205	
+[12:36:06] REPEAT	1	
+[12:36:06] ADAM6	communication error count 	
+[12:36:06] REPEAT	268705	
+[12:36:06] ADAM_6050 - 	connection fail - 	192.168.50.190
+[12:36:06] REPEAT	406089	
+[12:36:06] ADAM6	communication error count 	
+[12:36:06] REPEAT	4417341	
+[12:36:06] clamp - 	release clamp	-WRITE 1
+[12:36:06] REPEAT	506526	
+[12:36:06] ADAM6	communication error count 	
+[12:36:06] REPEAT	1670947	
+[12:36:06] REPEAT	1	
+[12:36:06] ADAM6	communication error count 	
+[12:36:06] REPEAT	2232424	
+[12:36:06] clamp - 	release clamp	-WRITE 1
+[12:36:06] REPEAT	399890	
+[12:36:07] ADAM6	communication error count 	
+[12:36:07] REPEAT	1313479	
+[12:36:07] clamp - 	release clamp	-WRITE 1
+[12:36:07] REPEAT	373844	
+[12:36:07] ADAM6	communication error count 	
+[12:36:07] REPEAT	3099429	
+[12:36:07] REPEAT	1	
+[12:36:07] ADAM6	communication error count 	
+[12:36:07] REPEAT	3215099	
+[12:36:07] clamp - 	release clamp	-WRITE 1
+[12:36:07] REPEAT	352491	
+[12:36:07] ADAM6	communication error count 	
+[12:36:07] REPEAT	1772476	
+[12:36:07] REPEAT	2227850	
+[12:36:07] ADAM6	communication error count 	
+[12:36:07] REPEAT	2918371	
+[12:36:07] REPEAT	1	
+[12:36:07] ADAM6	communication error count 	
+[12:36:07] REPEAT	4111168	
+[12:36:07] clamp - 	release clamp	-WRITE 1
+[12:36:07] REPEAT	394929	
+[12:36:07] ADAM6	communication error count 	
+[12:36:07] REPEAT	2984963	
+[12:36:07] clamp - 	release clamp	-WRITE 1
+[12:36:07] REPEAT	271133	
+[12:36:07] ADAM6	communication error count 	
+[12:36:07] REPEAT	2809690	
+[12:36:07] clamp - 	release clamp	-WRITE 1
+[12:36:07] REPEAT	392973	
+[12:36:07] ADAM6	communication error count 	
+[12:36:07] REPEAT	2801486	
+[12:36:07] REPEAT	1	
+[12:36:07] ADAM6	communication error count 	
+[12:36:08] REPEAT	2572826	
+[12:36:08] ADAM6	communication error count 	
+[12:36:08] REPEAT	4268577	
+[12:36:08] REPEAT	1	
+[12:36:08] ADAM6	communication error count 	
+[12:36:08] REPEAT	3626918	
+[12:36:08] clamp - 	release clamp	-WRITE 1
+[12:36:08] REPEAT	360757	
+[12:36:08] ADAM6	communication error count 	
+[12:36:08] REPEAT	2656571	
+[12:36:08] clamp - 	release clamp	-WRITE 1
+[12:36:08] REPEAT	327486	
+[12:36:08] ADAM6	communication error count 	
+[12:36:08] REPEAT	3330536	
+[12:36:08] REPEAT	1	
+[12:36:08] ADAM6	communication error count 	
+[12:36:08] REPEAT	2927515	
+[12:36:08] REPEAT	1	
+[12:36:08] ADAM6	communication error count 	
+[12:36:08] REPEAT	3814608	
+[12:36:08] clamp - 	release clamp	-WRITE 1
+[12:36:08] REPEAT	333663	
+[12:36:08] ADAM6	communication error count 	
+[12:36:08] REPEAT	2582466	
+[12:36:08] REPEAT	1	
+[12:36:08] ADAM6	communication error count 	
+[12:36:08] REPEAT	3542706	
+[12:36:08] REPEAT	1	
+[12:36:08] ADAM6	communication error count 	
+[12:36:09] REPEAT	2991663	
+[12:36:09] REPEAT	1	
+[12:36:09] ADAM6	communication error count 	
+[12:36:09] REPEAT	3905653	
+[12:36:09] clamp - 	release clamp	-WRITE 1
+[12:36:09] REPEAT	369224	
+[12:36:09] ADAM6	communication error count 	
+[12:36:09] REPEAT	2920210	
+[12:36:09] REPEAT	1	
+[12:36:09] ADAM6	communication error count 	
+[12:36:09] REPEAT	3791225	
+[12:36:09] clamp - 	release clamp	-WRITE 1
+[12:36:09] REPEAT	405575	
+[12:36:09] ADAM6	communication error count 	
+[12:36:09] REPEAT	2620549	
+[12:36:09] clamp - 	release clamp	-WRITE 1
+[12:36:09] REPEAT	373590	
+[12:36:09] ADAM6	communication error count 	
+[12:36:09] REPEAT	3290659	
+[12:36:09] clamp - 	release clamp	-WRITE 1
+[12:36:09] REPEAT	366115	
+[12:36:09] ADAM6	communication error count 	
+[12:36:09] REPEAT	2786174	
+[12:36:09] clamp - 	release clamp	-WRITE 1
+[12:36:09] REPEAT	365471	
+[12:36:09] ADAM6	communication error count 	
+[12:36:09] REPEAT	3209979	
+[12:36:09] REPEAT	1	
+[12:36:09] ADAM6	communication error count 	
+[12:36:09] REPEAT	2856740	
+[12:36:09] REPEAT	1	
+[12:36:09] ADAM6	communication error count 	
+[12:36:10] REPEAT	4083747	
+[12:36:10] REPEAT	1	
+[12:36:10] ADAM6	communication error count 	
+[12:36:10] REPEAT	2747806	
+[12:36:10] clamp - 	release clamp	-WRITE 1
+[12:36:10] REPEAT	362004	
+[12:36:10] ADAM6	communication error count 	
+[12:36:10] REPEAT	2988851	
+[12:36:10] clamp - 	release clamp	-WRITE 1
+[12:36:10] REPEAT	397986	
+[12:36:10] ADAM6	communication error count 	
+[12:36:10] REPEAT	2716610	
+[12:36:10] clamp - 	release clamp	-WRITE 1
+[12:36:10] REPEAT	395558	
+[12:36:10] ADAM6	communication error count 	
+[12:36:10] REPEAT	3102621	
+[12:36:10] REPEAT	1	
+[12:36:10] ADAM6	communication error count 	
+[12:36:10] REPEAT	3374214	
+[12:36:10] REPEAT	1	
+[12:36:10] ADAM6	communication error count 	
+[12:36:10] REPEAT	3269891	
+[12:36:10] clamp - 	release clamp	-WRITE 1
+[12:36:10] REPEAT	270569	
+[12:36:10] ADAM6	communication error count 	
+[12:36:10] REPEAT	2678003	
+[12:36:10] clamp - 	release clamp	-WRITE 1
+[12:36:10] REPEAT	417060	
+[12:36:10] ADAM6	communication error count 	
+[12:36:10] REPEAT	2771991	
+[12:36:10] clamp - 	release clamp	-WRITE 1
+[12:36:10] REPEAT	469361	
+[12:36:10] ADAM6	communication error count 	
+[12:36:10] REPEAT	2501782	
+[12:36:10] ADAM6	communication error count 	
+[12:36:11] REPEAT	4214175	
+[12:36:11] REPEAT	1	
+[12:36:11] ADAM6	communication error count 	
+[12:36:11] REPEAT	2481982	
+[12:36:11] REPEAT	1	
+[12:36:11] ADAM6	communication error count 	
+[12:36:11] REPEAT	3680954	
+[12:36:11] clamp - 	release clamp	-WRITE 1
+[12:36:11] REPEAT	402728	
+[12:36:11] ADAM6	communication error count 	
+[12:36:12] REPEAT	39020033	
+[12:36:12] ADAM_6050 - 	connection fail - 	192.168.50.190
+[12:36:12] REPEAT	375986	
+[12:36:12] ADAM6	communication error count 	
+[12:41:19] SERCOM	start read data	
+[12:41:19] SendDB	sp_Option	sp_SUB_GET_OPTION,GSUV,L,20190323
+[12:41:48] CheckDBConnection	CheckDBConnection error	System.Data.SqlClient.SqlException (0x80131904): SQL Server에 연결을 설정하는 중에 네트워크 관련 또는 인스턴스 관련 오류가 발생했습니다. 서버를 찾을 수 없거나 액세스할 수 없습니다. 인스턴스 이름이 올바르고 SQL Server가 원격 연결을 허용하도록 구성되어 있는지 확인하십시오. (provider: Named Pipes Provider, error: 40 - SQL Server에 대한 연결을 열 수 없습니다.) ---> System.ComponentModel.Win32Exception (0x80004005): 네트워크 경로를 찾지 못했습니다
+   위치: System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   위치: System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   위치: System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   위치: System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   위치: System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   위치: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   위치: System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   위치: System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   위치: System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   위치: System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   위치: System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   위치: System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   위치: System.Data.SqlClient.SqlConnection.Open()
+   위치: SideBoster_Program.DBcontrol.CheckDBConnection() 파일 C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_Program_9BUX_JIN_R - 복사본\SideBoster_Program\DBcontrol.cs:줄 99
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+[12:41:48] ADAM_6050 - 	initialize	
+[12:41:48] ADAM_6050	ini opened	
+[12:41:48] ADAM_6050 - 	start	
+[12:41:48] ADAM_6050 - 	init socket	
+[12:41:49] ADAM_6050 - 	start thread	
+[12:41:49] REPEAT	157655	
+[12:41:49] ADAM6	communication error count 	
+[12:41:49] REPEAT	2019430	
+[12:41:49] REPEAT	1	
+[12:41:49] ADAM6	communication error count 	
+[12:41:49] REPEAT	2038261	
+[12:41:49] clamp - 	release clamp	-WRITE 1
+[12:41:49] REPEAT	446227	
+[12:41:49] ADAM6	communication error count 	
+[12:41:49] REPEAT	1521328	
+[12:41:49] REPEAT	1992712	
+[12:41:49] ADAM6	communication error count 	
+[12:41:49] REPEAT	2651474	
+[12:41:49] clamp - 	release clamp	-WRITE 1
+[12:41:49] REPEAT	454570	
+[12:41:49] ADAM6	communication error count 	
+[12:41:49] REPEAT	1511796	
+[12:41:49] clamp - 	release clamp	-WRITE 1
+[12:41:49] REPEAT	395283	
+[12:41:49] ADAM6	communication error count 	
+[12:41:49] REPEAT	2720072	
+[12:41:49] clamp - 	release clamp	-WRITE 1
+[12:41:49] REPEAT	393756	
+[12:41:49] ADAM6	communication error count 	
+[12:41:49] REPEAT	2679173	
+[12:41:49] clamp - 	release clamp	-WRITE 1
+[12:41:49] REPEAT	379290	
+[12:41:49] ADAM6	communication error count 	
+[12:41:50] REPEAT	2767831	
+[12:41:50] ADAM6	communication error count 	
+[12:41:50] REPEAT	4131322	
+[12:41:50] clamp - 	release clamp	-WRITE 1
+[12:41:50] REPEAT	428639	
+[12:41:50] ADAM6	communication error count 	
+[12:41:50] REPEAT	2384807	
+[12:41:50] clamp - 	release clamp	-WRITE 1
+[12:41:50] REPEAT	343073	
+[12:41:50] ADAM6	communication error count 	
+[12:41:50] REPEAT	3397384	
+[12:41:50] clamp - 	release clamp	-WRITE 1
+[12:41:50] REPEAT	363182	
+[12:41:50] ADAM6	communication error count 	
+[12:41:50] REPEAT	2364614	
+[12:41:50] clamp - 	release clamp	-WRITE 1
+[12:41:50] REPEAT	385377	
+[12:41:50] ADAM6	communication error count 	
+[12:41:50] REPEAT	2930506	
+[12:41:50] clamp - 	release clamp	-WRITE 1
+[12:41:50] REPEAT	333669	
+[12:41:50] ADAM6	communication error count 	
+[12:41:50] REPEAT	105661	
+[12:41:50] ADAM_6050 - 	connection fail - 	192.168.50.190
+[12:41:50] REPEAT	505500	
+[12:41:50] ADAM6	communication error count 	
+[12:41:50] REPEAT	269951	
+[12:41:50] clamp - 	release clamp	-WRITE 1
+[12:41:50] REPEAT	407643	
+[12:41:50] ADAM6	communication error count 	
+[12:41:50] REPEAT	2618514	
+[12:41:50] REPEAT	1	
+[12:41:50] ADAM6	communication error count 	
+[12:41:50] REPEAT	2706744	
+[12:41:50] clamp - 	release clamp	-WRITE 1
+[12:41:50] REPEAT	481489	
+[12:41:50] ADAM6	communication error count 	
+[12:41:51] REPEAT	2995226	
+[12:41:51] REPEAT	1	
+[12:41:51] ADAM6	communication error count 	
+[12:41:51] REPEAT	2159855	
+[12:41:51] REPEAT	1	
+[12:41:51] ADAM6	communication error count 	
+[12:41:51] REPEAT	1226129	
+[12:41:51] clamp - 	release clamp	-WRITE 1
+[12:41:51] REPEAT	399319	
+[12:41:51] ADAM6	communication error count 	
+[12:41:51] REPEAT	1278061	
+[12:41:51] clamp - 	release clamp	-WRITE 1
+[12:41:51] REPEAT	343241	
+[12:41:51] ADAM6	communication error count 	
+[12:41:51] REPEAT	2581662	
+[12:41:51] clamp - 	release clamp	-WRITE 1
+[12:41:51] REPEAT	399658	
+[12:41:51] ADAM6	communication error count 	
+[12:41:51] REPEAT	2879357	
+[12:41:51] clamp - 	release clamp	-WRITE 1
+[12:41:51] REPEAT	363461	
+[12:41:51] ADAM6	communication error count 	
+[12:41:51] REPEAT	3101021	
+[12:41:51] ADAM6	communication error count 	
+[12:41:51] REPEAT	3376543	
+[12:41:51] clamp - 	release clamp	-WRITE 1
+[12:41:51] REPEAT	384471	
+[12:41:51] ADAM6	communication error count 	
+[12:41:51] REPEAT	3394785	
+[12:41:51] REPEAT	3882324	
+[12:41:51] ADAM6	communication error count 	
+[12:41:51] REPEAT	2405164	
+[12:41:52] REPEAT	1	
+[12:41:52] ADAM6	communication error count 	
+[12:41:52] REPEAT	2195928	
+[12:41:52] REPEAT	2662262	
+[12:41:52] ADAM6	communication error count 	
+[12:41:52] REPEAT	87188	
+[12:41:52] clamp - 	release clamp	-WRITE 1
+[12:41:52] REPEAT	387305	
+[12:41:52] ADAM6	communication error count 	
+[12:41:52] REPEAT	2422262	
+[12:41:52] REPEAT	1	
+[12:41:52] ADAM6	communication error count 	
+[12:41:52] REPEAT	3096365	
+[12:41:52] REPEAT	1	
+[12:41:52] ADAM6	communication error count 	
+[12:41:52] REPEAT	2243424	
+[12:41:52] clamp - 	release clamp	-WRITE 1
+[12:41:52] REPEAT	355104	
+[12:41:52] ADAM6	communication error count 	
+[12:41:52] REPEAT	2835989	
+[12:41:52] clamp - 	release clamp	-WRITE 1
+[12:41:52] REPEAT	342714	
+[12:41:52] ADAM6	communication error count 	
+[12:41:52] REPEAT	2083900	
+[12:41:52] clamp - 	release clamp	-WRITE 1
+[12:41:52] REPEAT	498325	
+[12:41:52] ADAM6	communication error count 	
+[12:41:52] REPEAT	2311533	
+[12:41:52] clamp - 	release clamp	-WRITE 1
+[12:41:52] REPEAT	464243	
+[12:41:52] ADAM6	communication error count 	
+[12:41:52] REPEAT	322139	
+[12:41:52] ADAM6	communication error count 	
+[12:41:53] REPEAT	245668	
+[12:41:53] ADAM6	communication error count 	
+[12:41:53] REPEAT	1715930	
+[12:41:53] REPEAT	1	
+[12:41:53] clamp - 	release clamp	-WRITE 1
+[12:41:53] REPEAT	552211	
+[12:41:53] ADAM6	communication error count 	
+[12:41:53] REPEAT	1998219	
+[12:41:53] ADAM6	communication error count 	
+[12:41:53] REPEAT	2260807	
+[12:41:53] ADAM_6050 - 	connection fail - 	192.168.50.190
+[12:41:53] REPEAT	429246	
+[12:41:53] ADAM6	communication error count 	
+[12:41:53] REPEAT	2440690	
+[12:41:53] clamp - 	release clamp	-WRITE 1
+[12:41:53] REPEAT	336000	
+[12:41:53] ADAM6	communication error count 	
+[12:41:53] REPEAT	1923055	
+[12:41:53] REPEAT	1	
+[12:41:53] ADAM6	communication error count 	
+[12:41:53] REPEAT	2985997	
+[12:41:53] ADAM6	communication error count 	
+[12:41:53] REPEAT	2514524	
+[12:41:54] clamp - 	release clamp	-WRITE 1
+[12:41:54] REPEAT	459358	
+[12:41:54] ADAM6	communication error count 	
+[12:41:54] REPEAT	675484	
+[12:41:54] clamp - 	release clamp	-WRITE 1
+[12:41:54] REPEAT	375683	
+[12:41:54] ADAM6	communication error count 	
+[12:41:54] REPEAT	175099	
+[12:41:54] ADAM6	communication error count 	
+[12:41:54] REPEAT	2210283	
+[12:41:54] clamp - 	release clamp	-WRITE 1
+[12:41:54] REPEAT	306825	
+[12:41:54] ADAM6	communication error count 	
+[12:41:54] REPEAT	1765262	
+[12:41:54] clamp - 	release clamp	-WRITE 1
+[12:41:54] REPEAT	336161	
+[12:41:54] ADAM6	communication error count 	
+[12:41:54] REPEAT	3344134	
+[12:41:54] clamp - 	release clamp	-WRITE 1
+[12:41:54] REPEAT	369168	
+[12:41:54] ADAM6	communication error count 	
+[12:41:54] REPEAT	2388937	
+[12:41:54] ADAM6	communication error count 	
+[12:41:54] REPEAT	3701928	
+[12:41:54] clamp - 	release clamp	-WRITE 1
+[12:41:54] REPEAT	430681	
+[12:41:54] ADAM6	communication error count 	
+[12:41:54] REPEAT	2437802	
+[12:41:54] clamp - 	release clamp	-WRITE 1
+[12:41:54] REPEAT	414656	
+[12:41:54] ADAM6	communication error count 	
+[12:41:54] REPEAT	2936405	
+[12:41:54] clamp - 	release clamp	-WRITE 1
+[12:41:54] REPEAT	330837	
+[12:41:55] ADAM6	communication error count 	
+[12:41:55] REPEAT	2309778	
+[12:41:55] clamp - 	release clamp	-WRITE 1
+[12:41:55] REPEAT	378327	
+[12:41:55] ADAM6	communication error count 	
+[12:41:55] REPEAT	2754851	
+[12:41:55] REPEAT	1	
+[12:41:55] ADAM6	communication error count 	
+[12:41:55] REPEAT	2399173	
+[12:41:55] REPEAT	1	
+[12:41:55] ADAM6	communication error count 	
+[12:41:55] REPEAT	3122507	
+[12:41:55] clamp - 	release clamp	-WRITE 1
+[12:41:55] REPEAT	370199	
+[12:41:55] ADAM6	communication error count 	
+[12:41:55] REPEAT	1856613	
+[12:41:55] clamp - 	release clamp	-WRITE 1
+[12:41:55] REPEAT	325990	
+[12:41:55] ADAM6	communication error count 	
+[12:41:55] REPEAT	2782462	
+[12:41:55] clamp - 	release clamp	-WRITE 1
+[12:41:55] REPEAT	455503	
+[12:41:55] ADAM6	communication error count 	
+[12:41:55] REPEAT	2020108	
+[12:41:55] clamp - 	release clamp	-WRITE 1
+[12:41:55] REPEAT	426049	
+[12:41:55] ADAM6	communication error count 	
+[12:41:55] REPEAT	2613403	
+[12:41:55] clamp - 	release clamp	-WRITE 1
+[12:41:55] REPEAT	410091	
+[12:41:55] ADAM6	communication error count 	
+[12:41:55] REPEAT	1951657	
+[12:41:55] REPEAT	1	
+[12:41:55] ADAM6	communication error count 	
+[12:41:56] REPEAT	1420788	
+[12:41:56] clamp - 	release clamp	-WRITE 1
+[12:41:56] REPEAT	1	
+[12:41:56] ADAM6	communication error count 	
+[12:41:56] REPEAT	1385381	
+[12:41:56] clamp - 	release clamp	-WRITE 1
+[12:41:56] REPEAT	344520	
+[12:41:56] ADAM6	communication error count 	
+[12:41:56] REPEAT	861414	
+[12:41:56] clamp - 	release clamp	-WRITE 1
+[12:41:56] REPEAT	317461	
+[12:41:56] ADAM6	communication error count 	
+[12:41:56] REPEAT	46672	
+[12:41:56] REPEAT	1	
+[12:41:56] ADAM6	communication error count 	
+[12:41:56] REPEAT	407537	
+[12:41:56] clamp - 	release clamp	-WRITE 1
+[12:41:56] REPEAT	408295	
+[12:41:56] ADAM6	communication error count 	
+[12:41:56] REPEAT	619060	
+[12:41:56] REPEAT	1	
+[12:41:56] ADAM6	communication error count 	
+[12:41:56] REPEAT	1241415	
+[12:41:56] ADAM6	communication error count 	
+[12:41:56] REPEAT	1074614	
+[12:41:56] REPEAT	1416379	
+[12:41:56] ADAM6	communication error count 	
+[12:41:56] REPEAT	1388075	
+[12:41:56] REPEAT	1	
+[12:41:56] ADAM6	communication error count 	
+[12:41:57] REPEAT	1146193	
+[12:41:57] REPEAT	1	
+[12:41:57] ADAM6	communication error count 	
+[12:41:57] REPEAT	1967393	
+[12:41:57] clamp - 	release clamp	-WRITE 1
+[12:41:57] REPEAT	344355	
+[12:41:57] ADAM6	communication error count 	
+[12:41:57] REPEAT	1181245	
+[12:41:57] REPEAT	1659822	
+[12:41:57] ADAM6	communication error count 	
+[12:41:57] REPEAT	2143664	
+[12:41:57] clamp - 	release clamp	-WRITE 1
+[12:41:57] REPEAT	379463	
+[12:41:57] ADAM6	communication error count 	
+[12:41:57] REPEAT	1902951	
+[12:41:57] REPEAT	1	
+[12:41:57] ADAM6	communication error count 	
+[12:41:57] REPEAT	3447622	
+[12:41:57] clamp - 	release clamp	-WRITE 1
+[12:41:57] REPEAT	400814	
+[12:41:57] ADAM6	communication error count 	
+[12:41:57] REPEAT	2903443	
+[12:41:57] REPEAT	1	
+[12:41:57] ADAM6	communication error count 	
+[12:41:57] REPEAT	3442234	
+[12:41:57] clamp - 	release clamp	-WRITE 1
+[12:41:57] REPEAT	1	
+[12:41:57] ADAM6	communication error count 	
+[12:41:57] clamp - 	release clamp	-WRITE 1
+[12:41:57] REPEAT	483759	
+[12:41:57] ADAM6	communication error count 	
+[12:41:58] REPEAT	488890	
+[12:41:58] clamp - 	release clamp	-WRITE 1
+[12:41:58] REPEAT	135343	
+[12:41:58] ADAM6	communication error count 	
+[12:41:58] REPEAT	2887157	
+[12:41:58] REPEAT	1	
+[12:41:58] ADAM6	communication error count 	
+[12:41:58] REPEAT	1855945	
+[12:41:58] ADAM6	communication error count 	
+[12:41:58] REPEAT	2563752	
+[12:41:58] ADAM6	communication error count 	
+[12:41:58] REPEAT	2066700	
+[12:41:58] REPEAT	1	
+[12:41:58] ADAM6	communication error count 	
+[12:41:58] REPEAT	2181341	
+[12:41:58] REPEAT	2659249	
+[12:41:58] ADAM6	communication error count 	
+[12:41:58] REPEAT	2709088	
+[12:41:58] clamp - 	release clamp	-WRITE 1
+[12:41:58] REPEAT	489100	
+[12:41:58] ADAM6	communication error count 	
+[12:41:59] REPEAT	1250215	
+[12:41:59] REPEAT	1	
+[12:41:59] ADAM6	communication error count 	
+[12:41:59] REPEAT	3134410	
+[12:41:59] clamp - 	release clamp	-WRITE 1
+[12:41:59] REPEAT	375638	
+[12:41:59] ADAM6	communication error count 	
+[12:41:59] REPEAT	2778850	
+[12:41:59] REPEAT	1	
+[12:41:59] ADAM6	communication error count 	
+[12:41:59] REPEAT	3700953	
+[12:41:59] REPEAT	1	
+[12:41:59] ADAM6	communication error count 	
+[12:41:59] REPEAT	3045954	
+[12:41:59] ADAM6	communication error count 	
+[12:41:59] REPEAT	3903064	
+[12:41:59] clamp - 	release clamp	-WRITE 1
+[12:41:59] REPEAT	532303	
+[12:41:59] ADAM6	communication error count 	
+[12:41:59] REPEAT	1634646	
+[12:41:59] clamp - 	release clamp	-WRITE 1
+[12:41:59] ADAM6	communication error count 	
+[12:41:59] REPEAT	242205	
+[12:41:59] clamp - 	release clamp	-WRITE 1
+[12:41:59] REPEAT	458976	
+[12:41:59] ADAM6	communication error count 	
+[12:42:00] REPEAT	582386	
+[12:42:00] clamp - 	release clamp	-WRITE 1
+[12:42:00] REPEAT	504646	
+[12:42:00] ADAM6	communication error count 	
+[12:42:00] REPEAT	1475988	
+[12:42:00] clamp - 	release clamp	-WRITE 1
+[12:42:00] REPEAT	394112	
+[12:42:00] ADAM6	communication error count 	
+[12:42:00] REPEAT	1413498	
+[12:42:00] clamp - 	release clamp	-WRITE 1
+[12:42:00] REPEAT	386108	
+[12:42:00] ADAM6	communication error count 	
+[12:42:00] REPEAT	370539	
+[12:42:00] REPEAT	1	
+[12:42:00] ADAM6	communication error count 	
+[12:42:00] REPEAT	701283	
+[12:42:00] ADAM6	communication error count 	
+[12:42:00] REPEAT	1976669	
+[12:42:00] clamp - 	release clamp	-WRITE 1
+[12:42:00] REPEAT	470912	
+[12:42:00] ADAM6	communication error count 	
+[12:42:00] REPEAT	1554360	
+[12:42:00] ADAM6	communication error count 	
+[12:42:00] REPEAT	2430264	
+[12:42:00] REPEAT	2841446	
+[12:42:00] ADAM6	communication error count 	
+[12:42:00] REPEAT	1954860	
+[12:42:00] clamp - 	release clamp	-WRITE 1
+[12:42:00] REPEAT	377620	
+[12:42:00] ADAM6	communication error count 	
+[12:42:00] REPEAT	1832585	
+[12:42:00] REPEAT	1	
+[12:42:01] ADAM6	communication error count 	
+[12:42:01] REPEAT	3507037	
+[12:42:01] clamp - 	release clamp	-WRITE 1
+[12:42:01] REPEAT	468518	
+[12:42:01] ADAM6	communication error count 	
+[12:42:01] REPEAT	2442229	
+[12:42:01] clamp - 	release clamp	-WRITE 1
+[12:42:01] REPEAT	340915	
+[12:42:01] ADAM6	communication error count 	
+[12:42:01] REPEAT	2576784	
+[12:42:01] clamp - 	release clamp	-WRITE 1
+[12:42:01] REPEAT	417524	
+[12:42:01] ADAM6	communication error count 	
+[12:42:01] REPEAT	1745979	
+[12:42:01] clamp - 	release clamp	-WRITE 1
+[12:42:01] ADAM6	communication error count 	
+[12:42:01] REPEAT	1572611	
+[12:42:01] ADAM6	communication error count 	
+[12:42:01] REPEAT	1996895	
+[12:42:01] clamp - 	release clamp	-WRITE 1
+[12:42:01] REPEAT	327563	
+[12:42:01] ADAM6	communication error count 	
+[12:42:01] REPEAT	1665683	
+[12:42:01] clamp - 	release clamp	-WRITE 1
+[12:42:01] REPEAT	278759	
+[12:42:01] ADAM6	communication error count 	
+[12:42:01] REPEAT	1172584	
+[12:42:01] clamp - 	release clamp	-WRITE 1
+[12:42:02] REPEAT	453975	
+[12:42:02] ADAM6	communication error count 	
+[12:42:02] REPEAT	2352652	
+[12:42:02] ADAM6	communication error count 	
+[12:42:02] REPEAT	761870	
+[12:42:02] ADAM_6050 - 	connection fail - 	192.168.50.190
+[12:42:02] REPEAT	411515	
+[12:42:02] ADAM6	communication error count 	
+[12:42:02] REPEAT	3717747	
+[12:42:02] clamp - 	release clamp	-WRITE 1
+[12:42:02] REPEAT	498537	
+[12:42:02] ADAM6	communication error count 	
+[12:42:02] REPEAT	1743975	
+[12:42:02] clamp - 	release clamp	-WRITE 1
+[12:42:02] REPEAT	346729	
+[12:42:02] ADAM6	communication error count 	
+[12:42:02] REPEAT	2066305	
+[12:42:02] clamp - 	release clamp	-WRITE 1
+[12:42:02] REPEAT	342663	
+[12:42:02] ADAM6	communication error count 	
+[12:42:02] REPEAT	2713234	
+[12:42:02] clamp - 	release clamp	-WRITE 1
+[12:42:02] REPEAT	597958	
+[12:42:02] ADAM6	communication error count 	
+[12:42:02] REPEAT	2954608	
+[12:42:02] clamp - 	release clamp	-WRITE 1
+[12:42:02] REPEAT	337952	
+[12:42:02] ADAM6	communication error count 	
+[12:42:02] REPEAT	2550147	
+[12:42:02] clamp - 	release clamp	-WRITE 1
+[12:42:02] REPEAT	330213	
+[12:42:02] ADAM6	communication error count 	
+[12:42:03] REPEAT	3659113	
+[12:42:03] clamp - 	release clamp	-WRITE 1
+[12:42:03] REPEAT	420292	
+[12:42:03] ADAM6	communication error count 	
+[12:42:03] REPEAT	862336	
+[12:42:03] clamp - 	release clamp	-WRITE 1
+[12:42:03] REPEAT	1	
+[12:42:03] ADAM6	communication error count 	
+[12:42:03] REPEAT	124003	
+[12:42:03] REPEAT	1	
+[12:42:03] ADAM6	communication error count 	
+[12:42:03] REPEAT	578871	
+[12:42:03] REPEAT	1	
+[12:42:03] ADAM6	communication error count 	
+[12:42:03] REPEAT	1499640	
+[12:42:03] clamp - 	release clamp	-WRITE 1
+[12:42:03] REPEAT	242698	
+[12:42:03] ADAM6	communication error count 	
+[12:42:03] REPEAT	1700232	
+[12:42:03] clamp - 	release clamp	-WRITE 1
+[12:42:03] REPEAT	429403	
+[12:42:03] ADAM6	communication error count 	
+[12:42:03] REPEAT	1351758	
+[12:42:03] ADAM_6050 - 	connection fail - 	192.168.50.190
+[12:42:03] REPEAT	330178	
+[12:42:03] ADAM6	communication error count 	
+[12:42:03] REPEAT	1201567	
+[12:42:03] clamp - 	release clamp	-WRITE 1
+[12:42:03] REPEAT	631270	
+[12:42:03] ADAM6	communication error count 	
+[12:42:04] REPEAT	3674605	
+[12:42:04] ADAM6	communication error count 	
+[12:42:04] REPEAT	2581727	
+[12:42:04] clamp - 	release clamp	-WRITE 1
+[12:42:04] REPEAT	312534	
+[12:42:04] ADAM6	communication error count 	
+[12:42:04] REPEAT	1903633	
+[12:42:04] REPEAT	1	
+[12:42:04] ADAM6	communication error count 	
+[12:42:04] REPEAT	2178561	
+[12:42:04] clamp - 	release clamp	-WRITE 1
+[12:42:04] REPEAT	552076	
+[12:42:04] ADAM6	communication error count 	
+[12:42:04] REPEAT	2468893	
+[12:42:04] clamp - 	release clamp	-WRITE 1
+[12:42:04] REPEAT	364658	
+[12:42:04] ADAM6	communication error count 	
+[12:42:04] REPEAT	2861464	
+[12:42:04] clamp - 	release clamp	-WRITE 1
+[12:42:04] REPEAT	365342	
+[12:42:04] ADAM6	communication error count 	
+[12:42:04] REPEAT	3527835	
+[12:42:04] ADAM6	communication error count 	
+[12:42:04] REPEAT	3045853	
+[12:42:04] REPEAT	1	
+[12:42:04] ADAM6	communication error count 	
+[12:42:04] REPEAT	849925	
+[12:42:04] clamp - 	release clamp	-WRITE 1
+[12:42:04] REPEAT	1	
+[12:42:05] ADAM6	communication error count 	
+[12:42:05] REPEAT	764649	
+[12:42:05] ADAM6	communication error count 	
+[12:42:05] REPEAT	1523441	
+[12:42:05] clamp - 	release clamp	-WRITE 1
+[12:42:05] REPEAT	323503	
+[12:42:05] ADAM6	communication error count 	
+[12:42:05] REPEAT	994680	
+[12:42:05] ADAM6	communication error count 	
+[12:42:05] REPEAT	2298336	
+[12:42:05] clamp - 	release clamp	-WRITE 1
+[12:42:05] REPEAT	819340	
+[12:42:05] ADAM6	communication error count 	
+[12:42:05] REPEAT	295326	
+[12:42:05] clamp - 	release clamp	-WRITE 1
+[12:42:05] REPEAT	351497	
+[12:42:05] ADAM6	communication error count 	
+[12:42:05] REPEAT	55900	
+[12:42:05] REPEAT	1	
+[12:42:05] ADAM6	communication error count 	
+[12:42:05] REPEAT	985529	
+[12:42:05] REPEAT	1	
+[12:42:05] ADAM6	communication error count 	
+[12:42:05] REPEAT	2460165	
+[12:42:05] REPEAT	1	
+[12:42:05] ADAM6	communication error count 	
+[12:42:05] REPEAT	2082792	
+[12:42:05] REPEAT	1	
+[12:42:05] ADAM6	communication error count 	
+[12:42:06] REPEAT	2053232	
+[12:42:06] clamp - 	release clamp	-WRITE 1
+[12:42:06] REPEAT	362666	
+[12:42:06] ADAM6	communication error count 	
+[12:42:06] REPEAT	2127218	
+[12:42:06] ADAM6	communication error count 	
+[12:42:06] REPEAT	3755639	
+[12:42:06] clamp - 	release clamp	-WRITE 1
+[12:42:06] REPEAT	453551	
+[12:42:06] ADAM6	communication error count 	
+[12:42:06] REPEAT	2951269	
+[12:42:06] clamp - 	release clamp	-WRITE 1
+[12:42:06] REPEAT	363199	
+[12:42:06] ADAM6	communication error count 	
+[12:42:06] REPEAT	2205192	
+[12:42:06] clamp - 	release clamp	-WRITE 1
+[12:42:06] REPEAT	453779	
+[12:42:06] ADAM6	communication error count 	
+[12:42:06] REPEAT	2582884	
+[12:42:06] clamp - 	release clamp	-WRITE 1
+[12:42:06] ADAM6	communication error count 	
+[12:42:06] REPEAT	214682	
+[12:42:06] clamp - 	release clamp	-WRITE 1
+[12:42:06] REPEAT	381558	
+[12:42:06] ADAM6	communication error count 	
+[12:42:06] REPEAT	236262	
+[12:42:06] REPEAT	3	
+[12:42:06] ADAM6	communication error count 	
+[12:42:06] REPEAT	868491	
+[12:42:06] REPEAT	1	
+[12:42:06] ADAM6	communication error count 	
+[12:42:07] REPEAT	1323645	
+[12:42:07] REPEAT	1	
+[12:42:07] ADAM6	communication error count 	
+[12:42:07] REPEAT	2056263	
+[12:42:07] clamp - 	release clamp	-WRITE 1
+[12:42:07] REPEAT	353497	
+[12:42:07] ADAM6	communication error count 	
+[12:42:07] REPEAT	2040845	
+[12:42:07] clamp - 	release clamp	-WRITE 1
+[12:42:07] REPEAT	332769	
+[12:42:07] ADAM6	communication error count 	
+[12:42:07] REPEAT	2113266	
+[12:42:07] clamp - 	release clamp	-WRITE 1
+[12:42:07] REPEAT	321636	
+[12:42:07] ADAM6	communication error count 	
+[12:42:07] REPEAT	1745941	
+[12:42:07] clamp - 	release clamp	-WRITE 1
+[12:42:07] REPEAT	508217	
+[12:42:07] ADAM6	communication error count 	
+[12:42:07] REPEAT	2119548	
+[12:42:07] clamp - 	release clamp	-WRITE 1
+[12:42:07] REPEAT	426915	
+[12:42:07] ADAM6	communication error count 	
+[12:42:07] REPEAT	1393202	
+[12:42:07] clamp - 	release clamp	-WRITE 1
+[12:42:07] REPEAT	350591	
+[12:42:07] ADAM6	communication error count 	
+[12:42:07] REPEAT	2273013	
+[12:42:07] clamp - 	release clamp	-WRITE 1
+[12:42:07] REPEAT	418938	
+[12:42:07] ADAM6	communication error count 	
+[12:42:07] REPEAT	2292704	
+[12:42:07] clamp - 	release clamp	-WRITE 1
+[12:42:08] REPEAT	347265	
+[12:42:08] ADAM6	communication error count 	
+[12:42:08] REPEAT	1592518	
+[12:42:08] ADAM_6050 - 	connection fail - 	192.168.50.190
+[12:42:08] REPEAT	345789	
+[12:42:08] ADAM6	communication error count 	
+[12:42:08] REPEAT	851	
+[12:42:08] ADAM6	communication error count 	
+[12:42:08] REPEAT	3662829	
+[12:42:08] clamp - 	release clamp	-WRITE 1
+[12:42:08] REPEAT	384084	
+[12:42:08] ADAM6	communication error count 	
+[12:42:08] REPEAT	2487803	
+[12:42:08] clamp - 	release clamp	-WRITE 1
+[12:42:08] REPEAT	691612	
+[12:42:08] ADAM6	communication error count 	
+[12:42:08] REPEAT	1768882	
+[12:42:08] ADAM6	communication error count 	
+[12:42:08] REPEAT	1264561	
+[12:42:08] clamp - 	release clamp	-WRITE 1
+[12:42:08] REPEAT	379000	
+[12:42:08] ADAM6	communication error count 	
+[12:42:08] REPEAT	2028337	
+[12:42:08] clamp - 	release clamp	-WRITE 1
+[12:42:08] REPEAT	352011	
+[12:42:08] ADAM6	communication error count 	
+[12:42:08] REPEAT	1271470	
+[12:42:08] REPEAT	1	
+[12:42:08] ADAM6	communication error count 	
+[12:42:08] REPEAT	1105034	
+[12:42:08] clamp - 	release clamp	-WRITE 1
+[12:42:09] REPEAT	628836	
+[12:42:09] ADAM6	communication error count 	
+[12:42:09] REPEAT	3510482	
+[12:42:09] ADAM6	communication error count 	
+[12:42:09] REPEAT	2893475	
+[12:42:09] clamp - 	release clamp	-WRITE 1
+[12:42:09] REPEAT	428508	
+[12:42:09] ADAM6	communication error count 	
+[12:42:09] REPEAT	1796431	
+[12:42:09] clamp - 	release clamp	-WRITE 1
+[12:42:09] REPEAT	378329	
+[12:42:09] ADAM6	communication error count 	
+[12:42:09] REPEAT	1671425	
+[12:42:09] ADAM6	communication error count 	
+[12:42:09] REPEAT	3513328	
+[12:42:09] clamp - 	release clamp	-WRITE 1
+[12:42:09] REPEAT	304660	
+[12:42:09] ADAM6	communication error count 	
+[12:42:09] REPEAT	2640227	
+[12:42:09] clamp - 	release clamp	-WRITE 1
+[12:42:09] REPEAT	429372	
+[12:42:09] ADAM6	communication error count 	
+[12:42:09] REPEAT	2635147	
+[12:42:09] clamp - 	release clamp	-WRITE 1
+[12:42:09] REPEAT	438545	
+[12:42:09] ADAM6	communication error count 	
+[12:42:09] REPEAT	2594525	
+[12:42:09] clamp - 	release clamp	-WRITE 1
+[12:42:10] REPEAT	892343	
+[12:42:10] clamp - 	release clamp	-WRITE 1
+[12:42:10] REPEAT	509167	
+[12:42:10] ADAM6	communication error count 	
+[12:42:10] REPEAT	810005	
+[12:42:10] clamp - 	release clamp	-WRITE 1
+[12:42:10] REPEAT	179067	
+[12:42:10] ADAM6	communication error count 	
+[12:42:10] REPEAT	664867	
+[12:42:10] ADAM6	communication error count 	
+[12:42:10] REPEAT	2127087	
+[12:42:10] clamp - 	release clamp	-WRITE 1
+[12:42:10] REPEAT	237139	
+[12:42:10] ADAM6	communication error count 	
+[12:42:10] REPEAT	1664395	
+[12:42:10] REPEAT	2013524	
+[12:42:10] ADAM6	communication error count 	
+[12:42:10] REPEAT	1464096	
+[12:42:10] clamp - 	release clamp	-WRITE 1
+[12:42:10] REPEAT	152805	
+[12:42:10] ADAM6	communication error count 	
+[12:42:10] REPEAT	236080	
+[12:42:10] clamp - 	release clamp	-WRITE 1
+[12:42:10] REPEAT	554315	
+[12:42:10] ADAM6	communication error count 	
+[12:42:10] REPEAT	897836	
+[12:42:10] clamp - 	release clamp	-WRITE 1
+[12:42:10] REPEAT	436444	
+[12:42:10] ADAM6	communication error count 	
+[12:42:10] REPEAT	1812390	
+[12:42:10] REPEAT	1	
+[12:42:10] ADAM6	communication error count 	
+[12:42:11] REPEAT	2095552	
+[12:42:11] ADAM6	communication error count 	
+[12:42:11] REPEAT	2467777	
+[12:42:11] clamp - 	release clamp	-WRITE 1
+[12:42:11] REPEAT	341235	
+[12:42:11] ADAM6	communication error count 	
+[12:42:11] REPEAT	2248853	
+[12:42:11] clamp - 	release clamp	-WRITE 1
+[12:42:11] REPEAT	362174	
+[12:42:11] ADAM6	communication error count 	
+[12:42:11] REPEAT	3302951	
+[12:42:11] ADAM6	communication error count 	
+[12:42:11] REPEAT	3073591	
+[12:42:11] REPEAT	1	
+[12:42:11] ADAM6	communication error count 	
+[12:42:11] REPEAT	3717755	
+[12:42:11] clamp - 	release clamp	-WRITE 1
+[12:42:11] REPEAT	382256	
+[12:42:11] ADAM6	communication error count 	
+[12:42:11] REPEAT	2285304	
+[12:42:11] clamp - 	release clamp	-WRITE 1
+[12:42:11] REPEAT	404820	
+[12:42:11] ADAM6	communication error count 	
+[12:42:11] REPEAT	1218793	
+[12:42:11] clamp - 	release clamp	-WRITE 1
+[12:42:11] REPEAT	64263	
+[12:42:12] ADAM6	communication error count 	
+[12:42:12] REPEAT	10767	
+[12:42:12] clamp - 	release clamp	-WRITE 1
+[12:42:12] REPEAT	446382	
+[12:42:12] ADAM6	communication error count 	
+[12:42:12] REPEAT	1467142	
+[12:42:12] clamp - 	release clamp	-WRITE 1
+[12:42:12] REPEAT	545397	
+[12:42:12] ADAM6	communication error count 	
+[12:42:12] REPEAT	1510235	
+[12:42:12] REPEAT	1	
+[12:42:12] ADAM6	communication error count 	
+[12:42:12] REPEAT	1451786	
+[12:42:12] clamp - 	release clamp	-WRITE 1
+[12:42:12] REPEAT	5185	
+[12:42:12] ADAM6	communication error count 	
+[12:42:12] REPEAT	252832	
+[12:42:12] ADAM6	communication error count 	
+[12:42:12] REPEAT	2065466	
+[12:42:12] clamp - 	release clamp	-WRITE 1
+[12:42:12] REPEAT	336507	
+[12:42:12] ADAM6	communication error count 	
+[12:42:12] REPEAT	1816300	
+[12:42:12] clamp - 	release clamp	-WRITE 1
+[12:42:12] REPEAT	500733	
+[12:42:12] ADAM6	communication error count 	
+[12:42:12] REPEAT	1906696	
+[12:42:12] REPEAT	2420708	
+[12:42:12] ADAM6	communication error count 	
+[12:42:12] REPEAT	2526066	
+[12:42:12] clamp - 	release clamp	-WRITE 1
+[12:42:12] REPEAT	346641	
+[12:42:12] ADAM6	communication error count 	
+[12:42:13] REPEAT	2203994	
+[12:42:13] clamp - 	release clamp	-WRITE 1
+[12:42:13] REPEAT	307790	
+[12:42:13] ADAM6	communication error count 	
+[12:42:13] REPEAT	3374433	
+[12:42:13] REPEAT	1	
+[12:42:13] ADAM6	communication error count 	
+[12:42:13] REPEAT	3076610	
+[12:42:13] clamp - 	release clamp	-WRITE 1
+[12:42:13] REPEAT	429618	
+[12:42:13] ADAM6	communication error count 	
+[12:42:13] REPEAT	3145192	
+[12:42:13] clamp - 	release clamp	-WRITE 1
+[12:42:13] REPEAT	403000	
+[12:42:13] ADAM6	communication error count 	
+[12:42:13] REPEAT	1375254	
+[12:42:13] ADAM6	communication error count 	
+[12:42:13] REPEAT	618268	
+[12:42:13] clamp - 	release clamp	-WRITE 1
+[12:42:13] REPEAT	361232	
+[12:42:13] ADAM6	communication error count 	
+[12:42:13] REPEAT	2335288	
+[12:42:13] clamp - 	release clamp	-WRITE 1
+[12:42:13] REPEAT	409463	
+[12:42:13] ADAM6	communication error count 	
+[12:42:13] REPEAT	1907536	
+[12:42:13] clamp - 	release clamp	-WRITE 1
+[12:42:13] REPEAT	395827	
+[12:42:13] ADAM6	communication error count 	
+[12:42:14] REPEAT	1277087	
+[12:42:14] clamp - 	release clamp	-WRITE 1
+[12:42:14] REPEAT	305277	
+[12:42:14] ADAM6	communication error count 	
+[12:42:14] REPEAT	90744	
+[12:42:14] clamp - 	release clamp	-WRITE 1
+[12:42:14] REPEAT	411537	
+[12:42:14] ADAM6	communication error count 	
+[12:42:14] REPEAT	1001265	
+[12:42:14] clamp - 	release clamp	-WRITE 1
+[12:42:14] REPEAT	387053	
+[12:42:14] ADAM6	communication error count 	
+[12:42:14] REPEAT	1411195	
+[12:42:14] ADAM6	communication error count 	
+[12:42:14] REPEAT	2845082	
+[12:42:14] clamp - 	release clamp	-WRITE 1
+[12:42:14] REPEAT	353508	
+[12:42:14] ADAM6	communication error count 	
+[12:42:14] REPEAT	1507383	
+[12:42:14] clamp - 	release clamp	-WRITE 1
+[12:42:14] REPEAT	417982	
+[12:42:14] ADAM6	communication error count 	
+[12:42:14] REPEAT	2590443	
+[12:42:14] clamp - 	release clamp	-WRITE 1
+[12:42:14] REPEAT	396904	
+[12:42:14] ADAM6	communication error count 	
+[12:42:14] REPEAT	2315840	
+[12:42:14] REPEAT	2772586	
+[12:42:14] ADAM6	communication error count 	
+[12:42:14] REPEAT	3590122	
+[12:42:14] clamp - 	release clamp	-WRITE 1
+[12:42:14] REPEAT	557721	
+[12:42:14] ADAM6	communication error count 	
+[12:42:15] REPEAT	2950633	
+[12:42:15] clamp - 	release clamp	-WRITE 1
+[12:42:15] REPEAT	373024	
+[12:42:15] ADAM6	communication error count 	
+[12:42:15] REPEAT	2891930	
+[12:42:15] ADAM6	communication error count 	
+[12:42:15] REPEAT	800506	
+[12:42:15] clamp - 	release clamp	-WRITE 1
+[12:42:15] REPEAT	479053	
+[12:42:15] ADAM6	communication error count 	
+[12:42:15] REPEAT	707706	
+[12:42:15] clamp - 	release clamp	-WRITE 1
+[12:42:15] ADAM6	communication error count 	
+[12:42:15] REPEAT	2641110	
+[12:42:15] ADAM6	communication error count 	
+[12:42:15] REPEAT	1881457	
+[12:42:15] clamp - 	release clamp	-WRITE 1
+[12:42:15] REPEAT	469372	
+[12:42:15] ADAM6	communication error count 	
+[12:42:15] REPEAT	1250455	
+[12:42:15] clamp - 	release clamp	-WRITE 1
+[12:42:15] ADAM6	communication error count 	
+[12:42:15] REPEAT	792725	
+[12:42:15] clamp - 	release clamp	-WRITE 1
+[12:42:15] REPEAT	254450	
+[12:42:15] ADAM6	communication error count 	
+[12:42:15] REPEAT	164215	
+[12:42:16] REPEAT	1	
+[12:42:16] ADAM6	communication error count 	
+[12:42:16] REPEAT	2524339	
+[12:42:16] clamp - 	release clamp	-WRITE 1
+[12:42:16] REPEAT	661256	
+[12:42:16] ADAM6	communication error count 	
+[12:42:16] REPEAT	1722361	
+[12:42:16] REPEAT	1	
+[12:42:16] ADAM6	communication error count 	
+[12:42:16] REPEAT	2066755	
+[12:42:16] clamp - 	release clamp	-WRITE 1
+[12:42:16] REPEAT	364295	
+[12:42:16] ADAM6	communication error count 	
+[12:42:16] REPEAT	2470286	
+[12:42:16] clamp - 	release clamp	-WRITE 1
+[12:42:16] REPEAT	395831	
+[12:42:16] ADAM6	communication error count 	
+[12:42:16] REPEAT	2786836	
+[12:42:16] clamp - 	release clamp	-WRITE 1
+[12:42:16] REPEAT	407125	
+[12:42:16] ADAM6	communication error count 	
+[12:42:16] REPEAT	2361977	
+[12:42:16] clamp - 	release clamp	-WRITE 1
+[12:42:16] REPEAT	366721	
+[12:42:16] ADAM6	communication error count 	
+[12:42:16] REPEAT	1758455	
+[12:42:16] ADAM_6050 - 	connection fail - 	192.168.50.190
+[12:42:16] REPEAT	355274	
+[12:42:16] ADAM6	communication error count 	
+[12:42:16] REPEAT	4170749	
+[12:42:16] clamp - 	release clamp	-WRITE 1
+[12:42:16] REPEAT	393042	
+[12:42:16] ADAM6	communication error count 	
+[12:42:17] REPEAT	1779950	
+[12:42:17] REPEAT	2217619	
+[12:42:17] ADAM6	communication error count 	
+[12:42:17] REPEAT	644729	
+[12:42:17] clamp - 	release clamp	-WRITE 1
+[12:42:17] REPEAT	520909	
+[12:42:17] ADAM6	communication error count 	
+[12:42:17] REPEAT	1105254	
+[12:42:17] clamp - 	release clamp	-WRITE 1
+[12:42:17] REPEAT	324696	
+[12:42:17] ADAM6	communication error count 	
+[12:42:17] REPEAT	1263189	
+[12:42:17] ADAM6	communication error count 	
+[12:42:17] REPEAT	2756563	
+[12:42:17] ADAM6	communication error count 	
+[12:42:17] REPEAT	1102818	
+[12:42:17] clamp - 	release clamp	-WRITE 1
+[12:42:17] REPEAT	400228	
+[12:42:17] ADAM6	communication error count 	
+[12:42:17] REPEAT	96854	
+[12:42:17] clamp - 	release clamp	-WRITE 1
+[12:42:17] REPEAT	334584	
+[12:42:17] ADAM6	communication error count 	
+[12:42:17] REPEAT	2259742	
+[12:42:17] REPEAT	1	
+[12:42:17] ADAM6	communication error count 	
+[12:42:17] REPEAT	2027149	
+[12:42:17] clamp - 	release clamp	-WRITE 1
+[12:42:17] REPEAT	399283	
+[12:42:17] ADAM6	communication error count 	
+[12:42:18] REPEAT	1925416	
+[12:42:18] ADAM6	communication error count 	
+[12:42:18] REPEAT	3193208	
+[12:42:18] ADAM6	communication error count 	
+[12:42:18] REPEAT	3796589	
+[12:42:18] clamp - 	release clamp	-WRITE 1
+[12:42:18] REPEAT	416538	
+[12:42:18] ADAM6	communication error count 	
+[12:42:18] REPEAT	2364532	
+[12:42:18] clamp - 	release clamp	-WRITE 1
+[12:42:18] REPEAT	365021	
+[12:42:18] ADAM6	communication error count 	
+[12:42:18] REPEAT	3190954	
+[12:42:18] REPEAT	3658566	
+[12:42:18] ADAM6	communication error count 	
+[12:42:18] REPEAT	3028818	
+[12:42:18] clamp - 	release clamp	-WRITE 1
+[12:42:18] REPEAT	365470	
+[12:42:18] ADAM6	communication error count 	
+[12:42:18] REPEAT	1384505	
+[12:42:18] clamp - 	release clamp	-WRITE 1
+[12:42:18] REPEAT	542602	
+[12:42:18] ADAM6	communication error count 	
+[12:42:19] REPEAT	2910221	
+[12:42:19] clamp - 	release clamp	-WRITE 1
+[12:42:19] REPEAT	457232	
+[12:42:19] ADAM6	communication error count 	
+[12:42:19] REPEAT	1691146	
+[12:42:19] clamp - 	release clamp	-WRITE 1
+[12:42:19] REPEAT	372612	
+[12:42:19] ADAM6	communication error count 	
+[12:42:19] REPEAT	1085665	
+[12:42:19] ADAM6	communication error count 	
+[12:42:19] REPEAT	1137138	
+[12:42:19] REPEAT	1	
+[12:42:19] ADAM6	communication error count 	
+[12:42:19] REPEAT	1397498	
+[12:42:19] REPEAT	1	
+[12:42:19] ADAM6	communication error count 	
+[12:42:19] REPEAT	2483649	
+[12:42:19] REPEAT	1	
+[12:42:19] ADAM6	communication error count 	
+[12:42:19] REPEAT	1788449	
+[12:42:19] clamp - 	release clamp	-WRITE 1
+[12:42:19] REPEAT	421752	
+[12:42:19] ADAM6	communication error count 	
+[12:42:19] REPEAT	1250018	
+[12:42:19] clamp - 	release clamp	-WRITE 1
+[12:42:19] REPEAT	479473	
+[12:42:19] ADAM6	communication error count 	
+[12:42:19] REPEAT	1137134	
+[12:42:19] REPEAT	1351952	
+[12:42:19] ADAM6	communication error count 	
+[12:42:21] REPEAT	29298086	
+[12:42:21] ADAM_6050 - 	connection fail - 	192.168.50.190
+[12:42:21] REPEAT	430222	
+[12:42:21] ADAM6	communication error count 	
+[12:42:22] REPEAT	51562956	
+[12:42:22] ADAM_6050 - 	connection fail - 	192.168.50.190
+[12:42:22] REPEAT	376898	
+[12:42:22] ADAM6	communication error count 	

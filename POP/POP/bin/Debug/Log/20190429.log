@@ -1,0 +1,147 @@
+[10:26:25] SERCOM	start read data	
+[10:29:54] SERCOM	start read data	
+[10:30:36] ADAM_6050 - 	initialize	
+[10:30:36] ADAM_6050	ini opened	
+[10:30:36] ADAM_6050 - 	start	
+[10:30:36] ADAM_6050 - 	init socket	
+[10:30:37] ADAM_6050 - 	start thread	
+[10:30:37] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:30:37] ADAM6	start thread	
+[10:30:37] ADAM6	communication error count 	
+[10:30:39] REPEAT	67288899	
+[10:30:39] REPEAT	1	
+[10:30:39] ADAM6	communication error count 	
+[10:30:40] REPEAT	71780013	
+[10:30:40] REPEAT	2	
+[10:30:40] ADAM6	communication error count 	
+[10:30:42] REPEAT	71124408	
+[10:30:42] REPEAT	1	
+[10:30:42] ADAM6	communication error count 	
+[10:30:43] REPEAT	71900251	
+[10:30:43] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:30:43] REPEAT	147713	
+[10:30:43] ADAM6	communication error count 	
+[10:30:44] REPEAT	71705917	
+[10:30:44] REPEAT	1	
+[10:30:44] ADAM6	communication error count 	
+[10:30:46] REPEAT	66134545	
+[10:30:46] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:30:46] REPEAT	123406	
+[10:30:46] ADAM6	communication error count 	
+[10:30:47] REPEAT	69628846	
+[10:30:47] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:30:47] REPEAT	99867	
+[10:30:47] ADAM6	communication error count 	
+[10:30:49] REPEAT	67843099	
+[10:30:49] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:30:49] REPEAT	78737	
+[10:30:49] ADAM6	communication error count 	
+[10:33:18] SERCOM	start read data	
+[10:34:00] ADAM_6050 - 	initialize	
+[10:34:00] ADAM_6050	ini opened	
+[10:34:00] ADAM_6050 - 	start	
+[10:34:00] ADAM_6050 - 	init socket	
+[10:34:01] ADAM_6050 - 	start thread	
+[10:34:01] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:34:01] ADAM6	start thread	
+[10:34:01] ADAM6	communication error count 	
+[10:34:03] REPEAT	55806031	
+[10:34:03] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:34:03] REPEAT	144145	
+[10:34:03] ADAM6	communication error count 	
+[10:34:04] REPEAT	48054795	
+[10:34:04] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:34:04] REPEAT	120244	
+[10:34:04] ADAM6	communication error count 	
+[10:34:05] REPEAT	51962882	
+[10:34:05] ADAM6	communication error count 	
+[10:34:07] REPEAT	59158119	
+[10:34:07] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:34:07] REPEAT	171364	
+[10:34:07] ADAM6	communication error count 	
+[10:34:08] REPEAT	55528256	
+[10:34:08] REPEAT	1	
+[10:34:08] ADAM6	communication error count 	
+[10:34:10] REPEAT	43841295	
+[10:34:10] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:34:10] REPEAT	209235	
+[10:34:10] ADAM6	communication error count 	
+[10:34:11] REPEAT	51156110	
+[10:34:11] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:34:11] REPEAT	200943	
+[10:34:11] ADAM6	communication error count 	
+[10:34:13] REPEAT	46914488	
+[10:34:13] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:34:13] REPEAT	171352	
+[10:34:13] ADAM6	communication error count 	
+[10:34:14] REPEAT	47283291	
+[10:34:14] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:34:14] REPEAT	184639	
+[10:34:14] ADAM6	communication error count 	
+[10:34:16] REPEAT	47688038	
+[10:34:16] REPEAT	1	
+[10:34:16] ADAM6	communication error count 	
+[10:34:17] REPEAT	55052976	
+[10:34:17] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:34:17] REPEAT	154035	
+[10:34:17] ADAM6	communication error count 	
+[10:34:18] REPEAT	55916579	
+[10:34:18] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:34:18] REPEAT	156085	
+[10:34:18] ADAM6	communication error count 	
+[10:34:20] REPEAT	46705559	
+[10:34:20] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:34:20] REPEAT	200978	
+[10:34:20] ADAM6	communication error count 	
+[10:34:21] REPEAT	64024918	
+[10:34:21] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:34:21] REPEAT	186551	
+[10:34:21] ADAM6	communication error count 	
+[10:34:23] REPEAT	59782401	
+[10:34:23] REPEAT	1	
+[10:34:23] ADAM6	communication error count 	
+[10:34:24] REPEAT	59276566	
+[10:34:24] REPEAT	1	
+[10:34:24] ADAM6	communication error count 	
+[10:34:26] REPEAT	55836652	
+[10:34:26] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:34:26] REPEAT	143543	
+[10:34:26] ADAM6	communication error count 	
+[10:34:27] REPEAT	57309720	
+[10:34:27] REPEAT	1	
+[10:34:27] ADAM6	communication error count 	
+[10:34:29] REPEAT	55292639	
+[10:34:29] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:34:29] ADAM6	communication error count 	
+[10:34:30] REPEAT	53664379	
+[10:34:30] REPEAT	53909358	
+[10:34:30] ADAM6	communication error count 	
+[10:34:32] REPEAT	54818991	
+[10:34:32] REPEAT	1	
+[10:34:32] ADAM6	communication error count 	
+[10:34:33] REPEAT	54894885	
+[10:34:33] REPEAT	1	
+[10:34:33] ADAM6	communication error count 	
+[10:34:34] REPEAT	56147181	
+[10:34:34] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:34:34] REPEAT	153984	
+[10:34:34] ADAM6	communication error count 	
+[10:34:36] REPEAT	56169258	
+[10:34:36] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:34:36] REPEAT	232290	
+[10:34:36] ADAM6	communication error count 	
+[10:34:37] REPEAT	53522643	
+[10:34:37] ADAM_6050 - 	connection fail - 	192.168.50.190
+[10:34:37] REPEAT	140970	
+[10:34:37] ADAM6	communication error count 	
+[10:34:39] REPEAT	44980013	
+[10:34:39] ADAM6	communication error count 	
+[10:34:40] REPEAT	50636196	
+[10:34:40] REPEAT	1	
+[10:34:40] ADAM6	communication error count 	
+[10:35:08] SERCOM	start read data	
+[10:52:04] SERCOM	start read data	
+[10:55:18] SERCOM	start read data	
+[10:56:52] SERCOM	start read data	
+[11:02:07] SERCOM	start read data	
+[11:03:24] SERCOM	start read data	

@@ -1,0 +1,28 @@
+C:\Users\ANG_gcshim\Desktop\KMNI\Side Boster\SideBoster_New - 복사본\SideBoster_Program\bin\Debug\POP.exe.config
+C:\Users\ANG_gcshim\Desktop\KMNI\POP\POP\bin\Debug\POP.exe.config
+C:\Users\ANG_gcshim\Desktop\KMNI\POP\POP\bin\Debug\POP.exe
+C:\Users\ANG_gcshim\Desktop\KMNI\POP\POP\bin\Debug\POP.pdb
+C:\Users\ANG_gcshim\Desktop\KMNI\POP\POP\obj\Debug\POP.frmJobComplete.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\POP\POP\obj\Debug\POP.Frm_WorkStandard.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\POP\POP\obj\Debug\POP.FRT_GA.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\POP\POP\obj\Debug\POP.FRT_JIN.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\POP\POP\obj\Debug\POP.Properties.Resources.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\POP\POP\obj\Debug\POP.Side_GA.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\POP\POP\obj\Debug\POP.Side_JIN.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\POP\POP\obj\Debug\POP.csproj.GenerateResource.Cache
+C:\Users\ANG_gcshim\Desktop\KMNI\POP\POP\obj\Debug\POP.exe
+C:\Users\ANG_gcshim\Desktop\KMNI\POP\POP\obj\Debug\POP.pdb
+C:\Users\ANG_gcshim\Desktop\KMNI\POP\POP\obj\Debug\POP.csprojResolveAssemblyReference.cache
+C:\Users\ANG_gcshim\Desktop\KMNI\KMNI\190423~이후_SIDE_FRT 통합\POP\POP\bin\Debug\POP.exe.config
+C:\Users\ANG_gcshim\Desktop\KMNI\KMNI\190423~이후_SIDE_FRT 통합\POP\POP\obj\Debug\POP.exe
+C:\Users\ANG_gcshim\Desktop\KMNI\KMNI\190423~이후_SIDE_FRT 통합\POP\POP\obj\Debug\POP.pdb
+C:\Users\ANG_gcshim\Desktop\KMNI\KMNI\190423~이후_SIDE_FRT 통합\POP\POP\bin\Debug\POP.exe
+C:\Users\ANG_gcshim\Desktop\KMNI\KMNI\190423~이후_SIDE_FRT 통합\POP\POP\bin\Debug\POP.pdb
+C:\Users\ANG_gcshim\Desktop\KMNI\KMNI\190423~이후_SIDE_FRT 통합\POP\POP\obj\Debug\POP.frmJobComplete.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\KMNI\190423~이후_SIDE_FRT 통합\POP\POP\obj\Debug\POP.Frm_WorkStandard.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\KMNI\190423~이후_SIDE_FRT 통합\POP\POP\obj\Debug\POP.FRT_GA.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\KMNI\190423~이후_SIDE_FRT 통합\POP\POP\obj\Debug\POP.FRT_JIN.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\KMNI\190423~이후_SIDE_FRT 통합\POP\POP\obj\Debug\POP.Properties.Resources.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\KMNI\190423~이후_SIDE_FRT 통합\POP\POP\obj\Debug\POP.Side_GA.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\KMNI\190423~이후_SIDE_FRT 통합\POP\POP\obj\Debug\POP.Side_JIN.resources
+C:\Users\ANG_gcshim\Desktop\KMNI\KMNI\190423~이후_SIDE_FRT 통합\POP\POP\obj\Debug\POP.csproj.GenerateResource.Cache

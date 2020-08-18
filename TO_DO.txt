@@ -1,0 +1,17 @@
+1. Frm_WorkStand.cs 내 영상 재생, 사진 전환 기능
+2. ADAM6050.CS 필요시 호출하여 갱신하는 루틴 검증 결과 
+    - 결론: ADAM_TCP.exe와 같이 폴링으로 RefreshDIO 호출해야함
+    ADAM6050 데이터시트, app note 확보하여 재구현 필요
+3. FRT, SIDE - UTIL.CS SendDB()리턴값 키밸류 저장
+4. 특이 사항 - UTIL.cs db 결과값 리턴 - 1051 case "sp_SUB_GET_OPTION_9BUX" 
+   이중 for문으로 구현 할 경우, 결과.Rows count가 1임에도 결과 없음 현상 발생
+   foreach로 변경하여 열 데이터만 획득중 
+5. FRT 잔여 부품 품번 확정 될 때 마다 오사양 매칭기능 확장
+6. Peripheral SerialEvent 콜백에서 SIDE의 RS232 파싱 FRT와 같은 방식으로 재구현.
+   -> 이 경우 UI단의 바코드 파싱 전체 수정 불가피.
+7. SIDE_BOSTER 가조립
+   9BUX, GSUV 테스트 완료
+   SIDE_BOSTER 진조립
+   테스트 및 안정화 필요
+8. FRT 공정 INTERLOCK 테스트 필요 
+   가구현만 되있는 상태

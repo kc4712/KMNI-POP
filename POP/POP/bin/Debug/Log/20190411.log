@@ -1,0 +1,14 @@
+[09:37:09] SERCOM	start read data	
+[09:37:37] ADAM_6050 - 	initialize	
+[09:37:37] ADAM_6050	ini opened	
+[09:37:37] ADAM_6050 - 	start	
+[09:37:37] ADAM_6050 - 	init socket	
+[09:37:38] ADAM_6050 - 	start thread	
+[09:37:38] ADAM_6050 - 	connection fail - 	192.168.50.190
+[09:37:38] ADAM6	communication error count 	
+[09:37:40] REPEAT	63164243	
+[09:37:40] REPEAT	1	
+[09:37:40] ADAM6	communication error count 	
+[09:37:41] REPEAT	66534527	
+[09:37:41] REPEAT	66766996	
+[09:37:41] ADAM6	communication error count 	
